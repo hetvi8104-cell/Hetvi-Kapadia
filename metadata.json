@@ -1,0 +1,6 @@
+{
+  "name": "Hetvi Kapadia — Duality Editorial Archive",
+  "description": "Interactive fashion-editorial portfolio and archive showcasing nine curated master garments (4 Western + 5 Ethnic), circular zero-waste systems, and atelier dossier.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

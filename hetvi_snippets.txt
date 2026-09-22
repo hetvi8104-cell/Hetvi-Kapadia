@@ -1,0 +1,171 @@
+.jsx("span",{className:"text-[10px] tracking-[0.35em] uppercase font-bold text-[#6E1A29] dark:text-[#D48B96]",children:"HETVI KAPADIA"})}),f.jsx("div",{className:"flex items-baseline space-x-2",children:f.jsx("span",{id:"header-atelier-brand",className:"text-xs md:text-sm font-serif-luxury font-bold tracking-[0.22em] t
+==============
+children:[f.jsx("span",{children:b.label}),f.jsx(Wf,{className:"w-3.5 h-3.5 opacity-60"})]},b.id)})})})]})},lx="/assets/hetvi_look01_structured_sovereign-C3wasELE.jpg",yS="/assets/hetvi_look01_gallery1-BUACxJlW.jpg",SS="/assets/hetvi_look01_gallery2-BDcaiIrH.jpg",ES="/assets/hetvi_look01_gallery3-xb9wRcOO.jpg",cx="/ass
+==============
+me:"w-3.5 h-3.5 opacity-60"})]},b.id)})})})]})},lx="/assets/hetvi_look01_structured_sovereign-C3wasELE.jpg",yS="/assets/hetvi_look01_gallery1-BUACxJlW.jpg",SS="/assets/hetvi_look01_gallery2-BDcaiIrH.jpg",ES="/assets/hetvi_look01_gallery3-xb9wRcOO.jpg",cx="/assets/hetvi_look02_corduroy_coord-B-E_ggkH.jpg",MS="/assets/he
+==============
+lx="/assets/hetvi_look01_structured_sovereign-C3wasELE.jpg",yS="/assets/hetvi_look01_gallery1-BUACxJlW.jpg",SS="/assets/hetvi_look01_gallery2-BDcaiIrH.jpg",ES="/assets/hetvi_look01_gallery3-xb9wRcOO.jpg",cx="/assets/hetvi_look02_corduroy_coord-B-E_ggkH.jpg",MS="/assets/hetvi_look02_gallery1-DZ_3AOS4.jpg",AS="/assets/he
+==============
+wasELE.jpg",yS="/assets/hetvi_look01_gallery1-BUACxJlW.jpg",SS="/assets/hetvi_look01_gallery2-BDcaiIrH.jpg",ES="/assets/hetvi_look01_gallery3-xb9wRcOO.jpg",cx="/assets/hetvi_look02_corduroy_coord-B-E_ggkH.jpg",MS="/assets/hetvi_look02_gallery1-DZ_3AOS4.jpg",AS="/assets/hetvi_look02_gallery2-iutByvD7.jpg",TS="/assets/he
+==============
+ACxJlW.jpg",SS="/assets/hetvi_look01_gallery2-BDcaiIrH.jpg",ES="/assets/hetvi_look01_gallery3-xb9wRcOO.jpg",cx="/assets/hetvi_look02_corduroy_coord-B-E_ggkH.jpg",MS="/assets/hetvi_look02_gallery1-DZ_3AOS4.jpg",AS="/assets/hetvi_look02_gallery2-iutByvD7.jpg",TS="/assets/hetvi_look02_gallery3-046amNvh.jpg",ux="/assets/he
+==============
+.jpg",ES="/assets/hetvi_look01_gallery3-xb9wRcOO.jpg",cx="/assets/hetvi_look02_corduroy_coord-B-E_ggkH.jpg",MS="/assets/hetvi_look02_gallery1-DZ_3AOS4.jpg",AS="/assets/hetvi_look02_gallery2-iutByvD7.jpg",TS="/assets/hetvi_look02_gallery3-046amNvh.jpg",ux="/assets/hetvi_look03_leather_laceup-2K8W1NJL.jpg",dx="/assets/he
+==============
+.jpg",cx="/assets/hetvi_look02_corduroy_coord-B-E_ggkH.jpg",MS="/assets/hetvi_look02_gallery1-DZ_3AOS4.jpg",AS="/assets/hetvi_look02_gallery2-iutByvD7.jpg",TS="/assets/hetvi_look02_gallery3-046amNvh.jpg",ux="/assets/hetvi_look03_leather_laceup-2K8W1NJL.jpg",dx="/assets/hetvi_look04_e01_bandhani-DPkLHLn7.jpg",fx="/asset
+==============
+E_ggkH.jpg",MS="/assets/hetvi_look02_gallery1-DZ_3AOS4.jpg",AS="/assets/hetvi_look02_gallery2-iutByvD7.jpg",TS="/assets/hetvi_look02_gallery3-046amNvh.jpg",ux="/assets/hetvi_look03_leather_laceup-2K8W1NJL.jpg",dx="/assets/hetvi_look04_e01_bandhani-DPkLHLn7.jpg",fx="/assets/hetvi_look05_e02_lehenga-CWe-iGnK.jpg",hx="/as
+==============
+_3AOS4.jpg",AS="/assets/hetvi_look02_gallery2-iutByvD7.jpg",TS="/assets/hetvi_look02_gallery3-046amNvh.jpg",ux="/assets/hetvi_look03_leather_laceup-2K8W1NJL.jpg",dx="/assets/hetvi_look04_e01_bandhani-DPkLHLn7.jpg",fx="/assets/hetvi_look05_e02_lehenga-CWe-iGnK.jpg",hx="/assets/hetvi_look06_e03_paisley-fKLwFFKf.jpg",CS="
+==============
+.jpg",TS="/assets/hetvi_look02_gallery3-046amNvh.jpg",ux="/assets/hetvi_look03_leather_laceup-2K8W1NJL.jpg",dx="/assets/hetvi_look04_e01_bandhani-DPkLHLn7.jpg",fx="/assets/hetvi_look05_e02_lehenga-CWe-iGnK.jpg",hx="/assets/hetvi_look06_e03_paisley-fKLwFFKf.jpg",CS="/assets/hetvi_e01_gallery1-De4QJ55i.jpg",wS="/assets/h
+==============
+",ux="/assets/hetvi_look03_leather_laceup-2K8W1NJL.jpg",dx="/assets/hetvi_look04_e01_bandhani-DPkLHLn7.jpg",fx="/assets/hetvi_look05_e02_lehenga-CWe-iGnK.jpg",hx="/assets/hetvi_look06_e03_paisley-fKLwFFKf.jpg",CS="/assets/hetvi_e01_gallery1-De4QJ55i.jpg",wS="/assets/hetvi_e01_gallery2-AkWx_s-d.jpg",px="/assets/neo_kine
+==============
+jpg",dx="/assets/hetvi_look04_e01_bandhani-DPkLHLn7.jpg",fx="/assets/hetvi_look05_e02_lehenga-CWe-iGnK.jpg",hx="/assets/hetvi_look06_e03_paisley-fKLwFFKf.jpg",CS="/assets/hetvi_e01_gallery1-De4QJ55i.jpg",wS="/assets/hetvi_e01_gallery2-AkWx_s-d.jpg",px="/assets/neo_kinetic_chroma_garment_1787205931733--JgRAQsh.jpg",cf="
+==============
+.jpg",fx="/assets/hetvi_look05_e02_lehenga-CWe-iGnK.jpg",hx="/assets/hetvi_look06_e03_paisley-fKLwFFKf.jpg",CS="/assets/hetvi_e01_gallery1-De4QJ55i.jpg",wS="/assets/hetvi_e01_gallery2-AkWx_s-d.jpg",px="/assets/neo_kinetic_chroma_garment_1787205931733--JgRAQsh.jpg",cf="/assets/neo_kinetic_macro_detail_1787205946987-Cq1h
+==============
+e-iGnK.jpg",hx="/assets/hetvi_look06_e03_paisley-fKLwFFKf.jpg",CS="/assets/hetvi_e01_gallery1-De4QJ55i.jpg",wS="/assets/hetvi_e01_gallery2-AkWx_s-d.jpg",px="/assets/neo_kinetic_chroma_garment_1787205931733--JgRAQsh.jpg",cf="/assets/neo_kinetic_macro_detail_1787205946987-Cq1h0vnJ.jpg",NS="/assets/hetvi_look03_gallery1-1
+==============
+chroma_garment_1787205931733--JgRAQsh.jpg",cf="/assets/neo_kinetic_macro_detail_1787205946987-Cq1h0vnJ.jpg",NS="/assets/hetvi_look03_gallery1-1y_h9HBP.jpg",RS="/assets/hetvi_look03_gallery2-7YkMO_Za.jpg",DS="/assets/hetvi_look03_gallery3-C_MFkVEm.jpg",In=[{id:"proj-w01",category:"western",title:"THE STRUCTURED SOVEREIG
+==============
+assets/neo_kinetic_macro_detail_1787205946987-Cq1h0vnJ.jpg",NS="/assets/hetvi_look03_gallery1-1y_h9HBP.jpg",RS="/assets/hetvi_look03_gallery2-7YkMO_Za.jpg",DS="/assets/hetvi_look03_gallery3-C_MFkVEm.jpg",In=[{id:"proj-w01",category:"western",title:"THE STRUCTURED SOVEREIGN",subtitle:"Deconstructed Architectural Trench 
+==============
+1h0vnJ.jpg",NS="/assets/hetvi_look03_gallery1-1y_h9HBP.jpg",RS="/assets/hetvi_look03_gallery2-7YkMO_Za.jpg",DS="/assets/hetvi_look03_gallery3-C_MFkVEm.jpg",In=[{id:"proj-w01",category:"western",title:"THE STRUCTURED SOVEREIGN",subtitle:"Deconstructed Architectural Trench & Boned Bodice",tagline:"Precision Tailoring Rei
+==============
+tric 3D Pattern Engineering, High-Gloss Chromatic Refraction & Athletic Ergonomics",year:"2026",heroImage:ux,videoUrl:"/hetvi123.mp4",galleryImages:[ux,NS,RS,DS],concept:"A cyber-couture digital simulation exploring the dynamic tension between athletic utility and prism-optic chromatic textiles. High-waisted jogger tro
+==============
+nels interfaced with lightweight fusible weft-insertion to eliminate seam crush."],garmentDataId:"ethnic-look-03"}],Kc="hetvi_portfolio_custom_images";function Hh(){if(typeof window>"u")return{};try{const r=localStorage.getItem(Kc);return r?JSON.parse(r):{}}catch{return{}}}function Wo(r,e){return Hh()[r]||e}function LS
+==============
+ssName:"text-[9px] font-sans-modern tracking-[0.2em] uppercase opacity-70 text-[#221B1C] dark:text-[#F3EBE6]",children:"HETVI KAPADIA • INDUS UNIVERSITY"})]})]}),f.jsxs("div",{className:`flex items-center space-x-1 p-1 rounded-full border backdrop-blur-xl transition-all shadow-xs ${i?"bg-white/[0.04] border-white/10":"
+==============
+ Archive"}),f.jsx(Q0,{className:"w-3.5 h-3.5 animate-bounce text-[#6E1A29] dark:text-[#D48B96]"})]})]})]})},FS="/assets/hetvi_kapadia_designer_portrait-Bamb8bML.jpg",PS=({isDarkTheme:r,onExploreWork:e})=>f.jsx("section",{id:"about",className:"relative w-full py-28 px-6 md:px-12 lg:px-20 border-b border-[#D4C5B0]/70 dar
+==============
+ shadow-2xl border border-[#DCD0BF] dark:border-white/10 group","data-cursor":"view",children:[f.jsx("img",{src:FS,alt:"Hetvi Kapadia — Fashion Designer",className:"w-full h-full object-cover object-[center_22%] transition-transform duration-700 group-hover:scale-105"}),f.jsx("div",{className:"absolute inset-0 bg-gradi
+==============
+VERSITY • B.DES FASHION DESIGN"}),f.jsx("h3",{className:"text-2xl font-serif-luxury font-bold text-[#FAF6F0]",children:"HETVI KAPADIA"}),f.jsx("p",{id:"about-designer-role",className:"text-xs sm:text-sm font-sans-modern tracking-[0.2em] uppercase font-medium text-[#FAF6F0]/90",children:"Fashion Designer"})]})]}),f.jsx(
+==============
+e:"text-sm sm:text-base font-sans-modern text-[#221B1C]/80 dark:text-[#F3EBE6]/80 leading-relaxed font-light",children:"Hetvi Kapadia is a fashion designer trained at Indus University, with a strong interest in both ethnic and contemporary fashion. Her design approach explores the relationship between traditional craft
+==============
+E1A29]/40 shadow-xl transition-all duration-500 flex items-center justify-center",children:[f.jsxs("video",{ref:l,src:"/hetvi123.mp4",autoPlay:!0,muted:!0,loop:!0,playsInline:!0,preload:"auto",className:"w-full h-full object-contain transition-transform duration-700 hover:scale-[1.02]","aria-label":"hetvi123.mp4 3D Gar
+==============
+load:"auto",className:"w-full h-full object-contain transition-transform duration-700 hover:scale-[1.02]","aria-label":"hetvi123.mp4 3D Garment Simulation Video",children:[f.jsx("source",{src:"/hetvi123.mp4",type:"video/mp4"}),"Your browser does not support the video tag."]}),f.jsxs("div",{className:"absolute top-3 lef
+==============
+uration-700 hover:scale-[1.02]","aria-label":"hetvi123.mp4 3D Garment Simulation Video",children:[f.jsx("source",{src:"/hetvi123.mp4",type:"video/mp4"}),"Your browser does not support the video tag."]}),f.jsxs("div",{className:"absolute top-3 left-3 right-3 flex justify-between items-center pointer-events-none",childre
+==============
+ credentials, technical craft proficiencies, exhibition history, and circular design research."})]}),f.jsxs("a",{href:"/hetvi_kapadia_cv.pdf",download:"Hetvi_Kapadia_CV.pdf",target:"_blank",rel:"noreferrer","data-cursor":"link",className:"px-6 py-3 rounded-full border border-[#6E1A29] text-[#6E1A29] hover:bg-[#6E1A29] 
+==============
+oficiencies, exhibition history, and circular design research."})]}),f.jsxs("a",{href:"/hetvi_kapadia_cv.pdf",download:"Hetvi_Kapadia_CV.pdf",target:"_blank",rel:"noreferrer","data-cursor":"link",className:"px-6 py-3 rounded-full border border-[#6E1A29] text-[#6E1A29] hover:bg-[#6E1A29] hover:text-[#FAF6F0] dark:border
+==============
+border-white/10 text-stone-300":"bg-[#EFE8DE] border-[#D4C5B0] text-[#221B1C]"}`,children:e},i))})]})]})]})]})]})}),jf="hetvi8104@gmail.com",lC=({isDarkTheme:r,onScrollToTop:e})=>{const[i,s]=Ae.useState({name:"",email:"",inquiryType:"Couture Commission",message:""}),[l,c]=Ae.useState(!1),[h,p]=Ae.useState("idle"),[g,m]
+==============
+ER ATELIER"}),f.jsx("h3",{className:"text-2xl font-serif-luxury font-bold text-[#5C1322] dark:text-[#FAF6F0]",children:"HETVI KAPADIA"})]}),f.jsxs("div",{className:"space-y-4 text-xs font-sans-modern",children:[f.jsxs("div",{className:"flex items-start space-x-3",children:[f.jsx(ax,{className:"w-4 h-4 text-[#6E1A29] da
+==============
+("span",{className:"block text-[10px] uppercase font-bold opacity-60",children:"Direct Email"}),f.jsx("a",{href:"mailto:hetvi8104@gmail.com","data-cursor":"link",className:"text-sm font-serif-luxury font-bold hover:text-[#6E1A29] dark:hover:text-[#D48B96] transition-colors",children:"hetvi8104@gmail.com"})]})]}),f.jsxs
+==============
+ssName:"text-sm font-serif-luxury font-bold hover:text-[#6E1A29] dark:hover:text-[#D48B96] transition-colors",children:"hetvi8104@gmail.com"})]})]}),f.jsxs("div",{className:"flex items-start space-x-3 pt-2",children:[f.jsx(eS,{className:"w-4 h-4 text-[#6E1A29] dark:text-[#D48B96] mt-0.5 shrink-0"}),f.jsxs("div",{childr
+==============
+t",{id:"contact-name-input",type:"text",required:!0,value:i.name,onChange:v=>s({...i,name:v.target.value}),placeholder:"Hetvi Kapadia",className:`w-full px-4 py-3 rounded-xl border text-xs font-sans-modern outline-none transition-all focus:ring-1 ${r?"bg-black/40 border-white/15 focus:border-[#D48B96] focus:ring-[#D48B
+==============
+id:"contact-email-input",type:"email",required:!0,value:i.email,onChange:v=>s({...i,email:v.target.value}),placeholder:"hetvi8104@gmail.com",className:`w-full px-4 py-3 rounded-xl border text-xs font-sans-modern outline-none transition-all focus:ring-1 ${r?"bg-black/40 border-white/15 focus:border-[#D48B96] focus:ring-
+==============
+etween gap-6 text-[10px] font-sans-modern opacity-65 uppercase tracking-widest",children:[f.jsx("div",{children:"© 2026 HETVI KAPADIA • ALL RIGHTS RESERVED"}),f.jsx("div",{className:"text-center sm:text-right",children:"ARCHITECTURAL TAILORING & ANCESTRAL CRAFT"}),f.jsxs("button",{onClick:e,"data-cursor":"link",classNa
+==============
+{children:U})]},N))})]})]})]})]})]})]})]})},uC=[{pageNumber:1,sectionId:"intro",sectionTitle:"01 — INTRODUCTION",title:"HETVI KAPADIA",subtitle:"FASHION DESIGN PORTFOLIO",heroTagline:"Fashion Design Student | Indus University, Ahmedabad",quote:"“Where contemporary expression meets the timeless language of craftsmanship
+==============
+SHION IMAGE",placeholderHint:"Editorial Hero Fashion Photograph / Illustration (High-Resolution Portrait)",defaultUrl:"/hetvi_look01.jpg",caption:"Signature Architectural Silhouette | Ahmedabad, 2026"}]},{pageNumber:2,sectionId:"intro",sectionTitle:"01 — INTRODUCTION",title:"ABOUT THE DESIGNER",subtitle:"Hetvi Kapadia 
+==============
+medabad, 2026"}]},{pageNumber:2,sectionId:"intro",sectionTitle:"01 — INTRODUCTION",title:"ABOUT THE DESIGNER",subtitle:"Hetvi Kapadia — Fashion Design Student",bodyText:["I am an emerging fashion designer based in Ahmedabad, pursuing my Bachelor of Fashion Design at Indus University. My work exists at the captivating i
+==============
+",label:"UPLOAD DESIGNER PORTRAIT",placeholderHint:"Professional Designer Portrait / Atelier Studio Photo",defaultUrl:"/hetvi_portrait.jpg",caption:"Hetvi Kapadia | Fashion Designer & Material Explorer"},{slotId:"designer_studio_detail",label:"UPLOAD ATELIER WORKSPACE PHOTO",placeholderHint:"Hands at Work / Pattern Tab
+==============
+RAIT",placeholderHint:"Professional Designer Portrait / Atelier Studio Photo",defaultUrl:"/hetvi_portrait.jpg",caption:"Hetvi Kapadia | Fashion Designer & Material Explorer"},{slotId:"designer_studio_detail",label:"UPLOAD ATELIER WORKSPACE PHOTO",placeholderHint:"Hands at Work / Pattern Table / Moodboard Detail",defaul
+==============
+bel:"UPLOAD WESTERN COLLECTION OVERVIEW",placeholderHint:"Western Silhouette Mood / Tailoring Focus Image",defaultUrl:"/hetvi_look01_gallery1.jpg",caption:"Western Capsule: Architectural Deconstruction"},{slotId:"overview_ethnic_preview",label:"UPLOAD ETHNIC COLLECTION OVERVIEW",placeholderHint:"Ethnic Silhouette Mood 
+==============
+,label:"UPLOAD ETHNIC COLLECTION OVERVIEW",placeholderHint:"Ethnic Silhouette Mood / Heritage Craft Image",defaultUrl:"/hetvi_look06_e03.jpg",caption:"Ethnic Capsule: Contemporary Heritage & Cording"}]},{pageNumber:5,sectionId:"concept",sectionTitle:"02 — CONCEPT & RESEARCH",title:"THEME BOARD",subtitle:"Western: Bruta
+==============
+d",label:"UPLOAD WESTERN THEME BOARD IMAGE",placeholderHint:"Brutalist Architecture & Tailoring Reference",defaultUrl:"/hetvi_look03.jpg",caption:"Theme Ref 01: Geometric Façades"},{slotId:"theme_ethnic_mood",label:"UPLOAD ETHNIC THEME BOARD IMAGE",placeholderHint:"Heritage Indian Architecture & Craft Texture Reference
+==============
+"UPLOAD ETHNIC THEME BOARD IMAGE",placeholderHint:"Heritage Indian Architecture & Craft Texture Reference",defaultUrl:"/hetvi_look04_e01.jpg",caption:"Theme Ref 02: Gujarati Craft Legacy"}]},{pageNumber:6,sectionId:"concept",sectionTitle:"02 — CONCEPT & RESEARCH",title:"CONCEPT DEVELOPMENT",subtitle:"Visual Progression
+==============
+lage_1",label:"UPLOAD MOOD BOARD IMAGE 01",placeholderHint:"Atmospheric Texture / Lighting Mood Reference",defaultUrl:"/hetvi_look01.jpg",caption:"Mood Atmosphere: Sharp Contours"},{slotId:"mood_board_collage_2",label:"UPLOAD MOOD BOARD IMAGE 02",placeholderHint:"Fabric Texture / Draped Velvet Detail",defaultUrl:"https
+==============
+ard_collage_3",label:"UPLOAD MOOD BOARD IMAGE 03",placeholderHint:"Architectural Shadow & Minimalist Form",defaultUrl:"/hetvi_look03.jpg",caption:"Mood Atmosphere: Raw Elegance"},{slotId:"mood_board_collage_4",label:"UPLOAD MOOD BOARD IMAGE 04",placeholderHint:"Ethnic Craft Atmosphere & Heritage Arch",defaultUrl:"/hetv
+==============
+rd_collage_4",label:"UPLOAD MOOD BOARD IMAGE 04",placeholderHint:"Ethnic Craft Atmosphere & Heritage Arch",defaultUrl:"/hetvi_look05_e02.jpg",caption:"Mood Atmosphere: Royal Translucency"}]},{pageNumber:8,sectionId:"concept",sectionTitle:"02 — CONCEPT & RESEARCH",title:"INSPIRATION BOARD",subtitle:"Primary Catalysts: B
+==============
+"UPLOAD WESTERN INSPIRATION BOARD",placeholderHint:"Brutalist Geometric Architecture & Sculptural Fashion",defaultUrl:"/hetvi_look02.jpg",caption:"Inspiration: Cantilever Geometry"},{slotId:"inspo_ethnic_stepwell",label:"UPLOAD ETHNIC INSPIRATION BOARD",placeholderHint:"Indian Architectural Stepwells, Ornate Jali, Pata
+==============
+OAD ETHNIC INSPIRATION BOARD",placeholderHint:"Indian Architectural Stepwells, Ornate Jali, Patan Weaving",defaultUrl:"/hetvi_look06_e03.jpg",caption:"Inspiration: Stepwell Rhythm & Heritage Weave"}]},{pageNumber:9,sectionId:"concept",sectionTitle:"02 — CONCEPT & RESEARCH",title:"RESEARCH BOARD",subtitle:"Contextual In
+==============
+mg1",label:"UPLOAD RESEARCH BOARD IMAGE 1",placeholderHint:"Historical Garment Diagram / Anarkali History",defaultUrl:"/hetvi_look02_gallery1.jpg",caption:"Archival Research: Historical Drapes"},{slotId:"research_grid_img2",label:"UPLOAD RESEARCH BOARD IMAGE 2",placeholderHint:"Fabric Scrap Sorting Audit / Sustainable 
+==============
+abel:"UPLOAD MARKET & TREND RESEARCH BOARD",placeholderHint:"Runway Trend Analysis / Market Mapping Chart",defaultUrl:"/hetvi_look01_gallery1.jpg",caption:"Market Positioning & Trend Mapping 2026/27"}]},{pageNumber:12,sectionId:"design_language",sectionTitle:"03 — DESIGN LANGUAGE",title:"COLOUR BOARD",subtitle:"Harmoni
+==============
+:"UPLOAD SILHOUETTE CROQUIS EXPLORATION",placeholderHint:"Fashion Croquis / Lineup Silhouette Study Sheet",defaultUrl:"/hetvi_look01.jpg",caption:"Silhouette Line Studies & Proportion Mapping"}]},{pageNumber:16,sectionId:"design_language",sectionTitle:"03 — DESIGN LANGUAGE",title:"DETAILS & DESIGN ELEMENTS BOARD",subti
+==============
+:"UPLOAD INITIAL SKETCHBOOK SPREAD",placeholderHint:"Handmade Sketchbook Page / Thumbnail Drawings Spread",defaultUrl:"/hetvi_look02_gallery1.jpg",caption:"Initial Ideation & Gestural Croquis Explorations"}]},{pageNumber:20,sectionId:"development",sectionTitle:"04 — EXPERIMENTATION & DEVELOPMENT",title:"DESIGN DEVELOPM
+==============
+UPLOAD DESIGN DEVELOPMENT SHEET",placeholderHint:"Step-by-step Development Sketches (Sketch 1 to Refined)",defaultUrl:"/hetvi_look01_gallery1.jpg",caption:"Iterative Evolution from Calico Toile to Final Form"}]},{pageNumber:21,sectionId:"development",sectionTitle:"04 — EXPERIMENTATION & DEVELOPMENT",title:"FINAL DESIGN
+==============
+_board",label:"UPLOAD FINAL DESIGN SELECTION SPREAD",placeholderHint:"Lineup Board of All 6 Final Designs",defaultUrl:"/hetvi_look03.jpg",caption:"The Final Six Capsule Selection"}]},{pageNumber:22,sectionId:"development",sectionTitle:"04 — EXPERIMENTATION & DEVELOPMENT",title:"COLLECTION LINE-UP",subtitle:"Complete 6-
+==============
+LL COLLECTION LINEUP ILLUSTRATION",placeholderHint:"High-Res Full Collection Lineup Illustration / Render",defaultUrl:"/hetvi_look01.jpg",caption:"Full 6-Look Runway Lineup: W-01 to E-03"}]},{pageNumber:23,sectionId:"western",sectionTitle:"05 — WESTERN COLLECTION",title:"WESTERN LOOK 01 — FINAL ILLUSTRATION",subtitle:"
+==============
+"UPLOAD WESTERN LOOK 01 FINAL ILLUSTRATION",placeholderHint:"Full-Length Fashion Illustration for Look 01",defaultUrl:"/hetvi_look01.jpg",caption:"Western Look 01: Final Editorial Fashion Illustration"}]},{pageNumber:24,sectionId:"western",sectionTitle:"05 — WESTERN COLLECTION",title:"WESTERN LOOK 01 — TECHNICAL DETAIL
+==============
+"UPLOAD WESTERN LOOK 02 FINAL ILLUSTRATION",placeholderHint:"Full-Length Fashion Illustration for Look 02",defaultUrl:"/hetvi_look02.jpg",caption:"Western Look 02: Final Editorial Fashion Illustration"}]},{pageNumber:26,sectionId:"western",sectionTitle:"05 — WESTERN COLLECTION",title:"WESTERN LOOK 02 — TECHNICAL DETAIL
+==============
+"UPLOAD WESTERN LOOK 03 FINAL ILLUSTRATION",placeholderHint:"Full-Length Fashion Illustration for Look 03",defaultUrl:"/hetvi_look03.jpg",caption:"Western Look 03: Final Editorial Fashion Illustration"}]},{pageNumber:28,sectionId:"western",sectionTitle:"05 — WESTERN COLLECTION",title:"WESTERN LOOK 03 — TECHNICAL DETAIL
+==============
+bel:"UPLOAD WESTERN LOOK 03 FRONT TECHNICAL FLAT",placeholderHint:"Vector / CAD Flat Drawing - Front View",defaultUrl:"/hetvi_look01_gallery1.jpg",caption:"CAD Flat: Front View with Origami Pleat Mapping"},{slotId:"western_03_flat_back",label:"UPLOAD WESTERN LOOK 03 BACK TECHNICAL FLAT",placeholderHint:"Vector / CAD Fl
+==============
+label:"UPLOAD WESTERN LOOK 03 BACK TECHNICAL FLAT",placeholderHint:"Vector / CAD Flat Drawing - Back View",defaultUrl:"/hetvi_look01.jpg",caption:"CAD Flat: Back View with Harness Straps"}]},{pageNumber:29,sectionId:"western",sectionTitle:"05 — WESTERN COLLECTION",title:"WESTERN MINI COLLECTION",subtitle:"Campaign Styl
+==============
+OAD WESTERN MINI COLLECTION CAMPAIGN",placeholderHint:"Editorial 3-Look Campaign Spread or Triptych Photo",defaultUrl:"/hetvi_look01_gallery1.jpg",caption:"Western Capsule: 3 Looks Campaign Cohesion"}]},{pageNumber:30,sectionId:"ethnic",sectionTitle:"06 — ETHNIC COLLECTION",title:"ETHNIC LOOK 01 — FINAL ILLUSTRATION",s
+==============
+D ETHNIC LOOK 01 FINAL ILLUSTRATION",placeholderHint:"Full-Length Fashion Illustration for Ethnic Look 01",defaultUrl:"/hetvi_look04_e01.jpg",caption:"Ethnic Look 01: Final Editorial Fashion Illustration"}]},{pageNumber:31,sectionId:"ethnic",sectionTitle:"06 — ETHNIC COLLECTION",title:"ETHNIC LOOK 01 — TECHNICAL DETAIL
+==============
+abel:"UPLOAD ETHNIC LOOK 01 FRONT TECHNICAL FLAT",placeholderHint:"Vector / CAD Flat Drawing - Front View",defaultUrl:"/hetvi_look06_e03.jpg",caption:"CAD Flat: Front View with 32 Kali Breakdown"},{slotId:"ethnic_01_flat_back",label:"UPLOAD ETHNIC LOOK 01 BACK TECHNICAL FLAT",placeholderHint:"Vector / CAD Flat Drawing 
+==============
+,label:"UPLOAD ETHNIC LOOK 01 BACK TECHNICAL FLAT",placeholderHint:"Vector / CAD Flat Drawing - Back View",defaultUrl:"/hetvi_look05_e02.jpg",caption:"CAD Flat: Back View with Potli Placket"}]},{pageNumber:32,sectionId:"ethnic",sectionTitle:"06 — ETHNIC COLLECTION",title:"ETHNIC LOOK 02 — FINAL ILLUSTRATION",subtitle:"
+==============
+D ETHNIC LOOK 02 FINAL ILLUSTRATION",placeholderHint:"Full-Length Fashion Illustration for Ethnic Look 02",defaultUrl:"/hetvi_look05_e02.jpg",caption:"Ethnic Look 02: Final Editorial Fashion Illustration"}]},{pageNumber:33,sectionId:"ethnic",sectionTitle:"06 — ETHNIC COLLECTION",title:"ETHNIC LOOK 02 — TECHNICAL DETAIL
+==============
+abel:"UPLOAD ETHNIC LOOK 02 FRONT TECHNICAL FLAT",placeholderHint:"Vector / CAD Flat Drawing - Front View",defaultUrl:"/hetvi_look04_e01.jpg",caption:"CAD Flat: Front View with Pre-Draped Pleats"},{slotId:"ethnic_02_flat_back",label:"UPLOAD ETHNIC LOOK 02 BACK TECHNICAL FLAT",placeholderHint:"Vector / CAD Flat Drawing 
+==============
+,label:"UPLOAD ETHNIC LOOK 02 BACK TECHNICAL FLAT",placeholderHint:"Vector / CAD Flat Drawing - Back View",defaultUrl:"/hetvi_look06_e03.jpg",caption:"CAD Flat: Back View with Wing-Shoulder Armor"}]},{pageNumber:34,sectionId:"ethnic",sectionTitle:"06 — ETHNIC COLLECTION",title:"ETHNIC LOOK 03 — FINAL ILLUSTRATION",subt
+==============
+D ETHNIC LOOK 03 FINAL ILLUSTRATION",placeholderHint:"Full-Length Fashion Illustration for Ethnic Look 03",defaultUrl:"/hetvi_look06_e03.jpg",caption:"Ethnic Look 03: Final Editorial Fashion Illustration"}]},{pageNumber:35,sectionId:"ethnic",sectionTitle:"06 — ETHNIC COLLECTION",title:"ETHNIC LOOK 03 — TECHNICAL DETAIL
+==============
+abel:"UPLOAD ETHNIC LOOK 03 FRONT TECHNICAL FLAT",placeholderHint:"Vector / CAD Flat Drawing - Front View",defaultUrl:"/hetvi_look05_e02.jpg",caption:"CAD Flat: Front View with Angrakha Overlap"},{slotId:"ethnic_03_flat_back",label:"UPLOAD ETHNIC LOOK 03 BACK TECHNICAL FLAT",placeholderHint:"Vector / CAD Flat Drawing -
+==============
+,label:"UPLOAD ETHNIC LOOK 03 BACK TECHNICAL FLAT",placeholderHint:"Vector / CAD Flat Drawing - Back View",defaultUrl:"/hetvi_look04_e01.jpg",caption:"CAD Flat: Back View with Farshi Leg Hemlines"}]},{pageNumber:36,sectionId:"ethnic",sectionTitle:"06 — ETHNIC COLLECTION",title:"ETHNIC MINI COLLECTION",subtitle:"Campaig
+==============
+THNIC MINI COLLECTION CAMPAIGN",placeholderHint:"Editorial 3-Look Ethnic Campaign Spread / Triptych Photo",defaultUrl:"/hetvi_look06_e03.jpg",caption:"Ethnic Capsule: 3 Looks Heritage Campaign"}]},{pageNumber:37,sectionId:"technical",sectionTitle:"07 — TECHNICAL & MAKING",title:"CONSTRUCTION PROCESS",subtitle:"Pattern 
+==============
+",label:"UPLOAD WESTERN PHOTOSHOOT HERO 01",placeholderHint:"Full-Body Editorial Shoot of Western Look 01",defaultUrl:"/hetvi_look01_gallery1.jpg",caption:"W-01: Sculptural Trench in Motion"},{slotId:"western_photoshoot_hero2",label:"UPLOAD WESTERN PHOTOSHOOT HERO 02",placeholderHint:"Full-Body Editorial Shoot of Weste
+==============
+",label:"UPLOAD WESTERN PHOTOSHOOT HERO 02",placeholderHint:"Full-Body Editorial Shoot of Western Look 02",defaultUrl:"/hetvi_look01.jpg",caption:"W-02: Fluid Column Gown Drape"},{slotId:"western_photoshoot_hero3",label:"UPLOAD WESTERN PHOTOSHOOT HERO 03",placeholderHint:"Full-Body Editorial Shoot of Western Look 03",d
+==============
+",label:"UPLOAD WESTERN PHOTOSHOOT HERO 03",placeholderHint:"Full-Body Editorial Shoot of Western Look 03",defaultUrl:"/hetvi_look03.jpg",caption:"W-03: Pleated Culotte Suite"}]},{pageNumber:41,sectionId:"final",sectionTitle:"08 — FINAL PRESENTATION",title:"ETHNIC FINAL PHOTOSHOOT",subtitle:"Editorial Campaign: Look 04
+==============
+THNIC PHOTOSHOOT HERO 01",placeholderHint:"Full-Body Editorial Shoot of Ethnic Look 01 (Bandhani Kalidar)",defaultUrl:"/hetvi_look04_e01.jpg",caption:"E-01: Contemporary Kalidar Flare"},{slotId:"ethnic_photoshoot_hero2",label:"UPLOAD ETHNIC PHOTOSHOOT HERO 02",placeholderHint:"Full-Body Editorial Shoot of Ethnic Look 0
+==============
+AD ETHNIC PHOTOSHOOT HERO 02",placeholderHint:"Full-Body Editorial Shoot of Ethnic Look 02 (Patola Saree)",defaultUrl:"/hetvi_look06_e03.jpg",caption:"E-02: Upcycled Patola Draped Saree"},{slotId:"ethnic_photoshoot_hero3",label:"UPLOAD ETHNIC PHOTOSHOOT HERO 03",placeholderHint:"Full-Body Editorial Shoot of Ethnic Look
+==============
+ETHNIC PHOTOSHOOT HERO 03",placeholderHint:"Full-Body Editorial Shoot of Ethnic Look 03 (Velvet Angrakha)",defaultUrl:"/hetvi_look05_e02.jpg",caption:"E-03: Velvet Angrakha & Farshi"}]},{pageNumber:42,sectionId:"final",sectionTitle:"08 — FINAL PRESENTATION",title:"FINAL COLLECTION + CONCLUSION + CONTACT",subtitle:"The 
+==============
+RESENTATION",title:"FINAL COLLECTION + CONCLUSION + CONTACT",subtitle:"The Synthesis of Craft & Intention",heroTagline:"Hetvi Kapadia | Fashion Design Student | Indus University, Ahmedabad",quote:"“Designing with intention. Creating with identity.”",bodyText:["This collection stands as a testament to my journey as a fa
+==============
+ouettes—honoring where we come from while daring to shape the future of dress."],annotations:[{title:"INSTAGRAM",desc:"@hetvikapadia.design"},{title:"EMAIL",desc:"hetvi8104@gmail.com"},{title:"INSTITUTION",desc:"Indus University, Ahmedabad, Gujarat, India"},{title:"PORTFOLIO STATUS",desc:"Official Degree Graduation Col
+==============
+aring to shape the future of dress."],annotations:[{title:"INSTAGRAM",desc:"@hetvikapadia.design"},{title:"EMAIL",desc:"hetvi8104@gmail.com"},{title:"INSTITUTION",desc:"Indus University, Ahmedabad, Gujarat, India"},{title:"PORTFOLIO STATUS",desc:"Official Degree Graduation Collection 2026"}],visualSlots:[{slotId:"final
+==============
+abel:"UPLOAD CLOSING FINAL HERO IMAGE",placeholderHint:"Final Ensemble Collage / Portrait with Collection",defaultUrl:"/hetvi_portrait.jpg",caption:"Hetvi Kapadia — Ready for Industry & Atelier Collaboration"}]}];class dC{constructor(){this.isMuted=!0}setMuted(e){this.isMuted=!0}getMuted(){return!0}playSlideTransition(
+==============
+RO IMAGE",placeholderHint:"Final Ensemble Collage / Portrait with Collection",defaultUrl:"/hetvi_portrait.jpg",caption:"Hetvi Kapadia — Ready for Industry & Atelier Collaboration"}]}];class dC{constructor(){this.isMuted=!0}setMuted(e){this.isMuted=!0}getMuted(){return!0}playSlideTransition(){}playClick(){}play3DInterac
+==============
+",children:f.jsx("div",{className:"flex space-x-2",children:f.jsx("input",{type:"text",placeholder:"https://example.com/hetvi-look-01-illustration.jpg",value:g,onChange:U=>{m(U.target.value),x(U.target.value)},className:"flex-1 px-3.5 py-2 text-xs bg-white border border-[#D8C7B5] rounded-lg focus:outline-none focus:rin

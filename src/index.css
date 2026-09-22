@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    font-family: 'Montserrat', sans-serif;
+  }
+}
+
+.font-serif-luxury {
+  font-family: 'Bodoni Moda', 'Playfair Display', 'Cormorant Garamond', Georgia, serif;
+}
+
+.font-sans-modern {
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+.bg-editorial-dots {
+  background-image: radial-gradient(rgba(142, 28, 54, 0.3) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+.dark .bg-editorial-dots {
+  background-image: radial-gradient(rgba(229, 156, 170, 0.25) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+/* Custom Red Wine subtle scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1F040D;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #6E1A29;
+  border-radius: 9999px;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: #872036;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #A62B45;
+}
+

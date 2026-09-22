@@ -1,0 +1,199 @@
+). If you meant to render a collection of children, use an array instead.
+---
+/assets/hetvi_look01_gallery1-BUACxJlW.jpg
+---
+/assets/hetvi_look01_gallery2-BDcaiIrH.jpg
+---
+/assets/hetvi_look01_gallery3-xb9wRcOO.jpg
+---
+/assets/hetvi_look02_corduroy_coord-B-E_ggkH.jpg
+---
+/assets/hetvi_look02_gallery1-DZ_3AOS4.jpg
+---
+/assets/hetvi_look02_gallery2-iutByvD7.jpg
+---
+/assets/hetvi_look02_gallery3-046amNvh.jpg
+---
+/assets/hetvi_look03_leather_laceup-2K8W1NJL.jpg
+---
+/assets/hetvi_look04_e01_bandhani-DPkLHLn7.jpg
+---
+/assets/hetvi_look05_e02_lehenga-CWe-iGnK.jpg
+---
+/assets/hetvi_look06_e03_paisley-fKLwFFKf.jpg
+---
+/assets/hetvi_e01_gallery1-De4QJ55i.jpg
+---
+/assets/hetvi_e01_gallery2-AkWx_s-d.jpg
+---
+/assets/neo_kinetic_chroma_garment_1787205931733--JgRAQsh.jpg
+---
+/assets/hetvi_look03_gallery1-1y_h9HBP.jpg
+---
+/assets/hetvi_look03_gallery2-7YkMO_Za.jpg
+---
+/assets/hetvi_look03_gallery3-C_MFkVEm.jpg
+---
+Brutalist architecture in Chandigarh and Ahmedabad, mid-century couture tailoring, and industrial scaffolding.
+---
+Column silhouette with cascading side train, high side slash, and one-shoulder architectural cowl twist.
+---
+3D CLO Digital Garment • Iridescent Track Trousers & Cropped Mock-Neck
+---
+Upcycling Gujarat’s Legendary Double-Ikat Weave Into Modern Couture
+---
+Patan Patola museum archives, Gujarat temple mandapas, and modernist corset engineering.
+---
+Metallic gold zari couching embroidery
+---
+Mughal miniature paintings, royal Farshi garments, and Islamic jali screen architecture.
+---
+120 artisan hours of micro-Zardozi embroidery
+---
+Intricate micro-Zardozi embroidery along neckline and cuffs
+---
+Over 120 artisan hours of hand-embroidery executed on wooden Adda frames.
+---
+hetvi_portfolio_custom_images
+---
+SPECIMEN W-01 // COUTURE TRENCH
+---
+HETVI KAPADIA • INDUS UNIVERSITY
+---
+HAUTE COUTURE & TEXTILE ARCHIVE
+---
+Six Curated Master Garments • Western Structural Forms & Ancestral Gujarati Silhouettes
+---
+An architectural fashion thesis investigating the dialogue between structural Western tailoring and ancestral Gujarati textile mastery. Exploring volumetric gravity, internal corset boning, and zero-waste double-ikat assembly.
+---
+,children:y.fabricSpec}),f.jsx(
+---
+3 WESTERN & 3 ETHNIC
+---
+Scroll to Read Archive
+---
+/assets/hetvi_kapadia_designer_portrait-Bamb8bML.jpg
+---
+01 • ABOUT THE DESIGNER
+---
+Hetvi Kapadia — Fashion Designer
+---
+INDUS UNIVERSITY • B.DES FASHION DESIGN
+---
+Fashion is neither purely ornament nor static geometry; it is an architectural carapace that negotiates human movement, ancestral memory, and zero-waste responsibility.
+---
+Hetvi Kapadia is a fashion designer trained at Indus University, with a strong interest in both ethnic and contemporary fashion. Her design approach explores the relationship between traditional craftsmanship and modern aesthetics through silhouettes, textiles, embroidery, draping and experimentation. She enjoys transforming ideas into distinctive garments while continuously exploring new techniques, materials and sustainable approaches to design.
+---
+Exploring Indian silhouettes, cultural aesthetics, craftsmanship and traditional detailing through a contemporary design perspective.
+---
+Experimenting with modern silhouettes, structure, proportion and styling to create expressive contemporary garments.
+---
+Exploring embroidery, draping, fabric manipulation and textile techniques to develop distinctive surfaces and forms.
+---
+View Curated Archive
+---
+02 • CURATED WORK ARCHIVE
+---
+COLLECTIONS & EDITORIAL ARCHIVE
+---
+Systematic curation of 3 Western architectural looks and 4 Ethnic heritage looks with ancestral craft upcycling.
+---
+hetvi123.mp4 3D Garment Simulation Video
+---
+CLO3D MOTION ARCHIVE
+---
+3D CLO Digital Garment • Iridescent Track Trousers & Cropped Mock-Neck
+---
+A cyber-couture digital simulation exploring the dynamic tension between athletic utility and prism-optic chromatic textiles. High-waisted jogger trousers with neon-lime and obsidian chevron racing bands are simulated with high-luster iridescent nylon taffeta physics, paired with a minimalist lavender compression cropped bodice.
+---
+Continuous linear cording forming high-relief tactile patterns across garment yokes, providing structural stability without heavy metal boning.
+---
+Zero fabric puckering achieved with stabilizer mesh
+---
+Tensile strength equal to virgin woven fabric
+---
+Micro-Zardozi & French Knot Relief Embroidery
+---
+Traditional Gujarati and Mughal metallic wire embroidery reimagined into modern minimalist linear contours inspired by architectural blueprints.
+---
+Shredded fabric edges unraveled by hand, carded and re-spun into thick irregular slub yarn, handwoven on a table loom into heavy textured outerwear fabric.
+---
+03 • MATERIAL SPECIMEN ARCHIVE
+---
+Live 3D Fabric Simulation
+---
+Tactile Macro Archive
+---
+Zero-Waste Pattern Grading & Re-Collection
+---
+Systematic classification of atelier fabric offcuts by fiber composition (silk, cotton, wool, linen) and color gradient. Micro-scraps under 5cm are channeled into re-spinning; larger offcuts are prepared for modular origami tessellation.
+---
+Multi-Directional Filigree Embroidery
+---
+Modular Assembly & Circular Garment Realization
+---
+Tessellated polygonal garment patterns interlock seamlessly edge-to-edge across the fabric width, leaving zero negative scrap during final cutting and tailoring.
+---
+Fabric Yield Efficiency
+---
+All structural components utilize natural cotton stitching threads and screw-in brass hardware, enabling clean mechanical disassembly and natural soil composting at the end of garment lifecycle.
+---
+04 • CIRCULAR FASHION FRAMEWORK
+---
+A radical circular design framework converting atelier pre-consumer textile waste into high-fashion architectural couture without chemical degradation.
+---
+The design begins on the live dress form with raw unbleached calico. Grainlines are rotated 45 degrees across the bias to establish liquid gravity before structural boning channels are pinned directly onto the anatomy.
+---
+Muslin draping is translated into precision 2D pattern vectors. Polygon edges interlock with zero negative offcut scrap across standard 140cm textile bolts, optimizing fabric yield to 99.4%.
+---
+Water-soluble PVA membrane filigree embroidery
+---
+Merging traditional bespoke English tailoring with couture construction. Horsehair canvas is pad-stitched by hand to give resilient chest spring, reinforced by spiral steel bones encased in plush velvet channels.
+---
+Internal waist stay balancing garment load
+---
+Academic credentials, technical craft proficiencies, exhibition history, and circular design research.
+---
+/hetvi_kapadia_cv.pdf
+---
+Hetvi_Kapadia_CV.pdf
+---
+Bachelors in Fashion Designing
+---
+For bespoke couture commissions, academic research collaborations, editorial loans, or press inquiries.
+---
+mailto:hetvi8104@gmail.com
+---
+Bespoke Couture Commission
+---
+© 2026 HETVI KAPADIA • ALL RIGHTS RESERVED
+---
+06 // SILHOUETTE ARCHITECTURE & ANATOMY
+---
+FASHION DESIGN PORTFOLIO
+---
+Fashion Design Student | Indus University, Ahmedabad
+---
+Specializing in Contemporary Western Tailoring, Modernized Indian Ethnic Silhouettes, Textile Surface Experimentation, and Sustainable Circularity.
+---
+UPLOAD COVER HERO FASHION IMAGE
+---
+Editorial Hero Fashion Photograph / Illustration (High-Resolution Portrait)
+---
+Signature Architectural Silhouette | Ahmedabad, 2026
+---
+Hetvi Kapadia — Fashion Design Student
+---
+I am an emerging fashion designer based in Ahmedabad, pursuing my Bachelor of Fashion Design at Indus University. My work exists at the captivating intersection of structured contemporary tailoring, traditional Indian craft heritage, and sustainable circular textile systems.
+---
+Raised amidst the vibrant textile legacy of Gujarat, I have developed an intuitive fascination with tactile manipulation—from raw selvedge textures to intricate hand-cording, Bandhani resist-dyeing, and architectural boning. I perceive garments not merely as aesthetic garments, but as spatial sculptures that communicate identity, dialogue with the body, and respect the lifecycle of materials.
+---
+“Fashion as a dialogue between individuality, craftsmanship, culture and contemporary expression.”
+---
+Fashion Illustration & Digital Flat Technicals
+---
+Garment Construction & Tailored Pattern Drafting
+---
+Textile Experimentation & Fabric Manipulation
+---
+Contemporary Silhouettes & Traditional Craft Fusion
