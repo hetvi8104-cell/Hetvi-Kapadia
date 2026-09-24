@@ -49,7 +49,8 @@ export const GarmentDossierModal: React.FC<GarmentDossierModalProps> = ({
   const allImages = [garment.heroImage, ...(garment.galleryImages || [])].filter(
     (val, idx, self) => self.indexOf(val) === idx
   );
-  const currentImage = allImages[selectedImageIndex] || garment.heroImage;
+  const safeIndex = selectedImageIndex >= allImages.length ? 0 : selectedImageIndex;
+  const currentImage = allImages[safeIndex] || garment.heroImage;
   const currentIndex = GARMENTS.findIndex((g) => g.id === garment.id);
   const prevGarment = GARMENTS[(currentIndex - 1 + GARMENTS.length) % GARMENTS.length];
   const nextGarment = GARMENTS[(currentIndex + 1) % GARMENTS.length];
@@ -285,8 +286,15 @@ export const GarmentDossierModal: React.FC<GarmentDossierModalProps> = ({
                           <span>{m.name}</span>
                         </div>
                         {m.description ? (
-                          <p className="text-[11px] leading-relaxed opacity-85 pt-0.5 font-serif-luxury italic">
-                            "{m.description}"
+                          <p className="text-[11px] leading-relaxed opacity-85 pt-0.5 font-sans-modern">
+                            {m.description.startsWith('Description: ') ? (
+                              <>
+                                <span className="font-semibold opacity-75">Description: </span>
+                                <span>{m.description.replace('Description: ', '')}</span>
+                              </>
+                            ) : (
+                              m.description
+                            )}
                           </p>
                         ) : (
                           <>
@@ -334,17 +342,28 @@ export const GarmentDossierModal: React.FC<GarmentDossierModalProps> = ({
                   DEVELOPMENT MILESTONES & PROTOTYPING
                 </span>
                 <div className="space-y-3">
-                  {garment.developmentNotes.map((note, i) => (
-                    <div
-                      key={i}
-                      className="p-4 rounded-xl border border-[#6E1A29]/20 bg-[#6E1A29]/5 dark:bg-[#D48B96]/5 space-y-1 text-xs font-sans-modern"
-                    >
-                      <span className="text-[9px] font-mono text-[#6E1A29] dark:text-[#D48B96] font-bold uppercase tracking-wider">
-                        ATELIER RECORD • ENTRY 0{i + 1}
-                      </span>
-                      <p className="leading-relaxed opacity-90 whitespace-pre-line">{note}</p>
-                    </div>
-                  ))}
+                  {garment.developmentNotes.map((note, i) => {
+                    const matchEntry = note.match(/^(Entry\s+\d+\s*[-—:]\s*[^:]+):\s*(.*)$/i);
+                    let label = `ATELIER RECORD • ENTRY 0${i + 1}`;
+                    let content = note;
+
+                    if (matchEntry) {
+                      label = matchEntry[1];
+                      content = matchEntry[2];
+                    }
+
+                    return (
+                      <div
+                        key={i}
+                        className="p-4 rounded-xl border border-[#6E1A29]/20 bg-[#6E1A29]/5 dark:bg-[#D48B96]/5 space-y-1 text-xs font-sans-modern"
+                      >
+                        <span className="text-[9px] font-mono text-[#6E1A29] dark:text-[#D48B96] font-bold uppercase tracking-wider">
+                          {label}
+                        </span>
+                        <p className="leading-relaxed opacity-90 whitespace-pre-line">{content}</p>
+                      </div>
+                    );
+                  })}
                 </div>
               </div>
             )}

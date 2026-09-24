@@ -219,62 +219,75 @@ export const GARMENTS: Garment[] = [
   {
     id: "proj-w04",
     category: "western",
-    title: "THE NEO-KINETIC CHROMA",
-    subtitle: "3D CLO Digital Garment • Iridescent Track Trousers & Cropped Mock-Neck",
-    tagline: "Parametric 3D Pattern Engineering, High-Gloss Chromatic Refraction & Athletic Ergonomics",
+    title: "NOIR DRAPE — THE SCULPTED KNIT COLUMN DRESS",
+    subtitle: "Sleek Strapless Minimalist Knit Column Dress & Body-Contouring Fit",
+    tagline: "Draped in confidence, knitted for movement — minimalism that sculpts, not just covers.",
     year: "2026",
-    heroImage: "/assets/neo_kinetic_chroma_garment_1787205931733--JgRAQsh.jpg",
-    videoUrl: "/hetvi123.mp4",
+    heroImage: "/assets/noir_drape_standing.jpg",
     galleryImages: [
-      "/assets/neo_kinetic_chroma_garment_1787205931733--JgRAQsh.jpg",
-      "/assets/neo_kinetic_macro_detail_1787205946987-Cq1h0vnJ.jpg",
-      "/assets/hetvi_look03_gallery1-1y_h9HBP.jpg",
-      "/assets/hetvi_look03_gallery2-7YkMO_Za.jpg"
+      "/assets/noir_drape_standing.jpg",
+      "/assets/noir_drape_sitting.jpg"
     ],
-    concept: "A cyber-couture digital simulation exploring the dynamic tension between athletic utility and prism-optic chromatic textiles. High-waisted jogger trousers with neon-lime and obsidian chevron racing bands are simulated with high-luster iridescent nylon taffeta physics, paired with a minimalist lavender compression cropped bodice.",
-    inspiration: "3D CLO3D cloth dynamics, holographic optics, motorsport racing striping, and retro-futuristic activewear.",
-    silhouette: "High-waisted relaxed athletic taper with smocked ruched elastic waistband and ankle cuff gathering, paired with form-fitted long-sleeve crop top.",
+    concept: "This dress is inspired by modern minimalism and timeless elegance. The sleek black silhouette highlights confidence, sophistication, and simplicity through its clean strapless design and body-contouring fit. The monochrome palette creates a bold yet refined aesthetic, while the smooth texture and fluid fall of the fabric add subtle luxury. Designed to embody effortless glamour, the garment reflects strength, femininity, and contemporary evening wear style.",
+    inspiration: "Rooted in modern minimalism and 90s bodycon ethos, where fluid knit drape meets timeless black elegance.",
+    silhouette: "Clean strapless neckline with a sleek, body-contouring column fit and fluid floor-length fall.",
     moodboard: {
-      title: "Optic Iridescence & Kinetic Speedlines",
-      description: "Holographic metallic nylon reflection, high-visibility neon lime chevron bands, smocked elastic gathering, and 3D digital cloth simulation.",
-      image: "/assets/neo_kinetic_macro_detail_1787205946987-Cq1h0vnJ.jpg",
-      keywords: ["3D CLO Simulation", "Iridescent Nylon", "Neon Lime Chevrons", "Ruched Elastic", "Digital Atelier", "Athletic Couture"]
+      title: "Modern Minimalism & Monochrome Elegance",
+      description: "Sleek black strapless form, monochrome purity, body-contouring drape, and understated evening luxury.",
+      image: "/assets/noir_drape_sitting.jpg",
+      keywords: ["Modern Minimalism", "Timeless Elegance", "Sleek Black Silhouette", "Strapless Design", "Body-Contouring Fit", "Monochrome Palette", "Effortless Glamour"]
     },
     colors: [
-      { name: "Iridescent Silver-Pink", hex: "#D9B3CE", rgb: "rgb(217, 179, 206)", proportion: 45, usage: "Main holographic track pants shell" },
-      { name: "Lavender Mauve", hex: "#B89FAD", rgb: "rgb(184, 159, 173)", proportion: 25, usage: "Long-sleeve cropped mock-neck top" },
-      { name: "Obsidian Black", hex: "#141216", rgb: "rgb(20, 18, 22)", proportion: 15, usage: "Underbust contrast band & geometric chevron stripes" },
-      { name: "Neon Lime", hex: "#DFFF00", rgb: "rgb(223, 255, 0)", proportion: 15, usage: "High-visibility racing side stripe" }
+      { name: "Noir Obsidian", hex: "#0F0F10", rgb: "rgb(15, 15, 16)", proportion: 100, usage: "Main strapless body-contouring gown body" }
     ],
     materials: [
-      { name: "Holographic Iridescent Nylon Taffeta", composition: "100% Technical Micro-Nylon", weight: "110 GSM", texture: "Prism optic luster & metallic sheen", drape: "Fluid crisp dynamic volume", color: "Iridescent Silver-Pink", hex: "#D9B3CE" },
-      { name: "High-Vis Fluorescent Grosgrain", composition: "Polymer Heat-Welded Tape", weight: "180 GSM", texture: "Matte reflective racing band", drape: "Linear stability", color: "Neon Lime", hex: "#DFFF00" },
-      { name: "Compression Poly-Elastane Rib", composition: "88% Poly, 12% Elastane", weight: "240 GSM", texture: "Matte 4-way compression stretch", drape: "Body-contouring", color: "Lavender Mauve", hex: "#B89FAD" }
+      {
+        name: "Fabric Identity",
+        composition: "90% Polyester / 10% Spandex",
+        weight: "260-300 GSM",
+        texture: "Plush velvet pile on face with matte knit back",
+        drape: "4-way stretch with soft fluid drape, 100% opaque, 58-60\" width",
+        color: "Deep Black",
+        hex: "#0F0F10",
+        description: "Description: Knitted Velvet (Stretch Velvet) - 90% Polyester / 10% Spandex, 260-300 GSM, 58-60\" width, 4-way stretch with soft fluid drape, plush velvet pile on face with matte knit back, 100% opaque."
+      },
+      {
+        name: "Performance & Handling",
+        composition: "Low-pile stretch velvet recovery",
+        weight: "260-300 GSM",
+        texture: "Low-pile velvet with excellent recovery and wrinkle resistance",
+        drape: "Clear elastic at strapless top for grip",
+        color: "Deep Black",
+        hex: "#0F0F10",
+        description: "Description: Low-pile velvet with excellent recovery and wrinkle resistance, requires low-heat pressing with pile protection, ballpoint needle 80/12, clear elastic at strapless top for grip, color fastness 4-5 for deep black."
+      }
     ],
     textileTechniques: [
-      "3D parametric CAD pattern layout & mesh simulation in CLO3D",
-      "Ultrasonic heat-welded seam tape emulation",
-      "Multi-channel elastic waist smocking simulation",
-      "Prismatic anisotropic light refraction rendering"
+      "Clean drape - fabric itself is the design",
+      "Heat press bodycon shaping",
+      "Matte anti-pilling finish",
+      "Laser cut clean neckline",
+      "Clear elastic grip - invisible support",
+      "No embroidery / print - to retain fluid drape"
     ],
     sketches: [
-      "/assets/neo_kinetic_macro_detail_1787205946987-Cq1h0vnJ.jpg",
-      "/assets/neo_kinetic_chroma_garment_1787205931733--JgRAQsh.jpg"
+      "/assets/noir_drape_sitting.jpg",
+      "/assets/noir_drape_standing.jpg"
     ],
     techFlats: {
-      front: "/assets/neo_kinetic_chroma_garment_1787205931733--JgRAQsh.jpg",
-      back: "/assets/neo_kinetic_macro_detail_1787205946987-Cq1h0vnJ.jpg",
+      front: "/assets/noir_drape_standing.jpg",
+      back: "/assets/noir_drape_sitting.jpg",
       annotations: [
-        "Multi-channel ruched elastic waistband with internal adjustable drawcord",
-        "Continuous neon lime vertical racing stripe intersected by diagonal black chevron",
-        "Long-sleeve mock-neck crop top with 4cm contrast obsidian under-bust band",
-        "Elasticized gathered ankle cuffs with reinforced bar-tacking"
+        "Clean strapless neckline with concealed non-slip silicone stay grip",
+        "Precision vertical contour darts following natural feminine silhouette",
+        "Floor-skimming column skirt with fluid weighted hem",
+        "Concealed invisible center-back zipper with inner grosgrain stay hook"
       ]
     },
     developmentNotes: [
-      "Digital 3D cloth physics simulation calibrated for light refraction and metallic specular highlights in CLO3D.",
-      "Stress map analysis ensured zero strain distortion across crotch and knee flexion zones.",
-      "Zero-waste pattern nesting yield rated at 97.8% efficiency in digital flat drafting."
+      "Entry 1 - Cutting: Straight grain, flat lay, no tension, 300 GSM ponte knit.",
+      "Entry 2 - Sewing: Drape on form, clear elastic at top, 4-thread overlock + coverstitch.",
+      "Entry 3 - Finishing: Low heat press with cloth, check recovery, no wavy seams, QC in bright light."
     ],
     garmentDataId: "western-look-04"
   },
@@ -449,36 +462,37 @@ export const GARMENTS: Garment[] = [
   {
     id: "proj-e04",
     category: "ethnic",
-    title: "THE BOHEMIAN CORSET ENSEMBLE",
-    subtitle: "Handcrafted Printed Corset-Style Blouse & Flowy Skirt",
-    tagline: "Traditional Indian Textile Craft Balanced with Modern Feminine Contouring",
+    title: "WARLI ECHO - Painted & Mirror Vest Set",
+    subtitle: "Painted & Mirror Vest Set",
+    tagline: "A denim street meets tribal soul through hand-painted Warli and mirror work on malmal printed cotton.",
     year: "2026",
     heroImage: "/assets/IMG_6787.jpg",
     galleryImages: [
       "/assets/IMG_6787.jpg",
       "/assets/hetvi_e01_gallery1-De4QJ55i.jpg",
-      "/assets/hetvi_e01_gallery2-AkWx_s-d.jpg",
-      "https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=1200&q=85"
+      "/assets/hetvi_e01_gallery2-AkWx_s-d.jpg"
     ],
-    concept: "This outfit blends traditional Indian textile aesthetics with a modern silhouette. The vibrant printed corset-style blouse paired with a flowy white skirt creates a balance between boldness and softness. Inspired by bohemian ethnic wear, the design reflects effortless elegance, comfort, and youthful femininity while celebrating handcrafted textures and contemporary styling.",
-    inspiration: "Bohemian Indian nomad heritage, artisanal hand-block prints of Gujarat, and modern sweetheart corset tailoring.",
+    concept: "Inspired by the elegance of evening gardens and flowing silhouettes, this ensemble combines traditional prints with modern fluidity. The printed structured bodice adds richness and artistic detail, while the deep indigo pleated skirt creates graceful movement and softness. The design reflects confidence, femininity, and timeless charm through its balance of vibrant patterns and delicate drapes. With its fusion of contemporary styling and ethnic inspiration, the garment captures a dreamy and sophisticated aesthetic.",
+    inspiration: "Rooted in Maharashtra's Warli tribe art - translating rural folk stories to contemporary denim.",
     silhouette: "Structured sweetheart-cut corset blouse with boned panel contouring, paired with an ankle-length high-waisted flowy flared skirt in pure ivory.",
     moodboard: {
       title: "Artisanal Bohemia & Modern Softness",
       description: "Vibrant ethnic block-printed motifs, structured boned corset bodice, sweeping fluid white georgette layers, and delicate handcrafted tasseled trims.",
-      image: "https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=1000&q=85",
+      image: "/assets/hetvi_e01_gallery2-AkWx_s-d.jpg",
       keywords: ["Bohemian Ethnic", "Corset Blouse", "Flowy White Skirt", "Block Print", "Artisanal Contouring", "Handcrafted Textures"]
     },
     colors: [
-      { name: "Vibrant Multi-Print Crimson", hex: "#9B2226", rgb: "rgb(155, 34, 38)", proportion: 35, usage: "Artisanal printed corset bodice" },
-      { name: "Ecru Silk White", hex: "#F8F6F0", rgb: "rgb(248, 246, 240)", proportion: 45, usage: "Fluid voluminous tiered skirt" },
-      { name: "Turmeric Ochre", hex: "#E9B44C", rgb: "rgb(233, 180, 76)", proportion: 12, usage: "Bohemian embroidery & contrast piping" },
-      { name: "Forest Teal", hex: "#1D4E43", rgb: "rgb(29, 78, 67)", proportion: 8, usage: "Artisanal hand block floral accents" }
+      { name: "Deep Indigo Denim Blue", hex: "#1B2A4A", rgb: "rgb(27, 42, 74)", proportion: 35, usage: "Structured denim waistcoat base & front panels" },
+      { name: "Ecru Silk White", hex: "#F8F6F0", rgb: "rgb(248, 246, 240)", proportion: 30, usage: "Fluid voluminous tiered skirt & painted Warli motifs" },
+      { name: "Vibrant Multi-Print Crimson", hex: "#9B2226", rgb: "rgb(155, 34, 38)", proportion: 20, usage: "Hand-printed malmal cotton accents & border trim" },
+      { name: "Turmeric Ochre", hex: "#E9B44C", rgb: "rgb(233, 180, 76)", proportion: 10, usage: "Warli folk embroidery, piping & geometric highlights" },
+      { name: "Reflective Mirror Silver", hex: "#C5C9D1", rgb: "rgb(197, 201, 209)", proportion: 5, usage: "Handcrafted authentic abhala mirror-work detailing" }
     ],
     materials: [
-      { name: "Handcrafted Printed Cotton-Silk", composition: "60% Cotton, 40% Mulberry Silk", weight: "160 GSM", texture: "Fine hand-woven weave with pigment print", drape: "Crisp structured hold for boning", color: "Crimson Multi-Print", hex: "#9B2226", description: "Artisanal printed cotton-silk featuring traditional Gujarati botanical motifs." },
+      { name: "Deep Indigo Washed Denim", composition: "100% Cotton Denim", weight: "280 GSM", texture: "Durable twill weave with soft washed hand", drape: "Structured architectural hold", color: "Deep Indigo Denim Blue", hex: "#1B2A4A", description: "Modern dark blue denim base providing structured street silhouette for tribal folk craft." },
+      { name: "Handcrafted Malmal Printed Cotton", composition: "100% Pure Malmal Cotton", weight: "85 GSM", texture: "Fine breathable hand-block print", drape: "Soft and pliable", color: "Crimson Multi-Print", hex: "#9B2226", description: "Artisanal printed malmal cotton adorned with hand-painted Warli folk motifs and mirror work." },
       { name: "Flowy Multi-Tiered Georgette", composition: "100% Fine Georgette", weight: "65 GSM", texture: "Subtle pebbled fluid weave", drape: "Ethereal cascading movement", color: "Ecru Silk White", hex: "#F8F6F0", description: "Lightweight tiered georgette creating dramatic swirling flare in motion." },
-      { name: "Organic Mulmul Cotton", composition: "100% GOTS Cotton", weight: "80 GSM", texture: "Breathable ultra-soft hand", drape: "Smooth inner skin barrier", color: "Soft Ivory", hex: "#FAF7F2", description: "Breathable internal lining for maximum comfort during all-day wear." }
+      { name: "Organic Mulmul Cotton Lining", composition: "100% GOTS Cotton", weight: "80 GSM", texture: "Breathable ultra-soft hand", drape: "Smooth inner skin barrier", color: "Soft Ivory", hex: "#FAF7F2", description: "Breathable internal waistcoat lining for comfort during all-day wear." }
     ],
     textileTechniques: [
       "Traditional wooden block printing executed with azo-free mineral pigments",
@@ -487,11 +501,11 @@ export const GARMENTS: Garment[] = [
       "Handmade silk dori piping along neckline and corset seamlines"
     ],
     sketches: [
-      "https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=1000&q=80",
+      "/assets/hetvi_e01_gallery1-De4QJ55i.jpg",
       "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?auto=format&fit=crop&w=1000&q=80"
     ],
     techFlats: {
-      front: "https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=1000&q=80",
+      front: "/assets/hetvi_e01_gallery1-De4QJ55i.jpg",
       back: "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?auto=format&fit=crop&w=1000&q=80",
       annotations: [
         "Contoured sweetheart neckline with piped cotton-silk border",
@@ -856,19 +870,19 @@ export const PRESENTATION_SLIDES: PresentationSlide[] = [
     pageNumber: 7,
     sectionId: "western-04",
     sectionTitle: "LOOK 04 • WESTERN",
-    title: "THE NEO-KINETIC CHROMA",
-    subtitle: "3D CLO Digital Garment • Iridescent Track Trousers & Cropped Mock-Neck",
+    title: "NOIR DRAPE — THE SCULPTED KNIT COLUMN DRESS",
+    subtitle: "The Sculpted Knit Column Dress • Modern Evening Minimalism",
     bodyText: [
-      "A cyber-couture digital simulation exploring the dynamic tension between athletic utility and prism-optic chromatic textiles.",
-      "High-waisted jogger trousers with neon-lime and obsidian chevron racing bands are simulated with high-luster iridescent nylon taffeta physics, paired with a minimalist lavender compression cropped bodice."
+      "This dress is inspired by modern minimalism and timeless elegance. The sleek black silhouette highlights confidence, sophistication, and simplicity through its clean strapless design and body-contouring fit.",
+      "The monochrome palette creates a bold yet refined aesthetic, while the smooth texture and fluid fall of the fabric add subtle luxury. Designed to embody effortless glamour, the garment reflects strength, femininity, and contemporary evening wear style."
     ],
     bulletPoints: [
-      "3D parametric CAD pattern layout & mesh simulation in CLO3D",
-      "Holographic iridescent nylon taffeta with prism-optic chromatic reflection",
-      "Ultrasonic heat-welded seam tape emulation & high-visibility neon racing stripes"
+      "Clean strapless architectural design with concealed non-slip internal stay",
+      "Sleek monochrome palette in sculpted knit & fluid silk-viscose cady",
+      "Seamless body-contouring column fit embodying effortless evening glamour"
     ],
-    heroImage: "/assets/neo_kinetic_chroma_garment_1787205931733--JgRAQsh.jpg",
-    caption: "Look 04: The Neo-Kinetic Chroma | 3D CLO Digital Garment Simulation"
+    heroImage: "/assets/noir_drape_standing.jpg",
+    caption: "Look 04: Noir Drape — The Sculpted Knit Column Dress"
   },
   {
     pageNumber: 8,
@@ -928,11 +942,11 @@ export const PRESENTATION_SLIDES: PresentationSlide[] = [
     pageNumber: 11,
     sectionId: "ethnic-04",
     sectionTitle: "LOOK 08 • ETHNIC",
-    title: "THE BOHEMIAN CORSET ENSEMBLE",
-    subtitle: "Handcrafted Printed Corset-Style Blouse & Flowy Skirt",
+    title: "WARLI ECHO - Painted & Mirror Vest Set",
+    subtitle: "Painted & Mirror Vest Set",
     bodyText: [
-      "This outfit blends traditional Indian textile aesthetics with a modern silhouette.",
-      "The vibrant printed corset-style blouse paired with a flowy white skirt creates a balance between boldness and softness. Inspired by bohemian ethnic wear, the design reflects effortless elegance, comfort, and youthful femininity while celebrating handcrafted textures and contemporary styling."
+      "Inspired by the elegance of evening gardens and flowing silhouettes, this ensemble combines traditional prints with modern fluidity.",
+      "The printed structured bodice adds richness and artistic detail, while the deep indigo pleated skirt creates graceful movement and softness. The design reflects confidence, femininity, and timeless charm through its balance of vibrant patterns and delicate drapes, capturing a dreamy and sophisticated aesthetic."
     ],
     bulletPoints: [
       "Traditional Indian wooden block printing with azo-free mineral dyes",
@@ -940,7 +954,7 @@ export const PRESENTATION_SLIDES: PresentationSlide[] = [
       "Cascading 3-tiered flowy georgette skirt with 540cm sweep"
     ],
     heroImage: "/assets/IMG_6787.jpg",
-    caption: "Look 08: The Bohemian Corset Ensemble | Handcrafted Print & Flowy Skirt"
+    caption: "Look 08: WARLI ECHO - Painted & Mirror Vest Set | Hand-Painted Warli & Mirror Work"
   },
   {
     pageNumber: 12,

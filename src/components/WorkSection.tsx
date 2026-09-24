@@ -171,7 +171,7 @@ export const WorkSection: React.FC<WorkSectionProps> = ({ isDarkTheme, onSelectG
                     <div className="flex items-center justify-between text-[10px] font-mono">
                       <span className="opacity-60 uppercase">PRIMARY FABRIC:</span>
                       <span className="font-semibold text-right truncate max-w-[180px]">
-                        {garment.materials[0]?.name}
+                        {garment.materials[0]?.name === 'Fabric Identity' ? 'Knitted Stretch Velvet' : garment.materials[0]?.name}
                       </span>
                     </div>
                   </div>
