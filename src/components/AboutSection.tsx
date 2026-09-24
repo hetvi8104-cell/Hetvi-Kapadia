@@ -128,13 +128,13 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ isDarkTheme, onExplo
               </div>
             </div>
 
-            {/* The 3 Pillars Architecture */}
+            {/* The Atelier Pillars Architecture */}
             <div className="space-y-4 pt-4">
               <span className="text-[10px] font-mono tracking-[0.3em] uppercase text-[#6E1A29] dark:text-[#D48B96] font-bold">
-                THE THREE ATELIER PILLARS
+                THE ATELIER PILLARS
               </span>
 
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 
                 {/* Pillar 01 */}
                 <div
@@ -177,28 +177,6 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ isDarkTheme, onExplo
                   </div>
                   <span className="text-[9px] font-mono uppercase text-[#6E1A29] dark:text-[#D48B96] font-semibold">
                     Brutalist Tailoring →
-                  </span>
-                </div>
-
-                {/* Pillar 03 */}
-                <div
-                  className={`p-5 rounded-2xl border flex flex-col justify-between space-y-3 transition-all ${
-                    isDarkTheme ? 'bg-white/[0.02] border-white/10 hover:border-[#D48B96]/40' : 'bg-[#FAF6F0] border-[#D4C5B0] hover:border-[#6E1A29]/40'
-                  }`}
-                >
-                  <div className="space-y-2">
-                    <span className="text-[9px] font-mono tracking-[0.2em] font-bold text-[#6E1A29] dark:text-[#D48B96]">
-                      PILLAR 03 • TEXTILE
-                    </span>
-                    <h4 className="text-sm font-serif-luxury font-bold text-[#221B1C] dark:text-white">
-                      Material Science
-                    </h4>
-                    <p className="text-[11px] font-sans-modern leading-relaxed opacity-75">
-                      Surface manipulation, Canadian organza smocking, silk dori cording, and zero-waste scrap mosaic engineering.
-                    </p>
-                  </div>
-                  <span className="text-[9px] font-mono uppercase text-[#6E1A29] dark:text-[#D48B96] font-semibold">
-                    Tactile Prototyping →
                   </span>
                 </div>
 

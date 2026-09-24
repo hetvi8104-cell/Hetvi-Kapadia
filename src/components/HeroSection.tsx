@@ -31,16 +31,13 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
         </span>
       </div>
 
-      {/* Editorial Grid Texture & Specimen Coordinates */}
+      {/* Editorial Grid Texture */}
       <div className="absolute inset-0 pointer-events-none z-0">
         <div
           className={`w-full h-full ${
             isDarkTheme ? 'opacity-[0.04]' : 'opacity-[0.035]'
           } bg-editorial-dots`}
         />
-        <div className="absolute top-28 left-8 sm:left-12 text-[9px] font-mono tracking-widest opacity-40 text-current">
-          {DESIGNER_INFO.coordinates} • {DESIGNER_INFO.location.toUpperCase()}
-        </div>
         <div className="absolute bottom-16 right-8 sm:right-12 text-[9px] font-mono tracking-widest opacity-40 text-current">
           + THESIS_SPECIMEN_MATRIX_AW26
         </div>

@@ -406,9 +406,9 @@ export const GARMENTS: Garment[] = [
   {
     id: "proj-e03",
     category: "ethnic",
-    title: "THE ROYAL ALCHEMIST",
-    subtitle: "Hand-Embroidered Velvet Angrakha & Tiered Farshi Pajama",
-    tagline: "Mughal Royal Court Heritage Infused With Layered Translucency",
+    title: "NEEL - The Jaali Muse",
+    subtitle: "Floral Printed Crop Blouse & Sunburst Pleated Georgette Skirt",
+    tagline: "Where heritage jaali meets free-flowing femininity.",
     year: "2026",
     heroImage: "/assets/hetvi_look06_e03_paisley-fKLwFFKf.jpg",
     galleryImages: [
@@ -416,29 +416,44 @@ export const GARMENTS: Garment[] = [
       "https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=1200&q=85",
       "https://images.unsplash.com/photo-1596783074918-c84cb06531ca?auto=format&fit=crop&w=1200&q=85"
     ],
-    concept: "A dramatic union of Mughal royal Angrakha tailoring and modern layered transparency. Rich dark wine silk-velvet is hand-embellished with micro-Zardozi and threadwork, opening into diaphanous tiers of ivory organza.",
-    inspiration: "Mughal miniature paintings, royal Farshi garments, and Islamic jali screen architecture.",
+    concept: "Inspired by the elegance of evening gardens and flowing silhouettes, this ensemble combines traditional prints with modern fluidity. The printed structured bodice adds richness and artistic detail, while the deep indigo pleated skirt creates graceful movement and softness. The design reflects confidence, femininity, and timeless charm through its balance of vibrant patterns and delicate drapes. With its fusion of contemporary styling and ethnic inspiration, the garment captures a dreamy and sophisticated aesthetic.",
+    inspiration: "Inspired by traditional Indian jali architecture and coastal indigo prints, reimagined for 2026 ethnic silhouette.",
     moodboard: {
-      title: "Mughal Opulence & Tiered Organza Layers",
-      description: "Deep wine micro-velvet, hand-applied Zardozi bullion, handmade latkans, and 3-tiered Farshi pajama.",
+      title: "Jaali Muse & Indigo Flora",
+      description: "Indigo floral Pichwai prints on cotton satin, deep navy sunburst micro-pleating, and structured crop-and-ghagra drape.",
       image: "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?auto=format&fit=crop&w=1000&q=85",
-      keywords: ["Angrakha", "Micro Velvet", "Farshi Pajama", "Zardozi Bullion", "Silk Latkans"]
+      keywords: ["Jaali Muse", "Floral Print", "Pichwai Motif", "Sunburst Pleats", "Navy Georgette", "Cotton Satin"]
     },
     colors: [
-      { name: "Dark Wine", hex: "#421820", rgb: "rgb(66, 24, 32)", proportion: 45, usage: "Angrakha velvet bodice yoke" },
-      { name: "Soft Ivory", hex: "#F7F3EC", rgb: "rgb(247, 243, 236)", proportion: 30, usage: "Tiered Farshi pajama organza" },
-      { name: "Warm Beige", hex: "#D8C7B5", rgb: "rgb(216, 199, 181)", proportion: 15, usage: "Brocade trims & gold zari" },
-      { name: "Charcoal", hex: "#262223", rgb: "rgb(38, 34, 35)", proportion: 10, usage: "Contrast latkan tassels" }
+      { name: "Navy Blue", hex: "#132238", rgb: "rgb(19, 34, 56)", proportion: 50, usage: "Pleated georgette 5-meter flare skirt" },
+      { name: "Blue Floral Indigo", hex: "#2A4B7C", rgb: "rgb(42, 75, 124)", proportion: 35, usage: "Printed cotton satin crop blouse" },
+      { name: "Soft Ecru", hex: "#F8F6F0", rgb: "rgb(248, 246, 240)", proportion: 15, usage: "Floral print highlights & inner finishing" }
     ],
     materials: [
-      { name: "Micro Silk Velvet", composition: "100% Pure Silk Velvet", weight: "240 GSM", texture: "Sumptuous deep pile", drape: "Sculptural heavy fall", color: "Dark Wine", hex: "#421820" },
-      { name: "Tissue Silk Organza", composition: "100% Silk", weight: "42 GSM", texture: "Semi-sheer gold wash", drape: "Airy floaty tiers", color: "Soft Ivory", hex: "#F7F3EC" }
+      {
+        name: "Upper - Blouse: Blue Floral Printed Cotton Satin",
+        composition: "100% Cotton Satin, 120 GSM",
+        weight: "120 GSM",
+        texture: "Soft sheen, structured yet breathable",
+        drape: "Structured hold for tailored crop blouse",
+        color: "Blue Floral Print",
+        hex: "#2A4B7C"
+      },
+      {
+        name: "Lower - Skirt: Navy Blue Pleated Georgette",
+        composition: "100% Fine Pleated Georgette, 60 GSM",
+        weight: "60 GSM",
+        texture: "Light, airy sunburst micro-pleats",
+        drape: "5 meters flare with fluid graceful movement",
+        color: "Navy Blue",
+        hex: "#132238"
+      }
     ],
-    silhouette: "Asymmetric crossover Angrakha tunic over wide-flare tiered Farshi pajama trousers.",
+    silhouette: "Structured crop blouse in blue floral cotton satin, paired with an ankle-length navy blue pleated georgette skirt with 5 meters flare.",
     textileTechniques: [
-      "120 artisan hours of micro-Zardozi embroidery",
-      "Handmade latkan silk tassels",
-      "3-tiered gathered Farshi construction"
+      "Digital Floral Printing — White & blue indigo bloom print on blouse - gives vintage Pichwai feel.",
+      "Micro Sunburst Pleating — Full 360° pleats in navy skirt - creates flow and sheer elegance.",
+      "Structured Draping — Fitted crop top + high-waist ghagra drape - balances print and plain for ethnic modern look."
     ],
     sketches: [
       "https://images.unsplash.com/photo-1596783074918-c84cb06531ca?auto=format&fit=crop&w=1000&q=80",
@@ -448,14 +463,14 @@ export const GARMENTS: Garment[] = [
       front: "https://images.unsplash.com/photo-1596783074918-c84cb06531ca?auto=format&fit=crop&w=1000&q=80",
       back: "https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=1000&q=80",
       annotations: [
-        "Diagonal crossover front with hand-twisted silk bullion cord ties",
-        "Intricate micro-Zardozi embroidery along neckline and cuffs",
-        "Tiered Farshi pajama with 210cm leg flare per side"
+        "Structured crop blouse with fitted bust darts and concealed side zip",
+        "High-waisted waistband with reinforced support for full ghagra drape",
+        "Full 360° sunburst micro-pleating yielding 5 meters hem circumference"
       ]
     },
     developmentNotes: [
-      "Over 120 artisan hours of hand-embroidery executed on wooden Adda frames.",
-      "Velvet panels interfaced with lightweight fusible weft-insertion to eliminate seam crush."
+      "Engineered digital placement of blue and white indigo bloom motifs on cotton satin for a vintage Pichwai look.",
+      "Precision heat-set micro sunburst pleating on 60 GSM georgette ensuring 5-meter effortless circular flare."
     ],
     garmentDataId: "ethnic-look-03"
   },
@@ -472,7 +487,7 @@ export const GARMENTS: Garment[] = [
       "/assets/hetvi_e01_gallery1-De4QJ55i.jpg",
       "/assets/hetvi_e01_gallery2-AkWx_s-d.jpg"
     ],
-    concept: "Inspired by the elegance of evening gardens and flowing silhouettes, this ensemble combines traditional prints with modern fluidity. The printed structured bodice adds richness and artistic detail, while the deep indigo pleated skirt creates graceful movement and softness. The design reflects confidence, femininity, and timeless charm through its balance of vibrant patterns and delicate drapes. With its fusion of contemporary styling and ethnic inspiration, the garment captures a dreamy and sophisticated aesthetic.",
+    concept: "This outfit is inspired by contemporary street fashion blended with tribal art elements. The hand-painted motifs, geometric patterns, and mirror detailing create a bold artistic expression, while the denim base adds a modern and casual appeal. The cropped jacket and embroidered jeans reflect individuality, freedom, and youthful energy. Designed with a fusion of traditional craft and urban styling, the garment celebrates creativity, culture, and self-expression in everyday fashion.",
     inspiration: "Rooted in Maharashtra's Warli tribe art - translating rural folk stories to contemporary denim.",
     silhouette: "Structured sweetheart-cut corset blouse with boned panel contouring, paired with an ankle-length high-waisted flowy flared skirt in pure ivory.",
     moodboard: {
@@ -807,8 +822,7 @@ export const PRESENTATION_SLIDES: PresentationSlide[] = [
     ],
     bulletPoints: [
       "PILLAR 01: ETHNIC — Rooted in Gujarati & Mughal craftsmanship (Patola, Bandhani, Zardozi, Farshi pajama, Bohemian print, Kédiyú)",
-      "PILLAR 02: WESTERN — Contemporary deconstructed silhouettes, architectural boning, 3D CLO digital athletics, and utility workwear",
-      "PILLAR 03: TEXTILE — Fabric manipulation, Canadian smocking, raised dori cording, eco-printing, and circular waste mosaics"
+      "PILLAR 02: WESTERN — Contemporary deconstructed silhouettes, architectural boning, 3D CLO digital athletics, and utility workwear"
     ],
     quote: "“Designing with intention. Creating with identity.”"
   },
@@ -924,19 +938,19 @@ export const PRESENTATION_SLIDES: PresentationSlide[] = [
     pageNumber: 10,
     sectionId: "ethnic-03",
     sectionTitle: "LOOK 07 • ETHNIC",
-    title: "THE ROYAL ALCHEMIST",
-    subtitle: "Hand-Embroidered Velvet Angrakha & Tiered Farshi Pajama",
+    title: "NEEL - The Jaali Muse",
+    subtitle: "Floral Printed Crop Blouse & Sunburst Pleated Georgette Skirt",
     bodyText: [
-      "Mughal court opulence meets layered architectural translucency.",
-      "Deep wine silk-velvet Angrakha featuring 120 artisan hours of micro-Zardozi bullion embroidery, flowing into wide-flare 3-tiered organza Farshi pajama trousers."
+      "Inspired by the elegance of evening gardens and flowing silhouettes, this ensemble combines traditional prints with modern fluidity.",
+      "The printed structured bodice adds richness and artistic detail, while the deep indigo pleated skirt creates graceful movement and softness. The design reflects confidence, femininity, and timeless charm through its balance of vibrant patterns and delicate drapes, capturing a dreamy and sophisticated aesthetic."
     ],
     bulletPoints: [
-      "Asymmetric diagonal crossover front with handmade bullion latkans",
-      "3-tiered gathered Farshi pajama with 210cm flare per side",
-      "Hand-embroidery executed on traditional Ahmedabad Adda frames"
+      "Blue floral printed cotton satin crop blouse with structured hold (120 GSM)",
+      "Navy blue sunburst micro-pleated georgette skirt with 5-meter flare (60 GSM)",
+      "Architectural jaali inspiration balanced with airy, cascading movement"
     ],
     heroImage: "/assets/hetvi_look06_e03_paisley-fKLwFFKf.jpg",
-    caption: "Look 07: The Royal Alchemist | Micro-Zardozi Velvet Angrakha"
+    caption: "Look 07: NEEL - The Jaali Muse | Floral Cotton Satin & Pleated Georgette"
   },
   {
     pageNumber: 11,
@@ -945,8 +959,8 @@ export const PRESENTATION_SLIDES: PresentationSlide[] = [
     title: "WARLI ECHO - Painted & Mirror Vest Set",
     subtitle: "Painted & Mirror Vest Set",
     bodyText: [
-      "Inspired by the elegance of evening gardens and flowing silhouettes, this ensemble combines traditional prints with modern fluidity.",
-      "The printed structured bodice adds richness and artistic detail, while the deep indigo pleated skirt creates graceful movement and softness. The design reflects confidence, femininity, and timeless charm through its balance of vibrant patterns and delicate drapes, capturing a dreamy and sophisticated aesthetic."
+      "This outfit is inspired by contemporary street fashion blended with tribal art elements. The hand-painted motifs, geometric patterns, and mirror detailing create a bold artistic expression, while the denim base adds a modern and casual appeal.",
+      "The cropped jacket and embroidered jeans reflect individuality, freedom, and youthful energy. Designed with a fusion of traditional craft and urban styling, the garment celebrates creativity, culture, and self-expression in everyday fashion."
     ],
     bulletPoints: [
       "Traditional Indian wooden block printing with azo-free mineral dyes",
