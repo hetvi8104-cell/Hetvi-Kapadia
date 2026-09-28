@@ -190,7 +190,9 @@ const RAW_GARMENTS: Garment[] = [
     heroImage: "/assets/EPSI6804.JPG",
     galleryImages: [
       "/assets/EPSI6804.JPG",
-      "/assets/hetvi_look02_gallery3-046amNvh.jpg"
+      "/assets/hetvi_look02_gallery3-046amNvh.jpg",
+      "/assets/hetvi_look02_gallery1-DZ_3AOS4.jpg",
+      "/assets/hetvi_look02_corduroy_coord-B-E_ggkH.jpg"
     ],
     concept: "This look is inspired by contemporary street fashion with a structured yet feminine silhouette. The outfit features a mud corduroy fabric that adds texture, warmth, and a vintage aesthetic. The off-shoulder jacket with utility pockets and detachable-style straps creates an experimental and edgy appeal, while the asymmetrical mini skirt balances the look with a sleek modern finish. The design combines utility detailing with bold styling, making it a statement western wear ensemble suitable for fashion-forward styling and editorial presentation. The earthy tone, structured form, and relaxed drape together represent confidence, individuality, and modern urban fashion.",
     inspiration: "Inspired by 90s workwear and modern deconstructed streetwear. The garment reinterprets classic corduroy dungaree into an off-shoulder, feminine utility dress with exposed suspender straps and cargo details. The mud-yellow tone reflects your earthy palette, blending rugged workwear heritage with soft western sensuality.",

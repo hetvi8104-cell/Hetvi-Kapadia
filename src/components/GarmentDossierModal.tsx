@@ -290,15 +290,6 @@ export const GarmentDossierModal: React.FC<GarmentDossierModalProps> = ({
               {/* Title & Tagline Row */}
               <div className="flex flex-wrap items-start justify-between gap-3">
                 <div className="space-y-1 max-w-lg">
-                  <div className="flex items-center space-x-2">
-                    <span className="text-[10px] font-mono tracking-[0.25em] uppercase text-white/70 font-semibold">
-                      HAUTE COUTURE SPECIFICATION // SPEC-0{currentIndex + 1}
-                    </span>
-                    <span className="text-white/30">•</span>
-                    <span className="text-[10px] font-mono uppercase tracking-wider font-bold" style={{ color: accentColor }}>
-                      {garment.category.toUpperCase()} SILHOUETTE
-                    </span>
-                  </div>
                   <h2 className="text-xl sm:text-2xl lg:text-3xl font-serif-luxury font-bold tracking-tight text-white leading-tight">
                     {garment.title}
                   </h2>
