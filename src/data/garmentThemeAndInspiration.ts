@@ -6,6 +6,8 @@ import look09HeroImage from '../assets/images/regenerated_image_1790254080563.RA
 import look09GalleryImage1 from '../assets/images/regenerated_image_1790514728395.RAF';
 import look03ThemeBoardImage from '../assets/images/regenerated_image_1790399986806.jpg';
 import look03InspirationBoardImage from '../assets/images/regenerated_image_1790400387991.jpg';
+import look04ThemeBoardImage from '../assets/images/assets/noir_drape_sitting.jpg';
+import look04InspirationBoardImage from '../assets/images/look04_inspiration_board_1790592494588.jpg';
 
 export interface GarmentExtendedData {
   themeBoard: ThemeBoardData;
@@ -395,6 +397,11 @@ export const GARMENT_EXTENDED_DATA: Record<string, GarmentExtendedData> = {
       ],
       visualElements: [
         {
+          url: look04ThemeBoardImage,
+          caption: 'Noir Drape Theme Board — Black Silk Drape, Sculpted Torso, Obsidian Marble, Shadow Play & Evening Glamour.',
+          tag: 'THEME BOARD',
+        },
+        {
           url: '/assets/noir_drape_standing.jpg',
           caption: 'Full-length strapless column gown showcasing uninterrupted vertical line.',
           tag: 'COLUMN LINE',
@@ -449,6 +456,11 @@ export const GARMENT_EXTENDED_DATA: Record<string, GarmentExtendedData> = {
         },
       ],
       visualReferences: [
+        {
+          url: look04InspirationBoardImage,
+          label: 'Noir Drape Inspiration Board — Boned Strapless Architecture, Textured Knit Drape & Minimalist Evening Styling',
+          context: 'Structured strapless corset construction, tactile black crepe-knit texture, minimalist column silhouette, and refined evening styling.',
+        },
         {
           url: '/assets/noir_drape_standing.jpg',
           label: 'The Sculpted Column Gown',

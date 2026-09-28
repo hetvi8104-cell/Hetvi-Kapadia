@@ -23,7 +23,7 @@ interface GarmentDossierModalProps {
   isDarkTheme: boolean;
 }
 
-type TabType = 'concept' | 'theme' | 'inspiration' | 'textile' | 'notes';
+type TabType = 'concept' | 'theme' | 'inspiration' | 'textile';
 
 export const GarmentDossierModal: React.FC<GarmentDossierModalProps> = ({
   garment,
@@ -324,7 +324,7 @@ export const GarmentDossierModal: React.FC<GarmentDossierModalProps> = ({
                 </div>
               </div>
 
-              {/* Navigation Tabs (Concept & Form, Theme Board, Inspiration Board, Textile & Specs, Atelier Notes) */}
+              {/* Navigation Tabs (Concept & Form, Theme Board, Inspiration Board, Textile & Specs) */}
               <div className="flex items-center space-x-1 sm:space-x-2 overflow-x-auto pt-1 pb-1">
                 <button
                   id="dossier-tab-concept"
@@ -388,22 +388,6 @@ export const GarmentDossierModal: React.FC<GarmentDossierModalProps> = ({
                 >
                   <Palette className="w-3.5 h-3.5" />
                   <span>Textile & Specs</span>
-                </button>
-
-                <button
-                  id="dossier-tab-notes"
-                  onClick={() => setActiveTab('notes')}
-                  className={`text-[10px] sm:text-[11px] font-mono tracking-wider uppercase py-2 px-3 sm:px-3.5 rounded-xl transition-all cursor-pointer flex items-center space-x-1.5 whitespace-nowrap ${
-                    activeTab === 'notes'
-                      ? 'text-black font-bold shadow-md'
-                      : 'text-white/80 hover:text-white hover:bg-white/10'
-                  }`}
-                  style={{
-                    backgroundColor: activeTab === 'notes' ? accentColor : undefined,
-                  }}
-                >
-                  <FileText className="w-3.5 h-3.5" />
-                  <span>Atelier Notes</span>
                 </button>
               </div>
 
@@ -802,67 +786,6 @@ export const GarmentDossierModal: React.FC<GarmentDossierModalProps> = ({
                     </ul>
                   </div>
 
-                </div>
-              )}
-
-              {/* TAB 5: ATELIER NOTES & PROTOTYPING RECORDS */}
-              {activeTab === 'notes' && (
-                <div className="space-y-6 animate-fadeIn">
-                  
-                  {/* Prominent High-Visibility Section Banner */}
-                  <div
-                    className="p-3.5 rounded-2xl border bg-black/40 flex items-center justify-between"
-                    style={{ borderColor: `${accentColor}40` }}
-                  >
-                    <div className="flex items-center space-x-2.5">
-                      <FileText className="w-4 h-4" style={{ color: accentColor }} />
-                      <span className="text-xs font-mono font-bold uppercase tracking-wider text-white">
-                        ATELIER NOTES & PROTOTYPING RECORDS
-                      </span>
-                    </div>
-                    <span className="text-[10px] font-mono font-bold" style={{ color: accentColor }}>
-                      {garment.title}
-                    </span>
-                  </div>
-
-                  <span className="text-[11px] font-mono tracking-widest uppercase font-bold text-white/80 flex items-center gap-1.5">
-                    <span className="w-1.5 h-1.5 rounded-full" style={{ backgroundColor: accentColor }} />
-                    CHRONOLOGICAL ATELIER LOGS
-                  </span>
-
-                  <div className="space-y-3.5">
-                    {garment.developmentNotes.map((note, i) => {
-                      const matchEntryWithSub = note.match(/^(Entry\s+\d+\s*[-—:]\s*[^:]+):\s*(.*)$/i);
-                      const matchSimpleEntry = note.match(/^(Entry\s+\d+):\s*(.*)$/i);
-                      let label = `ATELIER RECORD • ENTRY 0${i + 1}`;
-                      let content = note;
-
-                      if (matchEntryWithSub) {
-                        label = matchEntryWithSub[1];
-                        content = matchEntryWithSub[2];
-                      } else if (matchSimpleEntry) {
-                        label = `ATELIER RECORD • ENTRY 0${i + 1}`;
-                        content = matchSimpleEntry[2];
-                      }
-
-                      return (
-                        <div
-                          key={i}
-                          className="p-4 rounded-xl border border-white/15 bg-black/40 space-y-1.5 text-xs font-sans-modern"
-                        >
-                          <span
-                            className="text-[10px] font-mono font-bold uppercase tracking-wider block"
-                            style={{ color: accentColor }}
-                          >
-                            {label}
-                          </span>
-                          <p className="leading-relaxed text-white/95 whitespace-pre-line">
-                            {content}
-                          </p>
-                        </div>
-                      );
-                    })}
-                  </div>
                 </div>
               )}
 

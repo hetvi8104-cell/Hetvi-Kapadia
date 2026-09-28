@@ -8,6 +8,7 @@ import sustainabilityStage1Image from '../assets/images/regenerated_image_179039
 import sustainabilityStage2Image from '../assets/images/fabric_waste_audit_scraps_1790589376993.jpg';
 import sustainabilityStage5Image from '../assets/images/sustainability_stage5_sorted_waste_1790590849700.jpg';
 import look03ThemeBoardImage from '../assets/images/regenerated_image_1790399986806.jpg';
+import look04ThemeBoardImage from '../assets/images/assets/noir_drape_sitting.jpg';
 import { GARMENT_EXTENDED_DATA } from './garmentThemeAndInspiration';
 
 export const DESIGNER_INFO = {
@@ -310,7 +311,7 @@ const RAW_GARMENTS: Garment[] = [
     moodboard: {
       title: "Modern Minimalism & Monochrome Elegance",
       description: "Sleek black strapless form, monochrome purity, body-contouring drape, and understated evening luxury.",
-      image: "/assets/noir_drape_sitting.jpg",
+      image: look04ThemeBoardImage,
       keywords: ["Modern Minimalism", "Timeless Elegance", "Sleek Black Silhouette", "Strapless Design", "Body-Contouring Fit", "Monochrome Palette", "Effortless Glamour"]
     },
     colors: [
