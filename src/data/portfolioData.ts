@@ -5,6 +5,8 @@ import look09InspirationBoardImage from '../assets/images/look09_inspiration_boa
 import look09HeroImage from '../assets/images/regenerated_image_1790254080563.RAF';
 import look09GalleryImage1 from '../assets/images/regenerated_image_1790514728395.RAF';
 import sustainabilityStage1Image from '../assets/images/regenerated_image_1790398065701.jpg';
+import sustainabilityStage2Image from '../assets/images/fabric_waste_audit_scraps_1790589376993.jpg';
+import sustainabilityStage5Image from '../assets/images/sustainability_stage5_sorted_waste_1790590849700.jpg';
 import look03ThemeBoardImage from '../assets/images/regenerated_image_1790399986806.jpg';
 import { GARMENT_EXTENDED_DATA } from './garmentThemeAndInspiration';
 
@@ -786,7 +788,7 @@ export const SUSTAINABILITY_STAGES: SustainabilityStage[] = [
     percentage: "Qualitative & Quantitative Survey",
     description: "In-depth campus survey analyzing student awareness, disposal behaviors, fabric discard rates, and sustainable reuse potential across university fashion departments.",
     materials: ["Survey Questionnaires", "Student Feedback Data", "Departmental Waste Metrics"],
-    image: "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=1000&q=80",
+    image: sustainabilityStage2Image,
     metric: { label: "Departments Surveyed", value: "Fashion & Design" }
   },
   {
@@ -806,7 +808,7 @@ export const SUSTAINABILITY_STAGES: SustainabilityStage[] = [
     percentage: "Zero-Waste Closed Loop",
     description: "A comprehensive circular system connecting universities, artisan communities, and fashion ateliers—transforming textile remnants into durable, high-value couture while minimizing environmental footprint.",
     materials: ["Interlocking Tessellations", "Recycled Fiber Blends", "Circular Garment Prototypes"],
-    image: "https://images.unsplash.com/photo-1596783074918-c84cb06531ca?auto=format&fit=crop&w=1000&q=80",
+    image: sustainabilityStage1Image,
     metric: { label: "Circular Resource Efficiency", value: "Closed-Loop" }
   },
   {
@@ -816,7 +818,7 @@ export const SUSTAINABILITY_STAGES: SustainabilityStage[] = [
     percentage: "Significant Ecological Footprint Reduction",
     description: "Measuring life cycle improvements through waste diversion, reduced carbon emissions from avoided landfilling, non-toxic processing, and complete natural biodegradability.",
     materials: ["Carbon Offset Metrics", "Water Conservation Data", "Biodegradable Natural Fibers"],
-    image: "https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=1000&q=80",
+    image: sustainabilityStage5Image,
     metric: { label: "Ecological Benefit", value: "Measurable Reduction" }
   }
 ];
