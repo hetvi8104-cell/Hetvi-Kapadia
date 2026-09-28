@@ -22,8 +22,8 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ isDarkTheme, onExplo
         {/* Section Header Eyebrow */}
         <div className="flex flex-col space-y-2">
           <div className="flex items-center space-x-3">
-            <span className="w-8 h-[1px] bg-[#6E1A29] dark:bg-[#D48B96]" />
-            <span className="text-[10px] font-sans-modern tracking-[0.35em] uppercase font-bold text-[#6E1A29] dark:text-[#D48B96]">
+            <span className="w-8 h-[1.5px] bg-[#E0B069]" />
+            <span className="text-[10px] font-sans-modern tracking-[0.35em] uppercase font-bold text-[#6E1A29] dark:text-[#E0B069]">
               01 • CREATIVE THESIS & DESIGNER PROFILE
             </span>
           </div>
@@ -33,9 +33,6 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ isDarkTheme, onExplo
           >
             Hetvi Kapadia — Material Explorer
           </h2>
-          <p className="text-xs sm:text-sm font-sans-modern tracking-[0.2em] uppercase font-medium text-[#6E1A29] dark:text-[#D48B96]">
-            {DESIGNER_INFO.institution} • {DESIGNER_INFO.cgpa} • {DESIGNER_INFO.minor}
-          </p>
         </div>
 
         {/* Two-Column Editorial Layout */}
@@ -43,7 +40,7 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ isDarkTheme, onExplo
           
           {/* Left: Designer Studio Portrait & Identity Card */}
           <div className="lg:col-span-5 flex flex-col space-y-6">
-            <div className="relative group rounded-3xl overflow-hidden border border-[#DCD0BF] dark:border-white/10 shadow-xl bg-stone-900 aspect-[4/5]">
+            <div className="relative group rounded-3xl overflow-hidden border border-[#DCD0BF] dark:border-[#E0B069]/20 shadow-xl bg-stone-900 aspect-[4/5]">
               <img
                 id="about-designer-portrait-img"
                 src={DESIGNER_INFO.portraitImage}
@@ -57,14 +54,14 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ isDarkTheme, onExplo
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-black/20" />
               
               <div className="absolute bottom-6 left-6 right-6 text-white space-y-1">
-                <span className="text-[9px] font-mono tracking-[0.3em] uppercase text-[#D48B96]">
-                  ATELIER CREATIVE DIRECTOR
+                <span className="text-[9px] font-mono tracking-[0.3em] uppercase text-[#E0B069] font-semibold">
+                  FASHION DESIGNER & RESEARCHER
                 </span>
                 <h3 className="text-2xl font-serif-luxury font-bold text-white tracking-wide">
                   {DESIGNER_INFO.name}
                 </h3>
                 <p className="text-[11px] font-sans-modern tracking-wider text-stone-300">
-                  {DESIGNER_INFO.institution} • Ahmedabad Atelier
+                  {DESIGNER_INFO.institution} • Ahmedabad, India
                 </p>
               </div>
             </div>
@@ -73,13 +70,13 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ isDarkTheme, onExplo
             <div className="grid grid-cols-2 gap-4">
               <div
                 className={`p-4 rounded-2xl border transition-colors ${
-                  isDarkTheme ? 'bg-white/[0.03] border-white/10' : 'bg-[#FAF6F0] border-[#D4C5B0]'
+                  isDarkTheme ? 'bg-white/[0.03] border-[#E0B069]/30 shadow-[0_0_15px_rgba(224,176,105,0.06)]' : 'bg-[#FAF6F0] border-[#D4C5B0]'
                 }`}
               >
-                <span className="text-[10px] font-mono uppercase tracking-wider text-[#6E1A29] dark:text-[#D48B96] font-bold">
+                <span className="text-[10px] font-mono uppercase tracking-wider text-[#6E1A29] dark:text-[#E0B069] font-bold">
                   ACADEMIC MERIT
                 </span>
-                <p className="text-xl sm:text-2xl font-serif-luxury font-bold mt-1 text-[#221B1C] dark:text-white">
+                <p className="text-xl sm:text-2xl font-serif-luxury font-bold mt-1 text-[#6E1A29] dark:text-[#E0B069]">
                   9.0 CGPA
                 </p>
                 <p className="text-[10px] font-sans-modern text-stone-500 dark:text-stone-400 mt-0.5">
@@ -89,13 +86,13 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ isDarkTheme, onExplo
 
               <div
                 className={`p-4 rounded-2xl border transition-colors ${
-                  isDarkTheme ? 'bg-white/[0.03] border-white/10' : 'bg-[#FAF6F0] border-[#D4C5B0]'
+                  isDarkTheme ? 'bg-white/[0.03] border-[#E0B069]/30 shadow-[0_0_15px_rgba(224,176,105,0.06)]' : 'bg-[#FAF6F0] border-[#D4C5B0]'
                 }`}
               >
-                <span className="text-[10px] font-mono uppercase tracking-wider text-[#6E1A29] dark:text-[#D48B96] font-bold">
+                <span className="text-[10px] font-mono uppercase tracking-wider text-[#6E1A29] dark:text-[#E0B069] font-bold">
                   SPECIALIZATION
                 </span>
-                <p className="text-xl sm:text-2xl font-serif-luxury font-bold mt-1 text-[#221B1C] dark:text-white">
+                <p className="text-xl sm:text-2xl font-serif-luxury font-bold mt-1 text-[#6E1A29] dark:text-[#E0B069]">
                   Grade 9
                 </p>
                 <p className="text-[10px] font-sans-modern text-stone-500 dark:text-stone-400 mt-0.5">
@@ -128,10 +125,10 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ isDarkTheme, onExplo
               </div>
             </div>
 
-            {/* The Atelier Pillars Architecture */}
+            {/* The Design Pillars Architecture */}
             <div className="space-y-4 pt-4">
               <span className="text-[10px] font-mono tracking-[0.3em] uppercase text-[#6E1A29] dark:text-[#D48B96] font-bold">
-                THE ATELIER PILLARS
+                THE DESIGN PILLARS
               </span>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">

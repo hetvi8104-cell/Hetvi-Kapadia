@@ -28,6 +28,36 @@ export interface Moodboard {
   keywords: string[];
 }
 
+export interface ThemeBoardData {
+  title: string;
+  themeTagline: string;
+  conceptNarrative: string;
+  moodKeywords: string[];
+  aestheticPillars: { title: string; desc: string }[];
+  visualElements: { url: string; caption: string; tag: string }[];
+  paletteStory: { name: string; hex: string; emotion: string }[];
+  quote: string;
+}
+
+export interface InspirationBoardData {
+  title: string;
+  culturalRoots: string;
+  historicalEra: string;
+  architecturalArtReferences: { title: string; source: string; notes: string; image?: string }[];
+  motifsAndSymbols: { name: string; meaning: string; technique: string }[];
+  craftLineage: string;
+  visualReferences: { url: string; label: string; context: string }[];
+}
+
+export interface GarmentBackdropStyle {
+  accentColor: string;
+  secondaryAccent: string;
+  gradient: string;
+  patternType: 'architectural-grid' | 'corduroy-rib' | 'industrial-lattice' | 'minimalist-waves' | 'bandhani-dots' | 'patola-ikat' | 'jaali-lattice' | 'warli-tribal' | 'botanical-leaves';
+  ambientGlow: string;
+  moodBadge: string;
+}
+
 export interface TechFlats {
   front: string;
   back: string;
@@ -47,6 +77,9 @@ export interface Garment {
   concept: string;
   inspiration: string;
   moodboard: Moodboard;
+  themeBoard?: ThemeBoardData;
+  inspirationBoard?: InspirationBoardData;
+  backdropStyle?: GarmentBackdropStyle;
   colors: ColorSwatch[];
   materials: MaterialSpec[];
   silhouette: string;

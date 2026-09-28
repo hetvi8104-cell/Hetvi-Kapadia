@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Mail, Send, CheckCircle2, MapPin, Compass, Clock } from 'lucide-react';
+import { Mail, Send, CheckCircle2, MapPin, Compass, Clock, Linkedin, Instagram, ExternalLink } from 'lucide-react';
 import { DESIGNER_INFO } from '../data/portfolioData';
 
 interface ContactSectionProps {
@@ -20,7 +20,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ isDarkTheme }) =
     if (!formData.name || !formData.email || !formData.message) return;
     
     // Construct mailto link
-    const subject = encodeURIComponent(`[${formData.inquiryType}] Atelier Inquiry from ${formData.name}`);
+    const subject = encodeURIComponent(`[${formData.inquiryType}] Portfolio Inquiry from ${formData.name}`);
     const body = encodeURIComponent(
       `Name: ${formData.name}\nEmail: ${formData.email}\nInquiry Type: ${formData.inquiryType}\n\nMessage:\n${formData.message}`
     );
@@ -42,8 +42,8 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ isDarkTheme }) =
         {/* Section Header */}
         <div className="flex flex-col space-y-2">
           <div className="flex items-center space-x-3">
-            <span className="w-8 h-[1px] bg-[#6E1A29] dark:bg-[#D48B96]" />
-            <span className="text-[10px] font-sans-modern tracking-[0.35em] uppercase font-bold text-[#6E1A29] dark:text-[#D48B96]">
+            <span className="w-8 h-[1.5px] bg-[#E0B069]" />
+            <span className="text-[10px] font-sans-modern tracking-[0.35em] uppercase font-bold text-[#6E1A29] dark:text-[#E0B069]">
               07 • COMMISSIONS & DIALOGUE
             </span>
           </div>
@@ -51,11 +51,8 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ isDarkTheme }) =
             id="contact-heading"
             className="text-3xl sm:text-4xl lg:text-5xl font-serif-luxury font-bold tracking-tight text-[#221B1C] dark:text-[#FAF6F0]"
           >
-            Connect with HK Atelier
+            Connect with Hetvi Kapadia
           </h2>
-          <p className="text-xs sm:text-sm font-sans-modern tracking-[0.2em] uppercase opacity-75">
-            Haute Couture Commissions, Pattern Engineering, Material Research & Editorial Styling
-          </p>
         </div>
 
         {/* Two-Column Form & Contact Info */}
@@ -79,14 +76,14 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ isDarkTheme }) =
                   isDarkTheme ? 'bg-white/[0.03] border-white/10' : 'bg-[#FAF6F0] border-[#D4C5B0]'
                 }`}
               >
-                <div className="w-10 h-10 rounded-full bg-[#6E1A29] text-white flex items-center justify-center flex-shrink-0">
-                  <Mail className="w-5 h-5" />
+                <div className="w-10 h-10 rounded-full bg-[#6E1A29] text-[#E0B069] border border-[#E0B069]/30 flex items-center justify-center flex-shrink-0 shadow-sm">
+                  <Mail className="w-5 h-5 text-[#E0B069]" />
                 </div>
                 <div className="space-y-0.5">
                   <span className="text-[9px] font-mono uppercase opacity-60">PRIMARY EMAIL</span>
                   <a
                     href={`mailto:${DESIGNER_INFO.email}`}
-                    className="text-sm font-mono font-bold block text-[#6E1A29] dark:text-[#D48B96] hover:underline"
+                    className="text-sm font-mono font-bold block text-[#6E1A29] dark:text-[#E0B069] hover:underline"
                   >
                     {DESIGNER_INFO.email}
                   </a>
@@ -98,11 +95,11 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ isDarkTheme }) =
                   isDarkTheme ? 'bg-white/[0.03] border-white/10' : 'bg-[#FAF6F0] border-[#D4C5B0]'
                 }`}
               >
-                <div className="w-10 h-10 rounded-full bg-[#6E1A29] text-white flex items-center justify-center flex-shrink-0">
-                  <MapPin className="w-5 h-5" />
+                <div className="w-10 h-10 rounded-full bg-[#6E1A29] text-[#E0B069] border border-[#E0B069]/30 flex items-center justify-center flex-shrink-0 shadow-sm">
+                  <MapPin className="w-5 h-5 text-[#E0B069]" />
                 </div>
                 <div className="space-y-0.5">
-                  <span className="text-[9px] font-mono uppercase opacity-60">ATELIER BASE</span>
+                  <span className="text-[9px] font-mono uppercase opacity-60">LOCATION / BASE</span>
                   <p className="text-xs font-mono font-bold">
                     {DESIGNER_INFO.location}
                   </p>
@@ -115,14 +112,87 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ isDarkTheme }) =
                   isDarkTheme ? 'bg-white/[0.03] border-white/10' : 'bg-[#FAF6F0] border-[#D4C5B0]'
                 }`}
               >
-                <div className="w-10 h-10 rounded-full bg-[#6E1A29] text-white flex items-center justify-center flex-shrink-0">
-                  <Clock className="w-5 h-5" />
+                <div className="w-10 h-10 rounded-full bg-[#6E1A29] text-[#E0B069] border border-[#E0B069]/30 flex items-center justify-center flex-shrink-0 shadow-sm">
+                  <Clock className="w-5 h-5 text-[#E0B069]" />
                 </div>
                 <div className="space-y-0.5">
                   <span className="text-[9px] font-mono uppercase opacity-60">RESPONSE TIME</span>
                   <p id="contact-response-time-text" className="text-xs font-mono font-bold">
                     Within 12 - 24 Hours
                   </p>
+                </div>
+              </div>
+
+              {/* LinkedIn Profile Card */}
+              <a
+                id="contact-linkedin-card"
+                href={DESIGNER_INFO.linkedin}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={`p-4 rounded-2xl border flex items-center justify-between transition-all group ${
+                  isDarkTheme
+                    ? 'bg-white/[0.03] border-white/10 hover:border-[#E0B069]/50 hover:bg-white/[0.06]'
+                    : 'bg-[#FAF6F0] border-[#D4C5B0] hover:border-[#6E1A29]/50'
+                }`}
+              >
+                <div className="flex items-center space-x-4 min-w-0">
+                  <div className="w-10 h-10 rounded-full bg-[#6E1A29] text-[#E0B069] border border-[#E0B069]/30 flex items-center justify-center flex-shrink-0 shadow-sm group-hover:scale-105 transition-transform">
+                    <Linkedin className="w-5 h-5 text-[#E0B069]" />
+                  </div>
+                  <div className="space-y-0.5 min-w-0">
+                    <span className="text-[9px] font-mono uppercase opacity-60 block">LINKEDIN</span>
+                    <span className="text-xs sm:text-sm font-mono font-bold block truncate text-[#6E1A29] dark:text-[#E0B069] group-hover:underline">
+                      linkedin.com/in/{DESIGNER_INFO.linkedinHandle}
+                    </span>
+                  </div>
+                </div>
+                <ExternalLink className="w-4 h-4 opacity-50 group-hover:opacity-100 text-[#6E1A29] dark:text-[#E0B069] flex-shrink-0 ml-2" />
+              </a>
+
+              {/* 2 Instagram Accounts */}
+              <div
+                id="contact-instagram-cards"
+                className={`p-4 rounded-2xl border space-y-3 ${
+                  isDarkTheme ? 'bg-white/[0.03] border-white/10' : 'bg-[#FAF6F0] border-[#D4C5B0]'
+                }`}
+              >
+                <div className="flex items-center space-x-3">
+                  <div className="w-10 h-10 rounded-full bg-[#6E1A29] text-[#E0B069] border border-[#E0B069]/30 flex items-center justify-center flex-shrink-0 shadow-sm">
+                    <Instagram className="w-5 h-5 text-[#E0B069]" />
+                  </div>
+                  <div className="space-y-0.5">
+                    <span className="text-[9px] font-mono uppercase opacity-60 block">INSTAGRAM CHANNELS</span>
+                    <span className="text-xs font-serif-luxury font-bold block">
+                      Official Design & Creative Studios
+                    </span>
+                  </div>
+                </div>
+
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5 pt-1">
+                  {DESIGNER_INFO.instagrams.map((ig, idx) => (
+                    <a
+                      key={ig.handle}
+                      id={`contact-instagram-link-${idx}`}
+                      href={ig.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className={`p-3 rounded-xl border flex items-center justify-between transition-all group ${
+                        isDarkTheme
+                          ? 'bg-black/25 border-white/10 hover:border-[#E0B069]/50 hover:bg-white/[0.05]'
+                          : 'bg-white/70 border-[#D4C5B0]/80 hover:border-[#6E1A29]'
+                      }`}
+                    >
+                      <div className="min-w-0 pr-2">
+                        <span className="text-[9px] font-mono uppercase opacity-60 block truncate">
+                          {ig.label}
+                        </span>
+                        <span className="text-xs font-sans-modern font-bold text-[#6E1A29] dark:text-[#E0B069] group-hover:underline block truncate">
+                          {ig.handle}
+                        </span>
+                      </div>
+                      <ExternalLink className="w-3.5 h-3.5 opacity-50 group-hover:opacity-100 text-[#6E1A29] dark:text-[#E0B069] flex-shrink-0" />
+                    </a>
+                  ))}
                 </div>
               </div>
             </div>
@@ -209,7 +279,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ isDarkTheme }) =
                     <option value="Technical Pattern Development">Technical Pattern CAD & CLO3D Development</option>
                     <option value="Exhibition / Editorial Styling">Editorial Styling & Exhibition Loan</option>
                     <option value="Sustainable Collaboration">Zero-Waste & Textile Research Collaboration</option>
-                    <option value="Atelier Apprenticeship / Placement">Industry Placement / Recruitment</option>
+                    <option value="Design Internship / Industry Placement">Design Internship / Industry Placement</option>
                   </select>
                 </div>
 
@@ -233,9 +303,9 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ isDarkTheme }) =
                 <button
                   id="contact-form-submit-btn"
                   type="submit"
-                  className="w-full py-3.5 rounded-full bg-[#6E1A29] hover:bg-[#852033] text-white text-[11px] font-mono tracking-[0.2em] uppercase font-bold flex items-center justify-center space-x-2 transition-all cursor-pointer shadow-lg active:scale-98"
+                  className="w-full py-3.5 rounded-full bg-[#6E1A29] hover:bg-[#852033] text-white border border-[#E0B069]/40 text-[11px] font-mono tracking-[0.2em] uppercase font-bold flex items-center justify-center space-x-2 transition-all cursor-pointer shadow-lg active:scale-98"
                 >
-                  <Send className="w-3.5 h-3.5" />
+                  <Send className="w-3.5 h-3.5 text-[#E0B069]" />
                   <span>Transmit to Hetvi Kapadia</span>
                 </button>
               </form>

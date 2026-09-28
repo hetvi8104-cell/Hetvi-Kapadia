@@ -17,8 +17,8 @@ export const SustainabilitySection: React.FC<SustainabilitySectionProps> = ({ is
       id="sustainability"
       className={`relative w-full py-28 px-6 md:px-12 lg:px-20 border-b select-none transition-colors duration-500 ${
         isDarkTheme
-          ? 'bg-[#22040E] text-[#FAF2EE] border-[#7D1B31]/40'
-          : 'bg-[#FDF6F4] text-[#220814] border-[#EAD5D8]'
+          ? 'bg-[#0A1612] text-[#FAF2EE] border-[#2D7D68]/30'
+          : 'bg-[#F4F9F6] text-[#122B22] border-[#CDE3D8]'
       }`}
     >
       <div className="max-w-7xl mx-auto space-y-16">
@@ -26,14 +26,14 @@ export const SustainabilitySection: React.FC<SustainabilitySectionProps> = ({ is
         {/* Section Header */}
         <div className="flex flex-col space-y-2">
           <div className="flex items-center space-x-3">
-            <span className="w-8 h-[1px] bg-[#6E1A29] dark:bg-[#D48B96]" />
-            <span id="sustainability-badge-tag" className="text-[10px] font-sans-modern tracking-[0.35em] uppercase font-bold text-[#6E1A29] dark:text-[#D48B96]">
+            <span className="w-8 h-[1.5px] bg-[#3FA383]" />
+            <span id="sustainability-badge-tag" className="text-[10px] font-sans-modern tracking-[0.35em] uppercase font-bold text-[#3FA383]">
               04 • SUSTAINABILITY PROJECT
             </span>
           </div>
           <h2
             id="sustainability-heading"
-            className="text-3xl sm:text-4xl lg:text-5xl font-serif-luxury font-bold tracking-tight text-[#221B1C] dark:text-[#FAF6F0]"
+            className="text-3xl sm:text-4xl lg:text-5xl font-serif-luxury font-bold tracking-tight text-[#16382D] dark:text-[#FAF6F0]"
           >
             "From Waste to Worth"
           </h2>
@@ -49,13 +49,13 @@ export const SustainabilitySection: React.FC<SustainabilitySectionProps> = ({ is
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
           <div
             className={`p-5 rounded-2xl border transition-all ${
-              isDarkTheme ? 'bg-white/[0.03] border-white/10' : 'bg-[#FAF6F0] border-[#D4C5B0]'
+              isDarkTheme ? 'bg-[#10241D]/60 border-[#2D7D68]/30 shadow-[0_4px_20px_rgba(45,125,104,0.1)]' : 'bg-[#FAF6F0] border-[#D4C5B0]'
             }`}
           >
             <span id="sustainability-metric-label-collected" className="text-[9px] font-mono tracking-wider uppercase opacity-60">
               TOTAL WASTE FABRIC COLLECTED
             </span>
-            <p id="sustainability-metric-fabric-yield" className="text-2xl sm:text-3xl font-serif-luxury font-bold mt-1 text-[#6E1A29] dark:text-[#D48B96]">
+            <p id="sustainability-metric-fabric-yield" className="text-2xl sm:text-3xl font-serif-luxury font-bold mt-1 text-[#3FA383]">
               7-8 kg
             </p>
             <p id="sustainability-metric-subtext-universities" className="text-[10px] font-sans-modern opacity-70 mt-1">[ from 2 universities ]</p>
@@ -63,13 +63,13 @@ export const SustainabilitySection: React.FC<SustainabilitySectionProps> = ({ is
 
           <div
             className={`p-5 rounded-2xl border transition-all ${
-              isDarkTheme ? 'bg-white/[0.03] border-white/10' : 'bg-[#FAF6F0] border-[#D4C5B0]'
+              isDarkTheme ? 'bg-[#10241D]/60 border-[#2D7D68]/30 shadow-[0_4px_20px_rgba(45,125,104,0.1)]' : 'bg-[#FAF6F0] border-[#D4C5B0]'
             }`}
           >
             <span id="sustainability-metric-label-uni-1" className="text-[9px] font-mono tracking-wider uppercase opacity-60">
               UNIVERSITY 1
             </span>
-            <p id="sustainability-metric-uni-1-weight" className="text-2xl sm:text-3xl font-serif-luxury font-bold mt-1 text-[#6E1A29] dark:text-[#D48B96]">
+            <p id="sustainability-metric-uni-1-weight" className="text-2xl sm:text-3xl font-serif-luxury font-bold mt-1 text-[#3FA383]">
               5-6 kgs approx
             </p>
             <p id="sustainability-metric-uni-1-subtext" className="text-[10px] font-sans-modern opacity-70 mt-1">Physical audit and measurement</p>
@@ -77,13 +77,13 @@ export const SustainabilitySection: React.FC<SustainabilitySectionProps> = ({ is
 
           <div
             className={`p-5 rounded-2xl border transition-all ${
-              isDarkTheme ? 'bg-white/[0.03] border-white/10' : 'bg-[#FAF6F0] border-[#D4C5B0]'
+              isDarkTheme ? 'bg-[#10241D]/60 border-[#2D7D68]/30 shadow-[0_4px_20px_rgba(45,125,104,0.1)]' : 'bg-[#FAF6F0] border-[#D4C5B0]'
             }`}
           >
             <span id="sustainability-metric-label-uni-2" className="text-[9px] font-mono tracking-wider uppercase opacity-60">
               UNIVERSITY 2
             </span>
-            <p id="sustainability-metric-uni-2-weight" className="text-2xl sm:text-3xl font-serif-luxury font-bold mt-1 text-[#6E1A29] dark:text-[#D48B96]">
+            <p id="sustainability-metric-uni-2-weight" className="text-2xl sm:text-3xl font-serif-luxury font-bold mt-1 text-[#3FA383]">
               2-3 kgs approx
             </p>
             <p id="sustainability-metric-uni-2-subtext" className="text-[10px] font-sans-modern opacity-70 mt-1">Approximate data</p>
@@ -91,13 +91,13 @@ export const SustainabilitySection: React.FC<SustainabilitySectionProps> = ({ is
 
           <div
             className={`p-5 rounded-2xl border transition-all ${
-              isDarkTheme ? 'bg-white/[0.03] border-white/10' : 'bg-[#FAF6F0] border-[#D4C5B0]'
+              isDarkTheme ? 'bg-[#10241D]/60 border-[#2D7D68]/30 shadow-[0_4px_20px_rgba(45,125,104,0.1)]' : 'bg-[#FAF6F0] border-[#D4C5B0]'
             }`}
           >
             <span id="sustainability-metric-label-audit-scope" className="text-[9px] font-mono tracking-wider uppercase opacity-60">
               TOTAL AUDIT SCOPE
             </span>
-            <p id="sustainability-metric-audit-scope-value" className="text-2xl sm:text-3xl font-serif-luxury font-bold mt-1 text-[#6E1A29] dark:text-[#D48B96]">
+            <p id="sustainability-metric-audit-scope-value" className="text-2xl sm:text-3xl font-serif-luxury font-bold mt-1 text-[#3FA383]">
               2
             </p>
             <p id="sustainability-metric-audit-scope-subtext" className="text-[10px] font-sans-modern opacity-70 mt-1">Universities</p>
@@ -113,7 +113,7 @@ export const SustainabilitySection: React.FC<SustainabilitySectionProps> = ({ is
               onClick={() => setActiveStageId(st.id)}
               className={`px-4 py-2.5 rounded-xl text-xs font-mono tracking-wider transition-all flex items-center space-x-2 flex-shrink-0 cursor-pointer ${
                 activeStageId === st.id
-                  ? 'bg-[#6E1A29] text-white font-bold shadow-md'
+                  ? 'bg-[#3FA383] text-[#0A1612] font-bold shadow-[0_2px_15px_rgba(63,163,131,0.35)]'
                   : isDarkTheme
                   ? 'bg-white/5 hover:bg-white/10 text-stone-300'
                   : 'bg-[#EFE8DE] hover:bg-[#E2D8CC] text-[#221B1C]'
@@ -131,7 +131,7 @@ export const SustainabilitySection: React.FC<SustainabilitySectionProps> = ({ is
         <div
           id="active-sustainability-stage"
           className={`p-8 sm:p-10 rounded-3xl border shadow-xl grid grid-cols-1 lg:grid-cols-12 gap-10 items-center transition-all ${
-            isDarkTheme ? 'bg-[#1D0611] border-white/10' : 'bg-[#FAF6F0] border-[#D4C5B0]'
+            isDarkTheme ? 'bg-[#0E2019] border-[#2D7D68]/35' : 'bg-[#FAF6F0] border-[#D4C5B0]'
           }`}
         >
           {/* Left: Stage Visual */}
@@ -146,20 +146,20 @@ export const SustainabilitySection: React.FC<SustainabilitySectionProps> = ({ is
             </div>
             <div className="absolute bottom-4 left-4 right-4 p-3 rounded-xl bg-black/70 backdrop-blur-xs text-white flex justify-between items-center text-xs font-mono">
               <span className="opacity-80">{activeStage.metric.label}:</span>
-              <span className="font-bold text-[#D48B96]">{activeStage.metric.value}</span>
+              <span className="font-bold text-[#E0B069]">{activeStage.metric.value}</span>
             </div>
           </div>
 
           {/* Right: Methodology & Material Stream */}
           <div className="lg:col-span-6 space-y-6">
             <div className="space-y-2">
-              <span id="active-stage-research-tag" className="px-3 py-1 rounded-full text-[9px] font-mono tracking-widest uppercase bg-[#6E1A29]/10 text-[#6E1A29] dark:text-[#D48B96] font-bold inline-block">
+              <span id="active-stage-research-tag" className="px-3 py-1 rounded-full text-[9px] font-mono tracking-widest uppercase bg-[#3FA383]/15 text-[#3FA383] border border-[#3FA383]/30 font-bold inline-block">
                 SUSTAINABILITY RESEARCH PROJECT
               </span>
-              <h3 className="text-2xl sm:text-3xl font-serif-luxury font-bold text-[#221B1C] dark:text-white">
+              <h3 className="text-2xl sm:text-3xl font-serif-luxury font-bold text-[#16382D] dark:text-white">
                 {activeStage.title}
               </h3>
-              <p id="active-stage-subtitle" className="text-xs font-mono tracking-wider uppercase font-semibold text-[#6E1A29] dark:text-[#D48B96]">
+              <p id="active-stage-subtitle" className="text-xs font-mono tracking-wider uppercase font-semibold text-[#E0B069]">
                 {activeStage.subtitle}
               </p>
             </div>
@@ -178,7 +178,7 @@ export const SustainabilitySection: React.FC<SustainabilitySectionProps> = ({ is
                   <span
                     key={i}
                     id={`active-stage-material-${i + 1}`}
-                    className="px-3 py-1 rounded-lg text-xs font-mono border border-current/10 bg-current/5"
+                    className="px-3 py-1 rounded-lg text-xs font-mono border border-[#3FA383]/30 bg-[#3FA383]/10 text-[#3FA383] dark:text-[#58B69A]"
                   >
                     ✓ {m}
                   </span>

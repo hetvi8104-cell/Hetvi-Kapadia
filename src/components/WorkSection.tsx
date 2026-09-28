@@ -21,8 +21,8 @@ export const WorkSection: React.FC<WorkSectionProps> = ({ isDarkTheme, onSelectG
       id="work"
       className={`relative w-full py-28 px-6 md:px-12 lg:px-20 border-b select-none transition-colors duration-500 ${
         isDarkTheme
-          ? 'bg-[#2A0614] text-[#FAF2EE] border-[#7D1B31]/40'
-          : 'bg-[#FDF6F4] text-[#220814] border-[#EAD5D8]'
+          ? 'bg-[#0D0308] text-[#FAF2EE] border-[#E0B069]/25'
+          : 'bg-[#FAF6F2] text-[#220814] border-[#E2D5C7]'
       }`}
     >
       <div className="max-w-7xl mx-auto space-y-16">
@@ -31,8 +31,8 @@ export const WorkSection: React.FC<WorkSectionProps> = ({ isDarkTheme, onSelectG
         <div className="flex flex-col md:flex-row justify-between items-start md:items-end gap-6 pb-6 border-b border-[#D4C5B0]/50 dark:border-white/10">
           <div className="space-y-2">
             <div className="flex items-center space-x-3">
-              <span className="w-8 h-[1px] bg-[#6E1A29] dark:bg-[#D48B96]" />
-              <span className="text-[10px] font-sans-modern tracking-[0.35em] uppercase font-bold text-[#6E1A29] dark:text-[#D48B96]">
+              <span className="w-8 h-[1.5px] bg-[#E0B069]" />
+              <span className="text-[10px] font-sans-modern tracking-[0.35em] uppercase font-bold text-[#6E1A29] dark:text-[#E0B069]">
                 02 • CURATED GARMENT ARCHIVE
               </span>
             </div>
@@ -51,7 +51,7 @@ export const WorkSection: React.FC<WorkSectionProps> = ({ isDarkTheme, onSelectG
           <div
             id="work-category-filters"
             className={`flex items-center space-x-2 p-1.5 rounded-full border backdrop-blur-md shadow-xs ${
-              isDarkTheme ? 'bg-white/[0.03] border-white/10' : 'bg-[#FAF6F0] border-[#D4C5B0]'
+              isDarkTheme ? 'bg-white/[0.04] border-[#E0B069]/30' : 'bg-[#FAF6F0] border-[#D4C5B0]'
             }`}
           >
             <button
@@ -59,7 +59,7 @@ export const WorkSection: React.FC<WorkSectionProps> = ({ isDarkTheme, onSelectG
               onClick={() => setSelectedCategory('all')}
               className={`px-4 py-2 rounded-full text-[10px] font-sans-modern tracking-[0.2em] uppercase font-bold transition-all cursor-pointer ${
                 selectedCategory === 'all'
-                  ? 'bg-[#6E1A29] text-white shadow-sm'
+                  ? 'bg-[#E0B069] text-[#140207] shadow-[0_2px_12px_rgba(224,176,105,0.4)]'
                   : 'opacity-65 hover:opacity-100 text-[#221B1C] dark:text-white'
               }`}
             >
@@ -70,7 +70,7 @@ export const WorkSection: React.FC<WorkSectionProps> = ({ isDarkTheme, onSelectG
               onClick={() => setSelectedCategory('western')}
               className={`px-4 py-2 rounded-full text-[10px] font-sans-modern tracking-[0.2em] uppercase font-bold transition-all cursor-pointer ${
                 selectedCategory === 'western'
-                  ? 'bg-[#6E1A29] text-white shadow-sm'
+                  ? 'bg-[#E0B069] text-[#140207] shadow-[0_2px_12px_rgba(224,176,105,0.4)]'
                   : 'opacity-65 hover:opacity-100 text-[#221B1C] dark:text-white'
               }`}
             >
@@ -81,7 +81,7 @@ export const WorkSection: React.FC<WorkSectionProps> = ({ isDarkTheme, onSelectG
               onClick={() => setSelectedCategory('ethnic')}
               className={`px-4 py-2 rounded-full text-[10px] font-sans-modern tracking-[0.2em] uppercase font-bold transition-all cursor-pointer ${
                 selectedCategory === 'ethnic'
-                  ? 'bg-[#6E1A29] text-white shadow-sm'
+                  ? 'bg-[#E0B069] text-[#140207] shadow-[0_2px_12px_rgba(224,176,105,0.4)]'
                   : 'opacity-65 hover:opacity-100 text-[#221B1C] dark:text-white'
               }`}
             >
@@ -101,7 +101,7 @@ export const WorkSection: React.FC<WorkSectionProps> = ({ isDarkTheme, onSelectG
                 onClick={() => onSelectGarment(garment)}
                 className={`group relative rounded-3xl overflow-hidden border flex flex-col justify-between transition-all duration-500 cursor-pointer hover:-translate-y-2 hover:shadow-2xl ${
                   isDarkTheme
-                    ? 'bg-[#1A050F] border-white/10 hover:border-[#D48B96]/50'
+                    ? 'bg-[#15050C] border-white/10 hover:border-[#E0B069]/70 hover:shadow-[0_20px_50px_rgba(224,176,105,0.18)]'
                     : 'bg-[#FAF6F0] border-[#D4C5B0] hover:border-[#6E1A29]/50'
                 }`}
               >
@@ -120,10 +120,10 @@ export const WorkSection: React.FC<WorkSectionProps> = ({ isDarkTheme, onSelectG
 
                   {/* Look Index Chip */}
                   <div className="absolute top-4 left-4 right-4 flex items-center justify-between">
-                    <span className="px-2.5 py-1 rounded-full text-[9px] font-mono tracking-widest uppercase bg-black/60 text-white backdrop-blur-md border border-white/20 font-bold">
+                    <span className="px-2.5 py-1 rounded-full text-[9px] font-mono tracking-widest uppercase bg-black/70 text-[#E0B069] backdrop-blur-md border border-[#E0B069]/40 font-bold">
                       LOOK 0{lookIndex} • {garment.category.toUpperCase()}
                     </span>
-                    <span className="w-8 h-8 rounded-full bg-[#6E1A29] text-white flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-300 shadow-lg transform translate-y-2 group-hover:translate-y-0">
+                    <span className="w-8 h-8 rounded-full bg-[#E0B069] text-[#140207] flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-300 shadow-lg transform translate-y-2 group-hover:translate-y-0 font-bold">
                       <ArrowUpRight className="w-4 h-4" />
                     </span>
                   </div>
@@ -149,10 +149,10 @@ export const WorkSection: React.FC<WorkSectionProps> = ({ isDarkTheme, onSelectG
                 {/* Garment Information Dossier Footer */}
                 <div className="p-6 flex flex-col justify-between flex-1 space-y-4">
                   <div className="space-y-1.5">
-                    <span className="text-[9px] font-mono tracking-[0.25em] uppercase text-[#6E1A29] dark:text-[#D48B96] font-bold">
+                    <span className="text-[9px] font-mono tracking-[0.25em] uppercase text-[#6E1A29] dark:text-[#E0B069] font-bold">
                       {garment.subtitle}
                     </span>
-                    <h3 className="text-xl font-serif-luxury font-bold tracking-tight text-[#221B1C] dark:text-white group-hover:text-[#6E1A29] dark:group-hover:text-[#D48B96] transition-colors">
+                    <h3 className="text-xl font-serif-luxury font-bold tracking-tight text-[#221B1C] dark:text-white group-hover:text-[#6E1A29] dark:group-hover:text-[#E0B069] transition-colors">
                       {garment.title}
                     </h3>
                     <p className="text-xs font-sans-modern leading-relaxed opacity-75 line-clamp-2">
@@ -176,9 +176,18 @@ export const WorkSection: React.FC<WorkSectionProps> = ({ isDarkTheme, onSelectG
                     </div>
                   </div>
 
+                  {/* Inspiration Board & Atelier Specs Badge */}
+                  <div className="pt-3 border-t border-current/10 flex items-center justify-between text-[9px] font-mono">
+                    <span className="flex items-center space-x-1 text-[#6E1A29] dark:text-[#E0B069] font-bold uppercase tracking-wider">
+                      <Sparkles className="w-3 h-3" />
+                      <span>INSPIRATION BOARD & SPECS</span>
+                    </span>
+                    <span className="opacity-60">{garment.backdropStyle?.patternType?.replace('-', ' ').toUpperCase()}</span>
+                  </div>
+
                   {/* Action Link */}
-                  <div className="pt-2 flex items-center justify-between text-[10px] font-mono tracking-widest text-[#6E1A29] dark:text-[#D48B96] font-bold uppercase group-hover:underline">
-                    <span>Inspect Full Dossier</span>
+                  <div className="pt-1 flex items-center justify-between text-[10px] font-mono tracking-widest text-[#6E1A29] dark:text-[#E0B069] font-bold uppercase group-hover:underline">
+                    <span>Inspect Atelier Dossier & Specs</span>
                     <span>→</span>
                   </div>
                 </div>

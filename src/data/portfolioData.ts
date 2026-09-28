@@ -1,9 +1,16 @@
 import { Garment, TextileSample, SustainabilityStage, ProcessStep, PresentationSlide } from '../types';
 import regeneratedImageThumb1 from '../assets/images/regenerated_image_1789967583213.jpg';
+import regeneratedImage1790251164597 from '../assets/images/regenerated_image_1790251164597.jpg';
+import look09InspirationBoardImage from '../assets/images/look09_inspiration_board_1790253983527.jpg';
+import look09HeroImage from '../assets/images/regenerated_image_1790254080563.RAF';
+import look09GalleryImage1 from '../assets/images/regenerated_image_1790514728395.RAF';
+import sustainabilityStage1Image from '../assets/images/regenerated_image_1790398065701.jpg';
+import look03ThemeBoardImage from '../assets/images/regenerated_image_1790399986806.jpg';
+import { GARMENT_EXTENDED_DATA } from './garmentThemeAndInspiration';
 
 export const DESIGNER_INFO = {
   name: "Hetvi Kapadia",
-  brand: "HK ATELIER",
+  brand: "FASHION DESIGN",
   role: "Fashion Designer & Material Explorer",
   institution: "Indus University, Ahmedabad",
   degree: "Bachelors in Fashion Designing",
@@ -13,11 +20,39 @@ export const DESIGNER_INFO = {
   location: "Ahmedabad, Gujarat, India",
   coordinates: "+ 23°02′N // 72°35′E",
   email: "hetvi8104@gmail.com",
+  linkedin: "https://www.linkedin.com/in/hetvi-kapadia-b7a487367",
+  linkedinHandle: "hetvi-kapadia-b7a487367",
+  instagrams: [
+    {
+      handle: "@____atelierbyhk",
+      label: "Fashion & Textile Alchemy",
+      url: "https://www.instagram.com/____atelierbyhk/"
+    },
+    {
+      handle: "@hk_nailstudio.08",
+      label: "HK Nail Studio",
+      url: "https://www.instagram.com/hk_nailstudio.08/"
+    }
+  ],
   manifesto: "Fashion is neither purely ornament nor static geometry; it is an architectural carapace that negotiates human movement, ancestral memory, and zero-waste responsibility.",
   bio: "I am Hetvi Kapadia, a passionate fashion design student with a strong interest in experimenting with different concepts, techniques, and design elements. I enjoy exploring creativity through fashion and continuously pushing my ideas beyond conventional boundaries. I am a dedicated and detail-oriented person who prefers completing my work within the given timeline while maintaining quality and creativity. My primary area of interest lies in ethnic wear, where I love combining traditional aesthetics with contemporary design approaches. Through my work, I aim to create designs that reflect innovation, craftsmanship, and cultural elegance while expressing my individuality as a designer.",
   portraitImage: "/assets/hetvi_kapadia_designer_portrait-Bamb8bML.jpg",
   software: ["Procreate", "Illustrator", "Photoshop", "Canva", "Microsoft Office"],
-  competencies: ["Draping", "Pattern Making", "Embroidery", "Material Manipulation", "Tailoring", "Zero-Waste Drafting", "Quick Learner"],
+  competencies: ["Draping", "Pattern Making", "Embroidery", "Material Manipulation", "Tailoring", "Zero-Waste Drafting"],
+  hardSkills: [
+    "Pattern Making & Draping",
+    "Garment Construction & Tailoring",
+    "Adobe Illustrator, Photoshop & Procreate",
+    "Material Manipulation & Embroidery",
+    "Zero-Waste Drafting & CLO3D CAD"
+  ],
+  softSkills: [
+    "Strict Timeline & Deadline Discipline",
+    "Detail-Oriented Precision & Finishing",
+    "Quick Learner & High Adaptability",
+    "Creative Concept Innovation",
+    "Teamwork & Effective Communication"
+  ],
   languages: ["Gujarati", "Hindi", "English"],
   workshops: [
     "Calligraphy & Mandala art",
@@ -30,7 +65,7 @@ export const DESIGNER_INFO = {
   interests: ["Dancing", "Bharatnatyam (6 yrs)", "Drawing", "Playing", "Travelling", "Styling", "Nail Artist"]
 };
 
-export const GARMENTS: Garment[] = [
+const RAW_GARMENTS: Garment[] = [
   {
     id: "proj-w01",
     category: "western",
@@ -50,37 +85,76 @@ export const GARMENTS: Garment[] = [
     moodboard: {
       title: "Monolithic Rigor & Exposed Framework",
       description: "Chiseled concrete angles, raw seams, tailored canvas pad-stitching, and contrast velvet piping.",
-      image: "https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=1000&q=85",
+      image: regeneratedImage1790251164597,
       keywords: ["Exoskeleton", "Architectural Boning", "Deconstructed Trench", "Hourglass Hybrid", "Micro-Check Linen"]
     },
     colors: [
       { 
-        name: "Charcoal Grey", 
-        hex: "#36454F", 
-        rgb: "rgb(54, 69, 79)", 
-        proportion: 100, 
-        usage: "Entire blazer + skirt",
-        pantone: "Approx. 432 C",
-        placement: "Main body, sleeves, collar, skirt and all major garment panels"
+        name: "Anthracite Dark Grey", 
+        hex: "#242B30", 
+        rgb: "rgb(36, 43, 48)", 
+        proportion: 65, 
+        usage: "Primary cropped blazer shell & tailored mini skirt",
+        pantone: "Pantone 447 C",
+        placement: "Main garment body, asymmetric blazer panels, structured lapel facings, and exterior skirt front"
+      },
+      { 
+        name: "Dark Graphite Slate", 
+        hex: "#1B2026", 
+        rgb: "rgb(27, 32, 38)", 
+        proportion: 25, 
+        usage: "Internal chest canvas foundation & slit-sleeve interior facing",
+        pantone: "Pantone Black 7 C",
+        placement: "Pad-stitched structural chest canvas, bound seam allowances, and internal waist stay"
+      },
+      { 
+        name: "Smoky Iron Grey", 
+        hex: "#48525A", 
+        rgb: "rgb(72, 82, 90)", 
+        proportion: 10, 
+        usage: "Contrast edge topstitching & buttonhole bartacks",
+        pantone: "Pantone 425 C",
+        placement: "Architectural topstitching contours, collar perimeter edge, and buttonhole keyholes"
       }
     ],
     materials: [
       { 
-        name: "Micro-Check Linen", 
-        composition: "100% Lightweight Linen", 
+        name: "Anthracite Micro-Check Linen", 
+        composition: "100% Pure Lightweight Linen", 
         weight: "240 GSM", 
-        texture: "Fine micro-check surface", 
-        drape: "Crisp, structured handle", 
-        color: "Charcoal Grey", 
-        hex: "#36454F",
-        description: "Lightweight linen with a fine micro-check surface, combining natural texture with a crisp, structured handle."
+        texture: "Fine deep anthracite dark grey micro-check weave", 
+        drape: "Crisp, structured tailoring handle", 
+        color: "Anthracite Dark Grey", 
+        hex: "#242B30",
+        description: "Lightweight pure linen woven in dark anthracite yarns, creating an optical micro-grid with natural breathability and crisp architectural fall."
+      },
+      { 
+        name: "Anthracite Wool Suiting Blend", 
+        composition: "60% Worsted Wool, 40% Viscose", 
+        weight: "275 GSM", 
+        texture: "Smooth twill weave with matte finish", 
+        drape: "Firm, sculptural body", 
+        color: "Anthracite Dark Grey", 
+        hex: "#242B30",
+        description: "Dense dark grey suiting wool used for crisp lapel facings, tailored pocket jetting, and structural reinforcement along the high waistband."
+      },
+      { 
+        name: "Dark Graphite Habotai Silk", 
+        composition: "100% Habotai Silk", 
+        weight: "85 GSM", 
+        texture: "Ultra-smooth, fluid weave with low-lustre", 
+        drape: "Supple, fluid skin contact", 
+        color: "Dark Graphite Slate", 
+        hex: "#1B2026",
+        description: "Breathable deep dark grey silk lining installed throughout the blazer body and slit-sleeve interior for seamless glide and internal refinement."
       }
     ],
     silhouette: "Hourglass trench exoskeleton with cinched waist, exaggerated storm flap wings and flared structured peplum drape.",
     textileTechniques: [
-      "Layered collar — adds structured depth",
-      "Slit sleeves — creates movement and openness",
-      "Statement buttons — adds a bold tailored accent"
+      "Dual-Tone Deep Dark Grey Weave — Interwoven anthracite (#242B30) and dark graphite (#1B2026) yarns providing subtle architectural depth and light absorption",
+      "Layered Tailored Collar — Sculpted multi-tier lapel with tonal dark grey facings creating dimensional shadowlines",
+      "Slit Sleeves with Shadow Vent — Functional forearm opening bound in dark graphite silk for effortless motion",
+      "Antiqued Gunmetal Hardware — Dark metallic statement buttons reinforcing the power-tailoring silhouette"
     ],
     sketches: [
       "https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=1000&q=80",
@@ -177,7 +251,7 @@ export const GARMENTS: Garment[] = [
     moodboard: {
       title: "Industrial Architecture & Futuristic Streetwear",
       description: "Structured leather corsetry, gunmetal hardware, lace-up side vents, and voluminous skirt movement.",
-      image: "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=1000&q=85",
+      image: look03ThemeBoardImage,
       keywords: ["Industrial Architecture", "Leather Corset", "Lace-Up Details", "Voluminous Mini Skirt", "Urban Rebellion"]
     },
     colors: [
@@ -294,18 +368,18 @@ export const GARMENTS: Garment[] = [
   {
     id: "proj-e01",
     category: "ethnic",
-    title: "THE HERITAGE WEAVER",
+    title: "PATOLA RAKT - The Patan Corset Lehenga",
     subtitle: "Modernized Bandhani & Structural Cording Kalidar Anarkali",
-    tagline: "Ancestral Gujarati Resist Craft Meets 32-Panel Architectural Flare",
+    tagline: "Patan's double-ikat heritage re-cut as a modern corset - red Patola meets white calm.",
     year: "2026",
     heroImage: "/assets/hetvi_look04_e01_bandhani-DPkLHLn7.jpg",
     galleryImages: [
       "/assets/hetvi_look04_e01_bandhani-DPkLHLn7.jpg",
-      "/assets/hetvi_e01_gallery1-De4QJ55i.jpg",
+      "/assets/IMG_6846.JPEG",
       "/assets/hetvi_e01_gallery2-AkWx_s-d.jpg"
     ],
-    concept: "Reinventing Gujarati Bandhani tie-dye through contemporary geometric chevron grids and multi-layered silk dori cording. The kalidar silhouette features 32 parabolic panels cascading from a corded corset bodice.",
-    inspiration: "Kutch artisan communities, traditional stepwells (vavs) of Gujarat, and fractal geometry.",
+    concept: "This outfit blends traditional Indian textile aesthetics with a modern silhouette. The vibrant printed corset-style blouse paired with a flowy white skirt creates a balance between boldness and softness. Inspired by bohemian ethnic wear, the design reflects effortless elegance, comfort, and youthful femininity while celebrating handcrafted textures and contemporary styling.",
+    inspiration: "Rooted in Patan Patola's geometric double-ikat legacy and forest temple serenity - tradition framed through foliage.",
     moodboard: {
       title: "Bandhani Geometries & Hand Dori Cording",
       description: "Micro tie-dye dots, 32 flared panels, sheer balloon sleeves, and deep wine silk accents.",
@@ -319,14 +393,32 @@ export const GARMENTS: Garment[] = [
       { name: "Charcoal", hex: "#262223", rgb: "rgb(38, 34, 35)", proportion: 10, usage: "Boning structure & buttons" }
     ],
     materials: [
-      { name: "Chanderi Silk-Cotton", composition: "70% Silk, 30% Fine Cotton", weight: "90 GSM", texture: "Crisp sheer shimmer", drape: "Architectural volume", color: "Ivory", hex: "#F7F3EC" },
-      { name: "Mashru Silk Sateen", composition: "Silk face, Cotton back", weight: "160 GSM", texture: "Glossy luminous face", drape: "Medium body", color: "Deep Wine", hex: "#5A1F2B" }
+      {
+        name: "Blouse Corset - Patola",
+        composition: "Pure Silk Authentic Patan Patola",
+        weight: "140 GSM",
+        texture: "Classic red geometric double-ikat",
+        drape: "Structured cotton canvas + spiral steel boning",
+        color: "Deep Wine",
+        hex: "#5A1F2B",
+        description: "Pure silk authentic Patan Patola in classic red geometric double-ikat, fused with structured cotton canvas + spiral steel boning for corset shape, silk satin lining"
+      },
+      {
+        name: "Skirt",
+        composition: "Handloom White Patan Cotton",
+        weight: "110 GSM",
+        texture: "Crushed texture with mulmul lining",
+        drape: "5.5 meter gher",
+        color: "Ivory",
+        hex: "#F7F3EC",
+        description: "Handloom white Patan cotton with crushed texture, 5.5 meter gher, mulmul lining - designed to let Patola blouse be hero"
+      }
     ],
     silhouette: "Kalidar Anarkali with fitted corded bodice, 32 flared panels, and an asymmetrical architectural dupatta.",
     textileTechniques: [
-      "Hand-tied micro Bandhani dots",
-      "Raised silk dori cording lattice",
-      "Horsehair crinoline bell hem"
+      "Double-Ikat Preservation: Patola fabric cut on straight grain to preserve 4 motifs - Nari Kunjar, Pan Bhat, Chhabdi Bhat - no motif cut at bust center",
+      "Corset Patterning: Traditional blouse converted to 6-panel corset with princess seam on Patola to maintain symmetry of Patola grid",
+      "Minimal Border Play: White skirt finished with thin Patola tukdi border at waist - connecting blouse and skirt, keeping surface clean"
     ],
     sketches: [
       "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?auto=format&fit=crop&w=1000&q=80",
@@ -342,8 +434,9 @@ export const GARMENTS: Garment[] = [
       ]
     },
     developmentNotes: [
-      "32 individual kalis graduated from 3cm to 22cm width for seamless parabolic flare.",
-      "Natural alum fixative used to lock dye brilliance."
+      "Entry 1 - Patola Handling: Pre-shrink Patola silk before cut, use silk pins only, boning channels between canvas and Patola - no top-stitch on Patola face to protect ikat",
+      "Entry 2 - Fit Check: Front centre must align with Patola vertical Bhat, bust apex at centre of motif; Skirt waistband 2 inch - Patola tukdi border exactly 0.5 cm visible above",
+      "Entry 3 - Styling (As per your frame): Style with heavy silver oxidised jewellery as in specimen - keep bamboo leaf foreground shot for Patola editorial, no dupatta - let Patola corset be the statement"
     ],
     garmentDataId: "ethnic-look-01"
   },
@@ -469,8 +562,9 @@ export const GARMENTS: Garment[] = [
       ]
     },
     developmentNotes: [
-      "Engineered digital placement of blue and white indigo bloom motifs on cotton satin for a vintage Pichwai look.",
-      "Precision heat-set micro sunburst pleating on 60 GSM georgette ensuring 5-meter effortless circular flare."
+      "Entry 1: Draft blouse with sleeveless cut and square neckline. Print placement to be centered at front. Add 2 inch margin for side seams.",
+      "Entry 2: Prepare skirt - cut georgette in circular pattern, heat-set micro pleats using pleating machine. Attach to inner satin lining for opacity, keep hem raw for flow.",
+      "Entry 3: Assemble with invisible zip at back of skirt and blouse. Press pleats with low heat, steam blouse print side down. Final drape check against jaali backdrop for photo shoot."
     ],
     garmentDataId: "ethnic-look-03"
   },
@@ -543,12 +637,10 @@ export const GARMENTS: Garment[] = [
     subtitle: "Eco-Printed Flared Kédiyú Jacket & Pleated Modern Dhoti",
     tagline: "Folk Garba Rhythms Reinterpreted Through Zero-Waste Botanical Draping",
     year: "2026",
-    heroImage: "https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=1200&q=85",
+    heroImage: look09HeroImage,
     galleryImages: [
-      "https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=1200&q=85",
-      "/assets/hetvi_look04_e01_bandhani-DPkLHLn7.jpg",
-      "/assets/hetvi_e01_gallery2-AkWx_s-d.jpg",
-      "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?auto=format&fit=crop&w=1200&q=85"
+      look09HeroImage,
+      look09GalleryImage1
     ],
     concept: "Reinterpreting the ancestral Gujarati Kédiyú folk silhouette through zero-waste botanical eco-printing and structural pleating. The gathered peplum jacket dialogues with sculpted asymmetric dhoti drapery, celebrating celebratory Garba movement and mindful organic dye craftsmanship.",
     inspiration: "Folk Kédiyú jackets of Saurashtra, Yakshi Studio eco-printing techniques, and the rhythmic dynamics of Bharatnatyam mudras.",
@@ -556,7 +648,7 @@ export const GARMENTS: Garment[] = [
     moodboard: {
       title: "Folk Kédiyú & Organic Botanical Steam",
       description: "Direct leaf contact eco-printing on silk-cotton, gathered frill peplum, hand-embroidered mirrorwork yoke, and sculpted cowl dhoti.",
-      image: "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?auto=format&fit=crop&w=1000&q=85",
+      image: look09InspirationBoardImage,
       keywords: ["Kédiyú Jacket", "Botanical Eco-Print", "Sculpted Dhoti", "Mirrorwork Accents", "Garba Silhouette", "Zero-Waste Draping"]
     },
     colors: [
@@ -598,6 +690,16 @@ export const GARMENTS: Garment[] = [
     garmentDataId: "ethnic-look-05"
   }
 ];
+
+export const GARMENTS: Garment[] = RAW_GARMENTS.map((g) => {
+  const extended = GARMENT_EXTENDED_DATA[g.id];
+  return {
+    ...g,
+    themeBoard: extended?.themeBoard,
+    inspirationBoard: extended?.inspirationBoard,
+    backdropStyle: extended?.backdropStyle,
+  };
+});
 
 export const TEXTILE_SAMPLES: TextileSample[] = [
   {
@@ -674,7 +776,7 @@ export const SUSTAINABILITY_STAGES: SustainabilityStage[] = [
       "Recycle",
       "Upcycle"
     ],
-    image: "https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&w=1000&q=80",
+    image: sustainabilityStage1Image,
     metric: { label: "Total Waste Collected", value: "7-8 kg" }
   },
   {
@@ -902,7 +1004,7 @@ export const PRESENTATION_SLIDES: PresentationSlide[] = [
     pageNumber: 8,
     sectionId: "ethnic-01",
     sectionTitle: "LOOK 05 • ETHNIC",
-    title: "THE HERITAGE WEAVER",
+    title: "PATOLA RAKT - The Patan Corset Lehenga",
     subtitle: "Modernized Bandhani & Structural Cording Kalidar Anarkali",
     bodyText: [
       "Reinterpreting Gujarati Bandhani resist-dyeing into modern chevron geometry across 32 flared parabolic kalis.",
@@ -993,15 +1095,17 @@ export const PRESENTATION_SLIDES: PresentationSlide[] = [
     sectionId: "conclusion",
     sectionTitle: "10 — CONCLUSION",
     title: "THE SYNTHESIS OF CRAFT & INTENTION",
-    subtitle: "Hetvi Kapadia — Ready for Atelier & Industry Collaboration",
+    subtitle: "Hetvi Kapadia — Ready for Design & Industry Opportunities",
     bodyText: [
       "This collection represents not just the completion of an academic journey, but the launchpad for a forward-thinking design practice.",
-      "Equipped with comprehensive proficiencies spanning 3D pattern engineering, artisanal textile conservation, and circular supply chains, I look forward to contributing to visionary fashion houses, couture ateliers, and innovative design research studios."
+      "Equipped with comprehensive proficiencies spanning 3D pattern engineering, artisanal textile conservation, and circular supply chains, I look forward to contributing to visionary fashion houses, design studios, and innovative creative teams."
     ],
     bulletPoints: [
       "B.Des Fashion Design • Indus University (9.0 CGPA)",
       "Technical Craft & Software Mastery (Procreate, Illustrator, Photoshop, CLO3D)",
-      "Contact: hetvi8104@gmail.com • Ahmedabad Atelier"
+      "Email: hetvi8104@gmail.com • Location: Ahmedabad, Gujarat, India",
+      "LinkedIn: linkedin.com/in/hetvi-kapadia-b7a487367",
+      "Instagram: @____atelierbyhk  |  @hk_nailstudio.08"
     ],
     heroImage: "/assets/hetvi_kapadia_designer_portrait-Bamb8bML.jpg",
     caption: "Hetvi Kapadia | Fashion Designer & Material Explorer"

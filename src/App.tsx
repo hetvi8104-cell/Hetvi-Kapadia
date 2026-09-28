@@ -9,6 +9,7 @@ import { ContactSection } from './components/ContactSection';
 import { Footer } from './components/Footer';
 import { GarmentDossierModal } from './components/GarmentDossierModal';
 import { PresentationModal } from './components/PresentationModal';
+import { FashionCursor } from './components/FashionCursor';
 import { Garment } from './types';
 import { GARMENTS } from './data/portfolioData';
 
@@ -63,12 +64,14 @@ export default function App() {
         isDarkTheme ? 'bg-[#2A0613] text-[#FAF2EE]' : 'bg-[#FDF6F4] text-[#220814]'
       }`}
     >
+      {/* Haute Couture Fashion Needle & Silk Thread Cursor */}
+      <FashionCursor />
+
       {/* Editorial Header */}
       <Header
         activeSection={activeSection}
         onNavigate={handleNavigate}
         isDarkTheme={isDarkTheme}
-        onToggleTheme={() => setIsDarkTheme(!isDarkTheme)}
         onOpenPresentation={() => setIsPresentationOpen(true)}
       />
 

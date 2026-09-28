@@ -24,15 +24,9 @@ export const Footer: React.FC<FooterProps> = ({ isDarkTheme, onNavigate }) => {
         {/* Top Colophon Line */}
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-6 pb-10 border-b border-current/10">
           <div className="space-y-1">
-            <span className="text-[10px] font-mono tracking-[0.3em] uppercase text-[#6E1A29] dark:text-[#D48B96] font-bold">
-              ATELIER COLOPHON // ARCHIVE 2026
-            </span>
             <h3 className="text-2xl font-serif-luxury font-bold">
               {DESIGNER_INFO.name} • {DESIGNER_INFO.brand}
             </h3>
-            <p className="text-xs font-sans-modern opacity-70">
-              {DESIGNER_INFO.institution} • {DESIGNER_INFO.location}
-            </p>
           </div>
 
           <button
@@ -100,7 +94,7 @@ export const Footer: React.FC<FooterProps> = ({ isDarkTheme, onNavigate }) => {
               RESEARCH COORD
             </span>
             <p className="text-[11px] font-mono opacity-80 leading-relaxed">
-              Ahmedabad Fashion Atelier<br />
+              Ahmedabad Design Studio<br />
               Indus University Design Lab<br />
               {DESIGNER_INFO.coordinates}
             </p>
@@ -108,19 +102,35 @@ export const Footer: React.FC<FooterProps> = ({ isDarkTheme, onNavigate }) => {
 
           <div className="space-y-2.5">
             <span className="text-[10px] font-mono uppercase opacity-50 tracking-wider font-bold">
-              COMMISSIONS
+              COMMISSIONS & SOCIALS
             </span>
-            <p className="text-[11px] font-mono opacity-80 leading-relaxed">
-              Email: {DESIGNER_INFO.email}<br />
-              Haute Couture & 3D Garments
-            </p>
+            <div className="text-[11px] font-mono opacity-80 leading-relaxed space-y-1.5">
+              <p>Email: {DESIGNER_INFO.email}</p>
+              <p>
+                <a
+                  href={DESIGNER_INFO.linkedin}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-[#6E1A29] dark:hover:text-[#E0B069] underline transition-colors"
+                >
+                  LinkedIn: /in/{DESIGNER_INFO.linkedinHandle}
+                </a>
+              </p>
+              <div className="flex flex-wrap gap-x-3 gap-y-1">
+                {DESIGNER_INFO.instagrams.map((ig) => (
+                  <a
+                    key={ig.handle}
+                    href={ig.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:text-[#6E1A29] dark:hover:text-[#E0B069] underline transition-colors"
+                  >
+                    IG: {ig.handle}
+                  </a>
+                ))}
+              </div>
+            </div>
           </div>
-        </div>
-
-        {/* Copyright */}
-        <div className="pt-6 border-t border-current/10 flex flex-col sm:flex-row justify-between items-center text-[10px] font-mono opacity-50 gap-2">
-          <span>© {new Date().getFullYear()} HETVI KAPADIA. ALL RIGHTS RESERVED.</span>
-          <span>CRAFTED IN AHMEDABAD // AUTUMN-WINTER 2026 CAPSULE</span>
         </div>
 
       </div>

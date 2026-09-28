@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { ArrowRight, Compass, Layers } from 'lucide-react';
+import { ArrowRight, Compass, Layers, Sparkles } from 'lucide-react';
 import { DESIGNER_INFO, GARMENTS } from '../data/portfolioData';
 import { Garment } from '../types';
 
@@ -50,8 +50,8 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
           {/* Left Column: Title & Manifesto */}
           <div className="lg:col-span-7 flex flex-col justify-center space-y-6">
             <div className="flex items-center space-x-3">
-              <span className="w-6 h-[1px] bg-[#6E1A29] dark:bg-[#D48B96]" />
-              <span className="text-[9px] sm:text-[10px] font-mono tracking-[0.35em] uppercase font-bold text-[#6E1A29] dark:text-[#D48B96]">
+              <span className="w-6 h-[1.5px] bg-[#E0B069]" />
+              <span className="text-[9px] sm:text-[10px] font-mono tracking-[0.35em] uppercase font-bold text-[#6E1A29] dark:text-[#E0B069]">
                 HAUTE COUTURE & TEXTILE ARCHIVE
               </span>
             </div>
@@ -68,7 +68,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
               </p>
             </div>
 
-            <p className="text-xs sm:text-sm font-serif-luxury italic leading-relaxed text-[#221B1C]/85 dark:text-[#F3EBE6]/85 border-l-2 border-[#6E1A29]/50 pl-4 max-w-xl py-1">
+            <p className="text-xs sm:text-sm font-serif-luxury italic leading-relaxed text-[#221B1C]/85 dark:text-[#F3EBE6]/85 border-l-2 border-[#E0B069] pl-4 max-w-xl py-1">
               "A visual dialogue between two design languages — the refined character of Western fashion and the expressive character of ethnic wear."
             </p>
 
@@ -77,10 +77,10 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
               <button
                 id="hero-view-archive-btn"
                 onClick={onExploreWork}
-                className="px-8 py-3.5 rounded-full bg-[#6E1A29] hover:bg-[#802031] text-[#FAF6F0] text-[11px] font-sans-modern tracking-[0.22em] uppercase font-semibold flex items-center space-x-3 shadow-lg hover:shadow-xl transition-all cursor-pointer active:scale-95"
+                className="px-8 py-3.5 rounded-full bg-[#6E1A29] hover:bg-[#8A1D34] text-[#FAF6F0] border border-[#E0B069]/40 text-[11px] font-sans-modern tracking-[0.22em] uppercase font-semibold flex items-center space-x-3 shadow-[0_10px_25px_rgba(110,26,41,0.4)] hover:shadow-[0_10px_30px_rgba(224,176,105,0.25)] transition-all cursor-pointer active:scale-95"
               >
                 <span>Explore Full Collection</span>
-                <ArrowRight className="w-4 h-4" />
+                <ArrowRight className="w-4 h-4 text-[#E0B069]" />
               </button>
 
               <button
@@ -88,12 +88,12 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
                 onClick={() => onSelectGarment(featuredGarment)}
                 className={`px-6 py-3.5 rounded-full border text-[11px] font-sans-modern tracking-[0.2em] uppercase font-semibold flex items-center space-x-2 transition-all cursor-pointer ${
                   isDarkTheme
-                    ? 'border-[#6E1A29]/50 hover:bg-white/5 text-[#FAF6F0]'
+                    ? 'border-[#E0B069]/40 hover:bg-[#E0B069]/10 text-[#FAF6F0]'
                     : 'border-[#D4C5B0] hover:bg-[#EFE8DE] text-[#221B1C]'
                 }`}
               >
-                <Compass className="w-3.5 h-3.5 text-[#6E1A29] dark:text-[#D48B96]" />
-                <span>Inspect Current Dossier</span>
+                <Sparkles className="w-3.5 h-3.5 text-[#E0B069]" />
+                <span>Inspect Atelier Dossier & Specs</span>
               </button>
             </div>
 
@@ -109,7 +109,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
                   onClick={() => setActiveGarmentIndex(idx)}
                   className={`px-3 py-1 rounded-lg text-[9px] font-mono tracking-wider transition-all flex-shrink-0 cursor-pointer ${
                     activeGarmentIndex === idx
-                      ? 'bg-[#6E1A29] text-white font-bold'
+                      ? 'bg-[#6E1A29] text-[#FAF6F0] border border-[#E0B069] font-bold shadow-[0_0_12px_rgba(224,176,105,0.35)]'
                       : isDarkTheme
                       ? 'bg-white/5 hover:bg-white/10 text-stone-300'
                       : 'bg-[#EFE8DE] hover:bg-[#E2D8CC] text-[#221B1C]'
@@ -126,7 +126,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
             <div
               id={`featured-garment-card-${featuredGarment.id}`}
               onClick={() => onSelectGarment(featuredGarment)}
-              className="group relative w-full aspect-[3/4] max-w-md rounded-3xl overflow-hidden shadow-2xl border border-[#DCD0BF] dark:border-white/15 cursor-pointer bg-black/40 transition-transform duration-500 hover:-translate-y-1.5"
+              className="group relative w-full aspect-[3/4] max-w-md rounded-3xl overflow-hidden shadow-2xl border border-[#DCD0BF] dark:border-[#E0B069]/30 hover:border-[#E0B069]/80 cursor-pointer bg-black/40 transition-all duration-500 hover:-translate-y-1.5 hover:shadow-[0_20px_50px_rgba(224,176,105,0.15)]"
             >
               <img
                 src={featuredGarment.heroImage}
@@ -144,10 +144,10 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
 
               {/* Look Tag Badge */}
               <div className="absolute top-4 left-4 right-4 flex items-center justify-between">
-                <span className="px-3 py-1 rounded-full backdrop-blur-md bg-black/50 text-[9px] font-mono tracking-widest text-white/90 border border-white/20 uppercase font-bold">
+                <span className="px-3 py-1 rounded-full backdrop-blur-md bg-black/60 text-[9px] font-mono tracking-widest text-[#E0B069] border border-[#E0B069]/40 uppercase font-bold">
                   {featuredGarment.category === 'western' ? 'WESTERN RIGOR' : 'ETHNIC HERITAGE'}
                 </span>
-                <span className="px-2.5 py-1 rounded-full backdrop-blur-md bg-[#6E1A29]/80 text-[9px] font-mono tracking-widest text-[#FAF6F0] border border-white/20 uppercase font-bold">
+                <span className="px-2.5 py-1 rounded-full backdrop-blur-md bg-[#6E1A29] text-[9px] font-mono tracking-widest text-[#FAF6F0] border border-[#E0B069]/60 uppercase font-bold shadow-md">
                   LOOK 0{GARMENTS.indexOf(featuredGarment) + 1}
                 </span>
               </div>
@@ -183,19 +183,6 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
               </div>
             </div>
           </div>
-
-        </div>
-      </div>
-
-      {/* Bottom Editorial Bar */}
-      <div className="relative z-20 px-6 md:px-12 lg:px-16 flex flex-col sm:flex-row justify-between items-center text-[10px] font-mono tracking-widest opacity-60 border-t border-current/10 pt-4">
-        <div>
-          ARCHIVE REF: HK-DUALITY-AW26 // 06 MASTER ENSEMBLES
-        </div>
-        <div className="flex items-center space-x-4 pt-2 sm:pt-0">
-          <span>CURATED BY HETVI KAPADIA</span>
-          <span>•</span>
-          <span>B.DES FASHION DESIGN</span>
         </div>
       </div>
     </section>

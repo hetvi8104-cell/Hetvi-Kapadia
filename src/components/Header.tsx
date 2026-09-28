@@ -1,20 +1,18 @@
 import React, { useState, useEffect } from 'react';
-import { Sun, Moon, Menu, X } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import { DESIGNER_INFO } from '../data/portfolioData';
 
 interface HeaderProps {
   activeSection: string;
   onNavigate: (sectionId: string) => void;
-  isDarkTheme: boolean;
-  onToggleTheme: () => void;
+  isDarkTheme?: boolean;
   onOpenPresentation?: () => void;
 }
 
 export const Header: React.FC<HeaderProps> = ({
   activeSection,
   onNavigate,
-  isDarkTheme,
-  onToggleTheme,
+  isDarkTheme = true,
   onOpenPresentation,
 }) => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -47,23 +45,23 @@ export const Header: React.FC<HeaderProps> = ({
           : 'bg-transparent border-b border-transparent'
       }`}
     >
-      {/* Atelier Brand Identity */}
+      {/* Brand Identity */}
       <button
         id="header-brand-button"
         onClick={() => onNavigate('hero')}
         className="group text-left focus:outline-none flex flex-col justify-center cursor-pointer"
       >
         <div className="flex items-center space-x-2">
-          <span className="text-[10px] tracking-[0.35em] uppercase font-bold text-[#6E1A29] dark:text-[#D48B96]">
+          <span className="text-lg md:text-xl font-serif-luxury font-bold tracking-[0.2em] text-[#221B1C] dark:text-[#F3EBE6] transition-colors group-hover:text-[#6E1A29] dark:group-hover:text-[#D48B96] uppercase">
             {DESIGNER_INFO.name}
           </span>
         </div>
-        <div className="flex items-baseline space-x-2">
+        <div className="flex items-baseline space-x-2 mt-0.5">
           <span
             id="header-atelier-brand"
-            className="text-xs md:text-sm font-serif-luxury font-bold tracking-[0.22em] text-[#221B1C] dark:text-[#F3EBE6] transition-colors group-hover:text-[#6E1A29] dark:group-hover:text-[#D48B96] uppercase"
+            className="text-[11px] md:text-xs tracking-[0.3em] uppercase font-mono text-[#6E1A29] dark:text-[#D48B96] font-semibold"
           >
-            {DESIGNER_INFO.brand}
+            FASHION DESIGN PORTFOLIO
           </span>
         </div>
       </button>
@@ -89,39 +87,19 @@ export const Header: React.FC<HeaderProps> = ({
             >
               <span>{item.label}</span>
               {isActive && (
-                <span className="absolute bottom-0 left-0 right-0 h-[1.5px] bg-[#6E1A29] dark:bg-[#D48B96] transition-all" />
+                <span className="absolute bottom-0 left-0 right-0 h-[2px] bg-[#E0B069] shadow-[0_0_8px_rgba(224,176,105,0.6)] transition-all" />
               )}
             </button>
           );
         })}
       </nav>
 
-      {/* Action Controls: Theme Toggle + Mobile Menu */}
-      <div className="flex items-center space-x-3">
-        {/* Theme Toggle Button */}
-        <button
-          id="header-theme-toggle-btn"
-          onClick={onToggleTheme}
-          className={`w-9 h-9 rounded-full border flex items-center justify-center transition-all duration-300 shadow-2xs hover:shadow-md active:scale-95 cursor-pointer ${
-            isDarkTheme
-              ? 'border-[#6E1A29]/60 bg-[#280D1A]/90 text-[#F59E0B] hover:text-[#FBBF24] hover:border-[#D48B96]/60 hover:bg-[#381123]'
-              : 'border-[#D4C5B0] bg-[#FAF6F0] text-[#6E1A29] hover:text-[#8B1E34] hover:border-[#6E1A29]/60 hover:bg-white'
-          }`}
-          title={isDarkTheme ? 'Switch to Studio Light' : 'Switch to Dark Wine Theme'}
-          aria-label="Toggle Theme"
-        >
-          {isDarkTheme ? (
-            <Sun id="header-theme-toggle-sun" className="w-4 h-4 text-[#F59E0B]" strokeWidth={2} />
-          ) : (
-            <Moon id="header-theme-toggle-moon" className="w-4 h-4 text-[#6E1A29]" strokeWidth={2} />
-          )}
-        </button>
-
-        {/* Mobile Menu Button */}
+      {/* Mobile Menu Button */}
+      <div className="xl:hidden flex items-center">
         <button
           id="header-mobile-menu-btn"
           onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-          className={`xl:hidden w-9 h-9 rounded-full border flex items-center justify-center transition-all cursor-pointer ${
+          className={`w-9 h-9 rounded-full border flex items-center justify-center transition-all cursor-pointer ${
             isDarkTheme
               ? 'border-[#6E1A29]/60 bg-[#280D1A] text-white'
               : 'border-[#D4C5B0] bg-[#FAF6F0] text-[#221B1C]'

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { X, ChevronLeft, ChevronRight, Maximize, Minimize, Compass, Quote } from 'lucide-react';
+import { X, ChevronLeft, ChevronRight, Maximize, Minimize, Compass, Quote, Linkedin, Instagram } from 'lucide-react';
 import { PRESENTATION_SLIDES, DESIGNER_INFO } from '../data/portfolioData';
 import { PresentationSlide } from '../types';
 
@@ -128,6 +128,33 @@ export const PresentationModal: React.FC<PresentationModalProps> = ({
                     <span className="text-[#E59CA8] font-bold mt-0.5">•</span>
                     <span className="text-[#F5EBE6]/90">{bp}</span>
                   </div>
+                ))}
+              </div>
+            )}
+
+            {/* Direct Social Links on Conclusion Slide */}
+            {slide.sectionId === 'conclusion' && (
+              <div className="pt-3 flex flex-wrap items-center gap-3">
+                <a
+                  href={DESIGNER_INFO.linkedin}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="px-4 py-2 rounded-full border border-[#E59CA8]/40 bg-white/5 hover:bg-[#7D1B31] text-white text-xs font-mono flex items-center space-x-2 transition-all"
+                >
+                  <Linkedin className="w-3.5 h-3.5 text-[#E59CA8]" />
+                  <span>LinkedIn</span>
+                </a>
+                {DESIGNER_INFO.instagrams.map((ig) => (
+                  <a
+                    key={ig.handle}
+                    href={ig.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="px-4 py-2 rounded-full border border-[#E59CA8]/40 bg-white/5 hover:bg-[#7D1B31] text-white text-xs font-mono flex items-center space-x-2 transition-all"
+                  >
+                    <Instagram className="w-3.5 h-3.5 text-[#E59CA8]" />
+                    <span>{ig.handle}</span>
+                  </a>
                 ))}
               </div>
             )}
