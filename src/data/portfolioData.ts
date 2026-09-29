@@ -15,6 +15,7 @@ import look04ThemeBoardImage from '../assets/images/assets/noir_drape_sitting.jp
 import look05ThemeBoardImage from '../assets/images/look05_theme_board_1790690307880.jpg';
 import look05GalleryImage2 from '../assets/images/IMG_6797.JPEG';
 import look08ThemeBoardImage from '../assets/images/look08_theme_board_1790690814219.jpg';
+import look09ThemeBoardImage from '../assets/images/look09_theme_board_1790695549558.jpg';
 import { GARMENT_EXTENDED_DATA } from './garmentThemeAndInspiration';
 
 export const DESIGNER_INFO = {
@@ -644,40 +645,38 @@ const RAW_GARMENTS: Garment[] = [
   {
     id: "proj-e05",
     category: "ethnic",
-    title: "THE BOTANICAL KÉDİYÚ & SCULPTED DHOTI",
-    subtitle: "Eco-Printed Flared Kédiyú Jacket & Pleated Modern Dhoti",
-    tagline: "Folk Garba Rhythms Reinterpreted Through Zero-Waste Botanical Draping",
+    title: "SUNEHRI RAAT - The Plum Noir",
+    subtitle: "Heritage velvet reborn with a bold, backless cutout.",
+    tagline: "Heritage velvet reborn with a bold, backless cutout.",
     year: "2026",
     heroImage: look09HeroImage,
     galleryImages: [
       look09HeroImage,
       look09GalleryImage1
     ],
-    concept: "Reinterpreting the ancestral Gujarati Kédiyú folk silhouette through zero-waste botanical eco-printing and structural pleating. The gathered peplum jacket dialogues with sculpted asymmetric dhoti drapery, celebrating celebratory Garba movement and mindful organic dye craftsmanship.",
-    inspiration: "Folk Kédiyú jackets of Saurashtra, Yakshi Studio eco-printing techniques, and the rhythmic dynamics of Bharatnatyam mudras.",
-    silhouette: "Flared gathered high-waist Kédiyú jacket with crossover angrakha front, paired with sculpted architectural cowl-pleated dhoti trousers.",
+    concept: "This design is inspired by the richness of traditional Indian craftsmanship blended with contemporary elegance. The embroidered bodice reflects intricate artisanal detailing, while the deep plum silhouette adds sophistication and grace. The open-back structure and sleek skirt create a modern balance between tradition and minimalism. Accented with metallic tones and fluid textures, the garment represents confidence, femininity, and timeless festive beauty.",
+    inspiration: "Inspired by Mughal midnight hues and tribal silver jewelry, merging festive velvet with contemporary side-cut silhouette.",
+    silhouette: "Sculpted embroidered velvet bodice with an asymmetric side cutout, backless criss-cross dori tie structure, and a sleek floor-length column skirt.",
     moodboard: {
-      title: "Folk Kédiyú & Organic Botanical Steam",
-      description: "Direct leaf contact eco-printing on silk-cotton, gathered frill peplum, hand-embroidered mirrorwork yoke, and sculpted cowl dhoti.",
-      image: look09InspirationBoardImage,
-      keywords: ["Kédiyú Jacket", "Botanical Eco-Print", "Sculpted Dhoti", "Mirrorwork Accents", "Garba Silhouette", "Zero-Waste Draping"]
+      title: "Sunehri Raat & Plum Noir Velvet Craft",
+      description: "Plush deep plum velvet, intricate antique gold zari and shisha mirrorwork bodice, bold side cutout, and backless criss-cross dori ties.",
+      image: look09ThemeBoardImage,
+      keywords: ["Plum Noir Velvet", "Gold Zari Embroidery", "Shisha Mirrorwork", "Backless Cutout", "Sleek Column Skirt", "Mughal Midnight"]
     },
     colors: [
-      { name: "Indigo Forest", hex: "#1F3B4D", rgb: "rgb(31, 59, 77)", proportion: 40, usage: "Eco-printed Kédiyú peplum body" },
-      { name: "Warm Clay Ochre", hex: "#C27D4E", rgb: "rgb(194, 125, 78)", proportion: 30, usage: "Draped pleated dhoti pant" },
-      { name: "Earthy Madder Rose", hex: "#8A3344", rgb: "rgb(138, 51, 68)", proportion: 20, usage: "Embroidered yoke & corded tie closures" },
-      { name: "Raw Muga Gold", hex: "#D4AF37", rgb: "rgb(212, 175, 55)", proportion: 10, usage: "Zari accents & mirrorwork highlights" }
+      { name: "Deep Plum Noir", hex: "#3B0E28", rgb: "rgb(59, 14, 40)", proportion: 75, usage: "Plush velvet bodice, asymmetric waist cutout & sleek floor-length skirt" },
+      { name: "Sunehri Antique Gold", hex: "#D4AF37", rgb: "rgb(212, 175, 55)", proportion: 15, usage: "Intricate hand-embroidered metallic zari, dabka & geometric border detailing" },
+      { name: "Shisha Mirror & Oxidised Silver", hex: "#D6D7DC", rgb: "rgb(214, 215, 220)", proportion: 10, usage: "Hand-set diamond & circular mirrorwork with metallic accent highlights" }
     ],
     materials: [
-      { name: "Botanical Eco-Printed Silk-Cotton", composition: "50% Ahimsa Silk, 50% Organic Cotton", weight: "125 GSM", texture: "Subtle slub with organic leaf silhouettes", drape: "Crisp flare with soft touch", color: "Indigo Forest", hex: "#1F3B4D", description: "Steamed with eucalyptus and marigold leaves using natural alum mordants." },
-      { name: "Handloom Khadi Twill", composition: "100% Hand-Spun Cotton", weight: "190 GSM", texture: "Earthy textured hand-spun grain", drape: "Sculptural pleat retention", color: "Warm Clay Ochre", hex: "#C27D4E", description: "Durable handloom khadi holding structural cowl pleats along the leg." },
-      { name: "Mirrored Silk Brocade Accent", composition: "Silk & Metallic Zari", weight: "175 GSM", texture: "Fine woven geometric relief", drape: "Firm yoke anchor", color: "Earthy Madder Rose", hex: "#8A3344", description: "Ancestral Kutch mirror embroidery on rich madder silk." }
+      { name: "Plush Silk-Viscose Velvet", composition: "80% Viscose, 20% Mulberry Silk", weight: "260 GSM", texture: "Rich dense pile with luminous midnight sheen", drape: "Fluid, body-skimming column fall", color: "Deep Plum Noir", hex: "#3B0E28", description: "Luxurious deep plum velvet providing royal depth, smooth structure for the cutout bodice, and fluid floor-length grace." },
+      { name: "Sunehri Zari & Shisha Mirror Embroidery", composition: "Metallic Gold Zari, Resham & Glass Mirrors", weight: "Hand-Embroidered", texture: "Raised geometric & floral relief", drape: "Structured contoured bodice support", color: "Sunehri Antique Gold", hex: "#D4AF37", description: "Intricate hand-embroidered antique gold zari and reflective shisha mirrors framing the bodice and side-cutout bands." },
+      { name: "Soft Silk Crepe Lining", composition: "100% Pure Silk Crepe", weight: "85 GSM", texture: "Smooth breathable inner finish", drape: "Seamless skin-gliding comfort", color: "Dark Wine", hex: "#2A081C", description: "Lightweight interior lining ensuring clean edge finishes along the open back and side waist cutout." }
     ],
     textileTechniques: [
-      "Steam contact botanical eco-printing using fallen eucalyptus and temple marigold petals",
-      "Dense accordion knife gathering generating voluminous 360-degree Kédiyú flare",
-      "Continuous one-piece zero-waste bias drape pattern for asymmetric dhoti folds",
-      "Hand-set Abhla mirrorwork embroidery on the chest yoke and cuffs"
+      "Mirror & Zari Embroidery: Dense geometric hand-embroidered patchwork on blouse front and back yoke - traditional shisha work with antique gold thread.",
+      "Backless Cording & Tassel Detailing: Cross-tie dori with handmade potli tassels at back - functional closure with ornamental value.",
+      "Bias-Cut & Slit Manipulation: High side slit and under-bust side cutout - adds modern sensuality while keeping velvet fluid."
     ],
     sketches: [
       "https://images.unsplash.com/photo-1596783074918-c84cb06531ca?auto=format&fit=crop&w=1000&q=80",
@@ -687,16 +686,16 @@ const RAW_GARMENTS: Garment[] = [
       front: "https://images.unsplash.com/photo-1596783074918-c84cb06531ca?auto=format&fit=crop&w=1000&q=80",
       back: "https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=1000&q=80",
       annotations: [
-        "Angrakha crossover neckline with triple hand-braided silk latkan ties",
-        "Exaggerated gathered waist peplum with 1:4 gathering ratio for celebratory flare",
-        "Sculpted cowl dhoti trousers with deep knife pleats tapered at the ankle",
-        "Concealed inner ankle zipper for sleek tailored fit"
+        "Sculpted deep plum velvet bodice with intricate antique gold zari & shisha mirrorwork",
+        "Asymmetric side-waist cutout framed with geometric embroidered borders",
+        "Open-back architecture with criss-cross velvet dori ties and handcrafted tassels",
+        "Sleek floor-length velvet skirt with concealed closure and fluid evening fall"
       ]
     },
     developmentNotes: [
-      "Natural leaf eco-print tests calibrated over 4 steam trials to achieve sharp botanical clarity without chemical fixatives.",
-      "The Kédiyú yoke proportions modified to sit precisely at the natural waist for ergonomic comfort during dance movement.",
-      "Zero-waste pattern layout drafted for the dhoti trousers, achieving 94% textile utilization."
+      "Embroidered bodice placement mapped to contour the bust and frame the asymmetric waist cutout.",
+      "Backless criss-cross dori tension calibrated to provide secure bust support while maintaining an open back.",
+      "Plush deep plum velvet pressed on a needle-board with steam to preserve pile depth and nocturnal sheen."
     ],
     garmentDataId: "ethnic-look-05"
   }
@@ -1087,19 +1086,19 @@ export const PRESENTATION_SLIDES: PresentationSlide[] = [
     pageNumber: 12,
     sectionId: "ethnic-05",
     sectionTitle: "LOOK 09 • ETHNIC",
-    title: "THE BOTANICAL KÉDİYÚ & SCULPTED DHOTI",
-    subtitle: "Eco-Printed Flared Kédiyú Jacket & Pleated Modern Dhoti",
+    title: "SUNEHRI RAAT - The Plum Noir",
+    subtitle: "Heritage velvet reborn with a bold, backless cutout.",
     bodyText: [
-      "Reinterpreting the ancestral Gujarati Kédiyú folk silhouette through zero-waste botanical eco-printing and structural pleating.",
-      "The gathered peplum jacket dialogues with sculpted asymmetric dhoti drapery, celebrating celebratory Garba movement and mindful organic dye craftsmanship."
+      "This design is inspired by the richness of traditional Indian craftsmanship blended with contemporary elegance. The embroidered bodice reflects intricate artisanal detailing, while the deep plum silhouette adds sophistication and grace.",
+      "The open-back structure and sleek skirt create a modern balance between tradition and minimalism. Accented with metallic tones and fluid textures, the garment represents confidence, femininity, and timeless festive beauty."
     ],
     bulletPoints: [
-      "Steam contact botanical eco-printing using fallen eucalyptus and temple marigold petals",
-      "Dense accordion knife gathering generating voluminous 360-degree Kédiyú flare",
-      "Sculpted cowl dhoti trousers with continuous one-piece zero-waste bias drape pattern"
+      "Sculpted deep plum velvet bodice with antique gold zari & shisha mirrorwork",
+      "Contemporary side-waist cutout and open-back criss-cross dori tie structure",
+      "Sleek floor-length plum velvet column skirt balancing heritage and minimalism"
     ],
-    heroImage: "https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=1200&q=85",
-    caption: "Look 09: The Botanical Kédiyú & Sculpted Dhoti | Eco-Printed Folk Silhouette"
+    heroImage: look09HeroImage,
+    caption: "Look 09: SUNEHRI RAAT - The Plum Noir | Festive Velvet & Artisanal Mirrorwork"
   },
   {
     pageNumber: 13,

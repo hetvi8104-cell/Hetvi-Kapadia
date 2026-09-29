@@ -3,7 +3,7 @@ import look01ThemeBoardImage from '../assets/images/look01_theme_board_179068680
 import look01InspirationBoardImage from '../assets/images/look01_inspiration_board_1790686634863.jpg';
 import look02ThemeBoardImage from '../assets/images/look02_theme_board_1790687449134.jpg';
 import look02InspirationBoardImage from '../assets/images/look02_inspiration_board_1790687691622.jpg';
-import look09InspirationBoardImage from '../assets/images/look09_inspiration_board_1790253983527.jpg';
+import look09InspirationBoardImage from '../assets/images/look09_velvet_inspiration_board_1790695839358.jpg';
 import look09HeroImage from '../assets/images/regenerated_image_1790254080563.RAF';
 import look09GalleryImage1 from '../assets/images/regenerated_image_1790514728395.RAF';
 import look03ThemeBoardImage from '../assets/images/regenerated_image_1790399986806.jpg';
@@ -14,6 +14,7 @@ import look05ThemeBoardImage from '../assets/images/look05_theme_board_179069030
 import look05InspirationBoardImage from '../assets/images/look05_inspiration_board_1790690121073.jpg';
 import look08ThemeBoardImage from '../assets/images/look08_theme_board_1790690814219.jpg';
 import look08InspirationBoardImage from '../assets/images/look08_inspiration_board_1790691089372.jpg';
+import look09ThemeBoardImage from '../assets/images/look09_theme_board_1790695549558.jpg';
 
 export interface GarmentExtendedData {
   themeBoard: ThemeBoardData;
@@ -933,58 +934,61 @@ export const GARMENT_EXTENDED_DATA: Record<string, GarmentExtendedData> = {
 
   'proj-e05': {
     backdropStyle: {
-      accentColor: '#3FA383',
-      secondaryAccent: '#C27D4E',
-      gradient: 'from-[#0C1A17] via-[#081210] to-[#040908]',
-      patternType: 'botanical-leaves',
-      ambientGlow: 'rgba(63, 163, 131, 0.25)',
-      moodBadge: 'BOTANICAL STEAM • ZERO-WASTE DHOTI',
+      accentColor: '#D4AF37',
+      secondaryAccent: '#5E1742',
+      gradient: 'from-[#24091B] via-[#15040F] to-[#080106]',
+      patternType: 'jaali-lattice',
+      ambientGlow: 'rgba(212, 175, 55, 0.22)',
+      moodBadge: 'PLUM NOIR VELVET • SUNEHRI ZARI & MIRRORWORK',
     },
     themeBoard: {
-      title: 'Folk Kédiyú & The Alchemy of Botanical Steam',
-      themeTagline: 'Folk Garba rhythms reinterpreted through zero-waste botanical draping',
+      title: 'SUNEHRI RAAT - The Plum Noir',
+      themeTagline: 'Heritage velvet reborn with a bold, backless cutout.',
       conceptNarrative:
-        'Re-engineering the celebratory nomadic Kédiyú silhouette of Saurashtra into a zero-waste sustainable masterpiece. Fallen eucalyptus leaves and temple marigold petals are steam-pressed directly onto ahimsa silk-cotton, capturing nature’s exact botanical fingerprints without artificial chemical fixatives. The gathered peplum jacket dialogues with sculpted asymmetric cowl dhoti trousers.',
+        'This design is inspired by the richness of traditional Indian craftsmanship blended with contemporary elegance. The embroidered bodice reflects intricate artisanal detailing, while the deep plum silhouette adds sophistication and grace. The open-back structure and sleek skirt create a modern balance between tradition and minimalism. Accented with metallic tones and fluid textures, the garment represents confidence, femininity, and timeless festive beauty.',
       moodKeywords: [
-        'Kédiyú Peplum',
-        'Botanical Eco-Print',
-        'Cowl Dhoti',
-        'Zero-Waste Draping',
-        'Garba Rhythm',
-        'Clay Khadi',
+        'Plum Noir Velvet',
+        'Sunehri Zari',
+        'Shisha Mirrorwork',
+        'Backless Cutout',
+        'Sleek Column Skirt',
+        'Mughal Midnight',
       ],
       aestheticPillars: [
         {
-          title: 'Botanical Imprint',
-          desc: 'Real leaf silhouettes, veins, and natural tannins permanently bonded to organic fibers.',
+          title: 'Artisanal Bodice Detailing',
+          desc: 'Intricate gold zari and reflective shisha mirror embroidery framing the sculpted bodice.',
         },
         {
-          title: 'Nomadic Kinematics',
-          desc: '1:4 gathered peplum flare engineered to blossom in 360 degrees during celebratory spinning.',
+          title: 'Modern Cutout Architecture',
+          desc: 'Asymmetric waist cutout and open-back criss-cross dori ties balancing heritage with minimalism.',
         },
         {
-          title: 'Continuous Bias Drape',
-          desc: '94% textile yield achieved through a single seamless architectural cowl dhoti pattern.',
+          title: 'Plum Noir Fluidity',
+          desc: 'Rich deep plum velvet cascading into a sleek, floor-skimming evening column silhouette.',
         },
       ],
       visualElements: [
         {
+          url: look09ThemeBoardImage,
+          caption: 'Look 09 Theme Board — Dewy Purple Berries, Forest Bramble Foliage, Weathered Stone, Oxidised Tribal Silver Torque, Deep Royal Purple Velvet & Pressed Botanical Herbarium.',
+          tag: 'THEME MOODBOARD',
+        },
+        {
           url: look09HeroImage,
-          caption: 'Botanical eco-printed Kédiyú peplum jacket paired with sculpted cowl dhoti trousers.',
-          tag: 'BOTANICAL ATELIER',
+          caption: 'Sunehri Raat — Deep plum velvet ensemble with gold embroidered bodice and side cutout.',
+          tag: 'FESTIVE COUTURE',
         },
         {
           url: look09GalleryImage1,
-          caption: 'Handcrafted mirrorwork chest yoke and angrakha braided silk latkan closures.',
-          tag: 'FOLK YOKE SPEC',
+          caption: 'Intricate gold zari and mirrorwork bodice with backless criss-cross tie detailing.',
+          tag: 'ARTISANAL DETAIL',
         },
       ],
       paletteStory: [
-        { name: 'Indigo Forest', hex: '#1F3B4D', emotion: 'Dense Canopy Shade & Plant Fermentation' },
-        { name: 'Warm Clay Ochre', hex: '#C27D4E', emotion: 'Saurashtra Terracotta Soil & Handloom Khadi' },
-        { name: 'Madder Rose', hex: '#8A3344', emotion: 'Ancestral Root Mordant & Heart Tone' },
-        { name: 'Sage Emerald', hex: '#3FA383', emotion: 'Fresh Steamed Eucalyptus Leaf Tannins' },
-        { name: 'Champagne Gold', hex: '#E0B069', emotion: 'Raw Muga Zari & Festive Solar Accents' },
+        { name: 'Deep Plum Noir', hex: '#3B0E28', emotion: 'Midnight Mughal Velvet & Nocturnal Elegance' },
+        { name: 'Sunehri Antique Gold', hex: '#D4AF37', emotion: 'Handcrafted Zari Embroidery & Festive Radiance' },
+        { name: 'Shisha Mirror Silver', hex: '#D6D7DC', emotion: 'Reflective Mirrorwork & Tribal Silver Accents' },
       ],
       quote:
         'The earth does not need our ornamentation; when we steam its fallen leaves into cloth, nature designs itself upon our skin.',
@@ -1026,8 +1030,8 @@ export const GARMENT_EXTENDED_DATA: Record<string, GarmentExtendedData> = {
       visualReferences: [
         {
           url: look09InspirationBoardImage,
-          label: 'Botanical Leaf, Steam Dye & Nomadic Rabari Inspiration',
-          context: 'Steam-contact eucalyptus leaves, warm terracotta clay khadi, and nomadic Kédiyú folk elements.',
+          label: 'Crushed Wine Velvet, Antique Gold Zari & Mirrorwork, Nocturnal Royal Architecture & Cutout Draping',
+          context: 'Plush burgundy-plum velvet folds, gold zari shisha embroidery, illuminated heritage domes at night, dark stone masonry, criss-cross back dori ties, and embroidered waist cutouts.',
         },
         {
           url: look09HeroImage,
