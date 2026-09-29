@@ -12,6 +12,7 @@ import sustainabilityStage4Image from '../assets/images/sustainability_stage4_ci
 import sustainabilityStage5Image from '../assets/images/sustainability_stage5_sorted_waste_1790590849700.jpg';
 import look03ThemeBoardImage from '../assets/images/regenerated_image_1790399986806.jpg';
 import look04ThemeBoardImage from '../assets/images/assets/noir_drape_sitting.jpg';
+import look05ThemeBoardImage from '../assets/images/look05_theme_board_1790690307880.jpg';
 import look05GalleryImage2 from '../assets/images/IMG_6797.JPEG';
 import { GARMENT_EXTENDED_DATA } from './garmentThemeAndInspiration';
 
@@ -392,7 +393,7 @@ const RAW_GARMENTS: Garment[] = [
     moodboard: {
       title: "Bandhani Geometries & Hand Dori Cording",
       description: "Micro tie-dye dots, 32 flared panels, sheer balloon sleeves, and deep wine silk accents.",
-      image: "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?auto=format&fit=crop&w=1000&q=85",
+      image: look05ThemeBoardImage,
       keywords: ["Bandhani", "32 Kalis", "Dori Cording", "Chanderi Silk", "Mashru Sateen"]
     },
     colors: [

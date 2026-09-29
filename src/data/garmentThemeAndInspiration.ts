@@ -10,6 +10,8 @@ import look03ThemeBoardImage from '../assets/images/regenerated_image_1790399986
 import look03InspirationBoardImage from '../assets/images/regenerated_image_1790400387991.jpg';
 import look04ThemeBoardImage from '../assets/images/assets/noir_drape_sitting.jpg';
 import look04InspirationBoardImage from '../assets/images/look04_inspiration_board_1790592494588.jpg';
+import look05ThemeBoardImage from '../assets/images/look05_theme_board_1790690307880.jpg';
+import look05InspirationBoardImage from '../assets/images/look05_inspiration_board_1790690121073.jpg';
 
 export interface GarmentExtendedData {
   themeBoard: ThemeBoardData;
@@ -520,6 +522,11 @@ export const GARMENT_EXTENDED_DATA: Record<string, GarmentExtendedData> = {
       ],
       visualElements: [
         {
+          url: look05ThemeBoardImage,
+          caption: 'Patola Rakt Theme Board — Crimson Double-Ikat Patan Patola Weave, Heritage Handloom, Raw Red Silk Skeins, White Handloom Cotton & Forest Sunlight.',
+          tag: 'THEME MOODBOARD',
+        },
+        {
           url: '/assets/hetvi_look04_e01_bandhani-DPkLHLn7.jpg',
           caption: '32-kali Anarkali with corded bodice and balloon sleeves.',
           tag: 'CEREMONIAL ENSEMBLE',
@@ -580,14 +587,14 @@ export const GARMENT_EXTENDED_DATA: Record<string, GarmentExtendedData> = {
       ],
       visualReferences: [
         {
+          url: look05InspirationBoardImage,
+          label: 'Patan Patola Double-Ikat, Boned Corset Toile, Bandhani Resist, Oxidised Silver & Potli Craft',
+          context: 'Crimson Patan Patola silk, billowing white handloom ghera, structured corset toile, Bandhani tie-dye, oxidised tribal silver jewellery, and embroidered ivory potli.',
+        },
+        {
           url: '/assets/hetvi_look04_e01_bandhani-DPkLHLn7.jpg',
           label: 'The Kalidar Anarkali in Motion',
           context: 'Full volume display showing the 820cm flare of the 32 individual panels.',
-        },
-        {
-          url: 'https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?auto=format&fit=crop&w=1000&q=85',
-          label: 'Adalaj Stepwell & Fractal Architecture',
-          context: 'Subterranean stone pillars, geometric landings, and carved filigree screens.',
         },
       ],
     },
