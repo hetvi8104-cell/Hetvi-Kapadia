@@ -1,6 +1,7 @@
 import { Garment, TextileSample, SustainabilityStage, ProcessStep, PresentationSlide } from '../types';
 import regeneratedImageThumb1 from '../assets/images/regenerated_image_1789967583213.jpg';
 import look01ThemeBoardImage from '../assets/images/look01_theme_board_1790686807950.jpg';
+import look02ThemeBoardImage from '../assets/images/look02_theme_board_1790687449134.jpg';
 import look09InspirationBoardImage from '../assets/images/look09_inspiration_board_1790253983527.jpg';
 import look09HeroImage from '../assets/images/regenerated_image_1790254080563.RAF';
 import look09GalleryImage1 from '../assets/images/regenerated_image_1790514728395.RAF';
@@ -199,7 +200,7 @@ const RAW_GARMENTS: Garment[] = [
     moodboard: {
       title: "90s Workwear & Modern Streetwear Deconstruction",
       description: "Mud-yellow corduroy texture, exposed suspender straps, utilitarian cargo pockets, and feminine off-shoulder silhouette.",
-      image: "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?auto=format&fit=crop&w=1000&q=85",
+      image: look02ThemeBoardImage,
       keywords: ["90s Workwear", "Corduroy Dungaree", "Off-Shoulder Dress", "Suspender Straps", "Mud-Yellow"]
     },
     colors: [

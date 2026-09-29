@@ -1,6 +1,8 @@
 import { ThemeBoardData, InspirationBoardData, GarmentBackdropStyle } from '../types';
 import look01ThemeBoardImage from '../assets/images/look01_theme_board_1790686807950.jpg';
 import look01InspirationBoardImage from '../assets/images/look01_inspiration_board_1790686634863.jpg';
+import look02ThemeBoardImage from '../assets/images/look02_theme_board_1790687449134.jpg';
+import look02InspirationBoardImage from '../assets/images/look02_inspiration_board_1790687691622.jpg';
 import look09InspirationBoardImage from '../assets/images/look09_inspiration_board_1790253983527.jpg';
 import look09HeroImage from '../assets/images/regenerated_image_1790254080563.RAF';
 import look09GalleryImage1 from '../assets/images/regenerated_image_1790514728395.RAF';
@@ -170,6 +172,11 @@ export const GARMENT_EXTENDED_DATA: Record<string, GarmentExtendedData> = {
       ],
       visualElements: [
         {
+          url: look02ThemeBoardImage,
+          caption: 'The Corduroy Utility Co-Ord Theme Board — Fine-Wale Mud Corduroy, Industrial Concrete Shadows, Vintage Workwear Atelier & Cargo Pocket Architecture.',
+          tag: 'THEME MOODBOARD',
+        },
+        {
           url: '/assets/EPSI6804.JPG',
           caption: 'Off-shoulder jacket with utility pocketing and suspender harness straps.',
           tag: 'EDITORIAL CAMPAIGN',
@@ -230,14 +237,14 @@ export const GARMENT_EXTENDED_DATA: Record<string, GarmentExtendedData> = {
       ],
       visualReferences: [
         {
+          url: look02InspirationBoardImage,
+          label: 'Deconstructed Corduroy Draping, Suspender Hardware, Swatch Studies & Multi-Pocket Utility Craft',
+          context: 'Vintage corduroy workwear jacket, asymmetrical off-shoulder form draping, weathered buckle hardware, corduroy swatches, and cargo pocket construction.',
+        },
+        {
           url: '/assets/EPSI6804.JPG',
           label: 'Full Garment Manifestation',
           context: 'Complete look showcasing off-shoulder neckline and asymmetric skirt dialogue.',
-        },
-        {
-          url: 'https://images.unsplash.com/photo-1558769132-cb1aea458c5e?auto=format&fit=crop&w=1000&q=85',
-          label: '90s Workwear & Earthy Ochre Mood',
-          context: 'Raw canvas, weathered copper rivets, and warm sandstorm aesthetic.',
         },
       ],
     },
