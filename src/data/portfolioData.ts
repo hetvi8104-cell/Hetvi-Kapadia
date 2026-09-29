@@ -14,6 +14,7 @@ import look03ThemeBoardImage from '../assets/images/regenerated_image_1790399986
 import look04ThemeBoardImage from '../assets/images/assets/noir_drape_sitting.jpg';
 import look05ThemeBoardImage from '../assets/images/look05_theme_board_1790690307880.jpg';
 import look05GalleryImage2 from '../assets/images/IMG_6797.JPEG';
+import look08ThemeBoardImage from '../assets/images/look08_theme_board_1790690814219.jpg';
 import { GARMENT_EXTENDED_DATA } from './garmentThemeAndInspiration';
 
 export const DESIGNER_INFO = {
@@ -597,7 +598,7 @@ const RAW_GARMENTS: Garment[] = [
     moodboard: {
       title: "Artisanal Bohemia & Modern Softness",
       description: "Vibrant ethnic block-printed motifs, structured boned corset bodice, sweeping fluid white georgette layers, and delicate handcrafted tasseled trims.",
-      image: "/assets/hetvi_e01_gallery2-AkWx_s-d.jpg",
+      image: look08ThemeBoardImage,
       keywords: ["Bohemian Ethnic", "Corset Blouse", "Flowy White Skirt", "Block Print", "Artisanal Contouring", "Handcrafted Textures"]
     },
     colors: [

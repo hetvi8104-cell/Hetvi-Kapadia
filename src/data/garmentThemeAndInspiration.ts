@@ -12,6 +12,8 @@ import look04ThemeBoardImage from '../assets/images/assets/noir_drape_sitting.jp
 import look04InspirationBoardImage from '../assets/images/look04_inspiration_board_1790592494588.jpg';
 import look05ThemeBoardImage from '../assets/images/look05_theme_board_1790690307880.jpg';
 import look05InspirationBoardImage from '../assets/images/look05_inspiration_board_1790690121073.jpg';
+import look08ThemeBoardImage from '../assets/images/look08_theme_board_1790690814219.jpg';
+import look08InspirationBoardImage from '../assets/images/look08_inspiration_board_1790691089372.jpg';
 
 export interface GarmentExtendedData {
   themeBoard: ThemeBoardData;
@@ -850,6 +852,11 @@ export const GARMENT_EXTENDED_DATA: Record<string, GarmentExtendedData> = {
       ],
       visualElements: [
         {
+          url: look08ThemeBoardImage,
+          caption: 'Warli Echo Theme Board — Tribal Warli Mud Wall Paintings, Rural Thatch Village, Tarpa Dance Circle, Indigo Twill Denim, Kutchi Shisha Mirrorwork & Raw Khadi Linen.',
+          tag: 'THEME MOODBOARD',
+        },
+        {
           url: '/assets/IMG_6787.jpg',
           caption: 'Hand-painted Warli denim waistcoat paired with voluminous tiered ivory skirt.',
           tag: 'FOLK COUTURE',
@@ -911,14 +918,14 @@ export const GARMENT_EXTENDED_DATA: Record<string, GarmentExtendedData> = {
       ],
       visualReferences: [
         {
+          url: look08InspirationBoardImage,
+          label: 'Hand-Painted Warli on Denim, Kutchi Mirrorwork, Colorful Thread Darning, Cowrie Craft & Tribal Dance',
+          context: 'Freehand Warli brushwork on indigo denim, shisha mirror embroidery, distressed woven denim repair, urban denim streetwear, cowrie shell craft, and tribal dance silhouettes.',
+        },
+        {
           url: '/assets/IMG_6787.jpg',
           label: 'The Warli Echo Set',
           context: 'Full editorial photograph capturing the denim vest and cascading tiered skirt.',
-        },
-        {
-          url: '/assets/hetvi_e01_gallery2-AkWx_s-d.jpg',
-          label: 'Artisanal Mirror & Piping Detail',
-          context: 'Close-up of handcrafted trims and precise seam finishes.',
         },
       ],
     },
