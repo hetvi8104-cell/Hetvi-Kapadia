@@ -7,9 +7,12 @@ import look09HeroImage from '../assets/images/regenerated_image_1790254080563.RA
 import look09GalleryImage1 from '../assets/images/regenerated_image_1790514728395.RAF';
 import sustainabilityStage1Image from '../assets/images/regenerated_image_1790398065701.jpg';
 import sustainabilityStage2Image from '../assets/images/fabric_waste_audit_scraps_1790589376993.jpg';
+import sustainabilityStage3Image from '../assets/images/sustainability_stage3_ngo_collaboration_1790689065242.jpg';
+import sustainabilityStage4Image from '../assets/images/sustainability_stage4_circular_economy_1790689341801.jpg';
 import sustainabilityStage5Image from '../assets/images/sustainability_stage5_sorted_waste_1790590849700.jpg';
 import look03ThemeBoardImage from '../assets/images/regenerated_image_1790399986806.jpg';
 import look04ThemeBoardImage from '../assets/images/assets/noir_drape_sitting.jpg';
+import look05GalleryImage2 from '../assets/images/IMG_6797.JPEG';
 import { GARMENT_EXTENDED_DATA } from './garmentThemeAndInspiration';
 
 export const DESIGNER_INFO = {
@@ -382,7 +385,7 @@ const RAW_GARMENTS: Garment[] = [
     galleryImages: [
       "/assets/hetvi_look04_e01_bandhani-DPkLHLn7.jpg",
       "/assets/IMG_6846.JPEG",
-      regeneratedImageThumb1
+      look05GalleryImage2
     ],
     concept: "This outfit blends traditional Indian textile aesthetics with a modern silhouette. The vibrant printed corset-style blouse paired with a flowy white skirt creates a balance between boldness and softness. Inspired by bohemian ethnic wear, the design reflects effortless elegance, comfort, and youthful femininity while celebrating handcrafted textures and contemporary styling.",
     inspiration: "Rooted in Patan Patola's geometric double-ikat legacy and forest temple serenity - tradition framed through foliage.",
@@ -802,7 +805,7 @@ export const SUSTAINABILITY_STAGES: SustainabilityStage[] = [
     percentage: "Social & Circular Impact",
     description: "Partnership with local non-governmental organizations to upcycle collected studio remnants, co-create handcrafted sustainable collections, and provide fair-wage artisan livelihoods.",
     materials: ["Upcycled Remnants", "Artisan Handcrafted Elements", "Community Workshop Textiles"],
-    image: "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?auto=format&fit=crop&w=1000&q=80",
+    image: sustainabilityStage3Image,
     metric: { label: "Community Impact", value: "Artisan Empowerment" }
   },
   {
@@ -812,7 +815,7 @@ export const SUSTAINABILITY_STAGES: SustainabilityStage[] = [
     percentage: "Zero-Waste Closed Loop",
     description: "A comprehensive circular system connecting universities, artisan communities, and fashion ateliers—transforming textile remnants into durable, high-value couture while minimizing environmental footprint.",
     materials: ["Interlocking Tessellations", "Recycled Fiber Blends", "Circular Garment Prototypes"],
-    image: sustainabilityStage1Image,
+    image: sustainabilityStage4Image,
     metric: { label: "Circular Resource Efficiency", value: "Closed-Loop" }
   },
   {
