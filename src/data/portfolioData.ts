@@ -1,6 +1,6 @@
 import { Garment, TextileSample, SustainabilityStage, ProcessStep, PresentationSlide } from '../types';
 import regeneratedImageThumb1 from '../assets/images/regenerated_image_1789967583213.jpg';
-import regeneratedImage1790251164597 from '../assets/images/regenerated_image_1790251164597.jpg';
+import look01ThemeBoardImage from '../assets/images/look01_theme_board_1790686807950.jpg';
 import look09InspirationBoardImage from '../assets/images/look09_inspiration_board_1790253983527.jpg';
 import look09HeroImage from '../assets/images/regenerated_image_1790254080563.RAF';
 import look09GalleryImage1 from '../assets/images/regenerated_image_1790514728395.RAF';
@@ -88,7 +88,7 @@ const RAW_GARMENTS: Garment[] = [
     moodboard: {
       title: "Monolithic Rigor & Exposed Framework",
       description: "Chiseled concrete angles, raw seams, tailored canvas pad-stitching, and contrast velvet piping.",
-      image: regeneratedImage1790251164597,
+      image: look01ThemeBoardImage,
       keywords: ["Exoskeleton", "Architectural Boning", "Deconstructed Trench", "Hourglass Hybrid", "Micro-Check Linen"]
     },
     colors: [
@@ -381,7 +381,7 @@ const RAW_GARMENTS: Garment[] = [
     galleryImages: [
       "/assets/hetvi_look04_e01_bandhani-DPkLHLn7.jpg",
       "/assets/IMG_6846.JPEG",
-      "/assets/hetvi_e01_gallery2-AkWx_s-d.jpg"
+      regeneratedImageThumb1
     ],
     concept: "This outfit blends traditional Indian textile aesthetics with a modern silhouette. The vibrant printed corset-style blouse paired with a flowy white skirt creates a balance between boldness and softness. Inspired by bohemian ethnic wear, the design reflects effortless elegance, comfort, and youthful femininity while celebrating handcrafted textures and contemporary styling.",
     inspiration: "Rooted in Patan Patola's geometric double-ikat legacy and forest temple serenity - tradition framed through foliage.",

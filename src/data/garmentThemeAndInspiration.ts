@@ -1,6 +1,6 @@
 import { ThemeBoardData, InspirationBoardData, GarmentBackdropStyle } from '../types';
-import regeneratedImage1790251164597 from '../assets/images/regenerated_image_1790251164597.jpg';
-import regeneratedImage1790253409367 from '../assets/images/regenerated_image_1790253409367.webp';
+import look01ThemeBoardImage from '../assets/images/look01_theme_board_1790686807950.jpg';
+import look01InspirationBoardImage from '../assets/images/look01_inspiration_board_1790686634863.jpg';
 import look09InspirationBoardImage from '../assets/images/look09_inspiration_board_1790253983527.jpg';
 import look09HeroImage from '../assets/images/regenerated_image_1790254080563.RAF';
 import look09GalleryImage1 from '../assets/images/regenerated_image_1790514728395.RAF';
@@ -54,8 +54,8 @@ export const GARMENT_EXTENDED_DATA: Record<string, GarmentExtendedData> = {
       ],
       visualElements: [
         {
-          url: regeneratedImage1790251164597,
-          caption: 'Brutalist concrete architecture & exposed geometric framework.',
+          url: look01ThemeBoardImage,
+          caption: 'The Rooted Form Theme Board — Organic Root Morphology, Fissured Bark, Mossy Boulders & Brutalist Concrete Architecture.',
           tag: 'THEME MOODBOARD',
         },
         {
@@ -119,9 +119,9 @@ export const GARMENT_EXTENDED_DATA: Record<string, GarmentExtendedData> = {
       ],
       visualReferences: [
         {
-          url: regeneratedImage1790253409367,
-          label: 'Brutalist Geometric Mood & Archival Inspiration',
-          context: 'Monolithic concrete angles, cantilevered balconies, and stark shadows.',
+          url: look01InspirationBoardImage,
+          label: 'Textured Bouclé Tweed, Flared Bell Cuffs, Fringed Lapels & Woodland Editorial Mood',
+          context: 'Macro tweed weave, pleated bell cuffs, raw fringed collar edges, and structured pleated mini skirt.',
         },
         {
           url: '/assets/hetvi_look01_structured_sovereign-C3wasELE.jpg',
