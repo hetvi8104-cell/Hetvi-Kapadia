@@ -14,6 +14,8 @@ import look03ThemeBoardImage from '../assets/images/regenerated_image_1790399986
 import look04ThemeBoardImage from '../assets/images/assets/noir_drape_sitting.jpg';
 import look05ThemeBoardImage from '../assets/images/look05_theme_board_1790690307880.jpg';
 import look05GalleryImage2 from '../assets/images/IMG_6797.JPEG';
+import look06GalleryImage1 from '../assets/images/look06_view2_exact_1790742196415.jpg';
+import look07GalleryImage1 from '../assets/images/look07_view2_swing_1790743135104.jpg';
 import look08ThemeBoardImage from '../assets/images/look08_theme_board_1790690814219.jpg';
 import look09ThemeBoardImage from '../assets/images/look09_theme_board_1790695549558.jpg';
 import { GARMENT_EXTENDED_DATA } from './garmentThemeAndInspiration';
@@ -462,8 +464,7 @@ const RAW_GARMENTS: Garment[] = [
     heroImage: "/assets/hetvi_look05_e02_lehenga-CWe-iGnK.jpg",
     galleryImages: [
       "/assets/hetvi_look05_e02_lehenga-CWe-iGnK.jpg",
-      "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?auto=format&fit=crop&w=1200&q=85",
-      "https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=1200&q=85"
+      look06GalleryImage1
     ],
     concept: "Honoring Gujarat’s legendary double-ikat Patola weaving heritage by upcycling deadstock geometric weave remnants into a modern pre-draped concept saree with a sculpted architectural corset blouse.",
     inspiration: "Patan Patola museum archives, Gujarat temple mandapas, and modernist corset engineering.",
@@ -518,8 +519,7 @@ const RAW_GARMENTS: Garment[] = [
     heroImage: "/assets/hetvi_look06_e03_paisley-fKLwFFKf.jpg",
     galleryImages: [
       "/assets/hetvi_look06_e03_paisley-fKLwFFKf.jpg",
-      "https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=1200&q=85",
-      "https://images.unsplash.com/photo-1596783074918-c84cb06531ca?auto=format&fit=crop&w=1200&q=85"
+      "/assets/hetvi_e01_gallery1-De4QJ55i.jpg"
     ],
     concept: "Inspired by the elegance of evening gardens and flowing silhouettes, this ensemble combines traditional prints with modern fluidity. The printed structured bodice adds richness and artistic detail, while the deep indigo pleated skirt creates graceful movement and softness. The design reflects confidence, femininity, and timeless charm through its balance of vibrant patterns and delicate drapes. With its fusion of contemporary styling and ethnic inspiration, the garment captures a dreamy and sophisticated aesthetic.",
     inspiration: "Inspired by traditional Indian jali architecture and coastal indigo prints, reimagined for 2026 ethnic silhouette.",

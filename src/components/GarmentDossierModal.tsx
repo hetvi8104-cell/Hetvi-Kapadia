@@ -26,11 +26,12 @@ interface GarmentDossierModalProps {
 type TabType = 'concept' | 'theme' | 'inspiration' | 'textile';
 
 export const GarmentDossierModal: React.FC<GarmentDossierModalProps> = ({
-  garment,
+  garment: garmentProp,
   isOpen,
   onClose,
   onSelectGarment,
 }) => {
+  const garment = garmentProp ? GARMENTS.find((g) => g.id === garmentProp.id) || garmentProp : null;
   const [activeTab, setActiveTab] = useState<TabType>('concept');
   const [selectedImageIndex, setSelectedImageIndex] = useState(0);
   const [fullscreenImage, setFullscreenImage] = useState<{
