@@ -14,8 +14,6 @@ import look03ThemeBoardImage from '../assets/images/regenerated_image_1790399986
 import look04ThemeBoardImage from '../assets/images/assets/noir_drape_sitting.jpg';
 import look05ThemeBoardImage from '../assets/images/look05_theme_board_1790690307880.jpg';
 import look05GalleryImage2 from '../assets/images/IMG_6797.JPEG';
-import look06GalleryImage1 from '../assets/images/look06_view2_exact_1790742196415.jpg';
-import look07GalleryImage1 from '../assets/images/look07_view2_swing_1790743135104.jpg';
 import look08ThemeBoardImage from '../assets/images/look08_theme_board_1790690814219.jpg';
 import look09ThemeBoardImage from '../assets/images/look09_theme_board_1790695549558.jpg';
 import { GARMENT_EXTENDED_DATA } from './garmentThemeAndInspiration';
@@ -464,7 +462,7 @@ const RAW_GARMENTS: Garment[] = [
     heroImage: "/assets/hetvi_look05_e02_lehenga-CWe-iGnK.jpg",
     galleryImages: [
       "/assets/hetvi_look05_e02_lehenga-CWe-iGnK.jpg",
-      look06GalleryImage1
+      "/assets/1.jpg"
     ],
     concept: "Honoring Gujarat’s legendary double-ikat Patola weaving heritage by upcycling deadstock geometric weave remnants into a modern pre-draped concept saree with a sculpted architectural corset blouse.",
     inspiration: "Patan Patola museum archives, Gujarat temple mandapas, and modernist corset engineering.",
